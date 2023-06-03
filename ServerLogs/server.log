@@ -1,0 +1,11 @@
+2023-06-01 07:43:55:463 [Appium] Welcome to Appium v1.22.3
+2023-06-01 07:43:55:464 [Appium] Non-default server args:
+2023-06-01 07:43:55:465 [Appium]   sessionOverride: true
+2023-06-01 07:43:55:465 [Appium]   logFile: C:\Users\Rudra\Downloads\Heyo_WhatsApp\ServerLogs\server.log
+2023-06-01 07:43:55:490 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2023-06-01 07:43:55:881 [HTTP] --> GET /wd/hub/status
+2023-06-01 07:43:55:881 [HTTP] {}
+2023-06-01 07:43:55:883 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2023-06-01 07:43:55:885 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2023-06-01 07:43:55:894 [HTTP] <-- GET /wd/hub/status 200 9 ms - 68
+2023-06-01 07:43:55:895 [HTTP] 

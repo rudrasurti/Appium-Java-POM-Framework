@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="8" retried="2" total="15" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test_Suite_Emulator_Pixel_3" duration-ms="111466" started-at="2023-06-01T10:09:19 IST" finished-at="2023-06-01T10:11:11 IST">
+    <groups>
+      <group name="REGRESSION">
+        <method signature="LoginTests.invalidPassword()[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="invalidPassword" class="com.appium.tests.LoginTests"/>
+        <method signature="LoginTests.invalidUserName()[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="invalidUserName" class="com.appium.tests.LoginTests"/>
+        <method signature="LoginTests.successfulLogin()[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="successfulLogin" class="com.appium.tests.LoginTests"/>
+        <method signature="ProductTests.validateProductOnProductDetailsPage()[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="validateProductOnProductDetailsPage" class="com.appium.tests.ProductTests"/>
+        <method signature="ProductTests.validateProductOnProductsPage()[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="validateProductOnProductsPage" class="com.appium.tests.ProductTests"/>
+      </group> <!-- REGRESSION -->
+      <group name="BVT">
+        <method signature="LoginTests.invalidPassword()[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="invalidPassword" class="com.appium.tests.LoginTests"/>
+        <method signature="LoginTests.successfulLogin()[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="successfulLogin" class="com.appium.tests.LoginTests"/>
+        <method signature="ProductTests.validateProductOnProductDetailsPage()[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="validateProductOnProductDetailsPage" class="com.appium.tests.ProductTests"/>
+      </group> <!-- BVT -->
+      <group name="SANITY">
+        <method signature="LoginTests.invalidPassword()[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="invalidPassword" class="com.appium.tests.LoginTests"/>
+        <method signature="LoginTests.invalidUserName()[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="invalidUserName" class="com.appium.tests.LoginTests"/>
+        <method signature="LoginTests.successfulLogin()[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="successfulLogin" class="com.appium.tests.LoginTests"/>
+      </group> <!-- SANITY -->
+      <group name="SMOKE">
+        <method signature="LoginTests.invalidUserName()[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="invalidUserName" class="com.appium.tests.LoginTests"/>
+        <method signature="ProductTests.validateProductOnProductsPage()[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="validateProductOnProductsPage" class="com.appium.tests.ProductTests"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="Tests_on_Emulator_Pixel_3" duration-ms="111466" started-at="2023-06-01T10:09:19 IST" finished-at="2023-06-01T10:11:11 IST">
+      <class name="com.appium.tests.ProductTests">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="beforeMethod" is-config="true" duration-ms="1859" started-at="2023-06-01T10:09:55 IST" finished-at="2023-06-01T10:09:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2023-06-01T10:09:57 IST" finished-at="2023-06-01T10:09:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.appium.tests.ProductTests.validateProductOnProductDetailsPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="validateProductOnProductDetailsPage()[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="validateProductOnProductDetailsPage" duration-ms="20097" retried="true" started-at="2023-06-01T10:09:57 IST" finished-at="2023-06-01T10:10:17 IST">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]}) (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]}) (tried for 10 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.appium.base.BasePage.waitForVisibility(BasePage.java:61)
+at com.appium.base.BasePage.getElementText(BasePage.java:160)
+at com.appium.pages.ProductDetailsPage.getSLBTxt(ProductDetailsPage.java:52)
+at com.appium.tests.ProductTests.validateProductOnProductDetailsPage(ProductTests.java:147)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 32 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@440eaa07 (tried for 1 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+... 39 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUDRA-HEART', ip: '192.168.0.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 41 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductOnProductDetailsPage -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="afterMethod" is-config="true" duration-ms="2438" started-at="2023-06-01T10:10:18 IST" finished-at="2023-06-01T10:10:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.appium.tests.ProductTests.validateProductOnProductDetailsPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-06-01T10:10:20 IST" finished-at="2023-06-01T10:10:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateProductOnProductDetailsPage status=SKIP method=ProductTests.validateProductOnProductDetailsPage()[pri:0, instance:com.appium.tests.ProductTests@543c6f6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="beforeMethod" is-config="true" duration-ms="1645" started-at="2023-06-01T10:10:20 IST" finished-at="2023-06-01T10:10:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2023-06-01T10:10:22 IST" finished-at="2023-06-01T10:10:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.appium.tests.ProductTests.validateProductOnProductDetailsPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateProductOnProductDetailsPage()[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="validateProductOnProductDetailsPage" duration-ms="16840" started-at="2023-06-01T10:10:22 IST" finished-at="2023-06-01T10:10:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductOnProductDetailsPage -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="afterMethod" is-config="true" duration-ms="2585" started-at="2023-06-01T10:10:39 IST" finished-at="2023-06-01T10:10:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.appium.tests.ProductTests.validateProductOnProductDetailsPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-06-01T10:10:41 IST" finished-at="2023-06-01T10:10:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateProductOnProductDetailsPage status=SUCCESS method=ProductTests.validateProductOnProductDetailsPage()[pri:0, instance:com.appium.tests.ProductTests@543c6f6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="beforeMethod" is-config="true" duration-ms="1841" started-at="2023-06-01T10:10:41 IST" finished-at="2023-06-01T10:10:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2023-06-01T10:10:43 IST" finished-at="2023-06-01T10:10:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.appium.tests.ProductTests.validateProductOnProductsPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="validateProductOnProductsPage()[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="validateProductOnProductsPage" duration-ms="8703" retried="true" started-at="2023-06-01T10:10:43 IST" finished-at="2023-06-01T10:10:52 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*******************************Failing intentionally]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *******************************Failing intentionally
+at org.testng.Assert.fail(Assert.java:99)
+at com.appium.tests.ProductTests.validateProductOnProductsPage(ProductTests.java:115)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductOnProductsPage -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="afterMethod" is-config="true" duration-ms="2441" started-at="2023-06-01T10:10:52 IST" finished-at="2023-06-01T10:10:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.appium.tests.ProductTests.validateProductOnProductsPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2023-06-01T10:10:55 IST" finished-at="2023-06-01T10:10:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateProductOnProductsPage status=SKIP method=ProductTests.validateProductOnProductsPage()[pri:0, instance:com.appium.tests.ProductTests@543c6f6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="beforeMethod" is-config="true" duration-ms="1703" started-at="2023-06-01T10:10:55 IST" finished-at="2023-06-01T10:10:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2023-06-01T10:10:56 IST" finished-at="2023-06-01T10:10:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.appium.tests.ProductTests.validateProductOnProductsPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="validateProductOnProductsPage()[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="validateProductOnProductsPage" duration-ms="9728" started-at="2023-06-01T10:10:56 IST" finished-at="2023-06-01T10:11:06 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*******************************Failing intentionally]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *******************************Failing intentionally
+at org.testng.Assert.fail(Assert.java:99)
+at com.appium.tests.ProductTests.validateProductOnProductsPage(ProductTests.java:115)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductOnProductsPage -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="afterMethod" is-config="true" duration-ms="2454" started-at="2023-06-01T10:11:07 IST" finished-at="2023-06-01T10:11:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.appium.tests.ProductTests.validateProductOnProductsPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="afterMethod" is-config="true" duration-ms="1456" started-at="2023-06-01T10:11:09 IST" finished-at="2023-06-01T10:11:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateProductOnProductsPage status=FAILURE method=ProductTests.validateProductOnProductsPage()[pri:0, instance:com.appium.tests.ProductTests@543c6f6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.appium.tests.ProductTests@543c6f6d]" name="afterClass" is-config="true" duration-ms="0" started-at="2023-06-01T10:11:11 IST" finished-at="2023-06-01T10:11:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.appium.tests.ProductTests -->
+      <class name="com.appium.tests.LoginTests">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="beforeSuite" is-config="true" duration-ms="1531" started-at="2023-06-01T10:09:18 IST" finished-at="2023-06-01T10:09:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="beforeTest" is-config="true" duration-ms="11604" started-at="2023-06-01T10:09:19 IST" finished-at="2023-06-01T10:09:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pixel_2_API_30]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10011]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11012]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="beforeMethod" is-config="true" duration-ms="636" started-at="2023-06-01T10:09:31 IST" finished-at="2023-06-01T10:09:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="beforeMethod" is-config="true" duration-ms="168" started-at="2023-06-01T10:09:32 IST" finished-at="2023-06-01T10:09:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.appium.tests.LoginTests.invalidPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="invalidPassword()[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="invalidPassword" duration-ms="7388" started-at="2023-06-01T10:09:32 IST" finished-at="2023-06-01T10:09:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2023-06-01T10:09:39 IST" finished-at="2023-06-01T10:09:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.appium.tests.LoginTests.invalidPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2023-06-01T10:09:39 IST" finished-at="2023-06-01T10:09:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidPassword status=SUCCESS method=LoginTests.invalidPassword()[pri:0, instance:com.appium.tests.LoginTests@43bd930a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="beforeMethod" is-config="true" duration-ms="1493" started-at="2023-06-01T10:09:39 IST" finished-at="2023-06-01T10:09:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2023-06-01T10:09:41 IST" finished-at="2023-06-01T10:09:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.appium.tests.LoginTests.invalidUserName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="invalidUserName()[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="invalidUserName" duration-ms="4517" started-at="2023-06-01T10:09:41 IST" finished-at="2023-06-01T10:09:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserName -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2023-06-01T10:09:45 IST" finished-at="2023-06-01T10:09:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.appium.tests.LoginTests.invalidUserName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2023-06-01T10:09:45 IST" finished-at="2023-06-01T10:09:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidUserName status=SUCCESS method=LoginTests.invalidUserName()[pri:0, instance:com.appium.tests.LoginTests@43bd930a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="beforeMethod" is-config="true" duration-ms="1280" started-at="2023-06-01T10:09:45 IST" finished-at="2023-06-01T10:09:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2023-06-01T10:09:47 IST" finished-at="2023-06-01T10:09:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.appium.tests.LoginTests.successfulLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="successfulLogin()[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="successfulLogin" duration-ms="6444" started-at="2023-06-01T10:09:47 IST" finished-at="2023-06-01T10:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2023-06-01T10:09:53 IST" finished-at="2023-06-01T10:09:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.appium.tests.LoginTests.successfulLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-06-01T10:09:53 IST" finished-at="2023-06-01T10:09:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=successfulLogin status=SUCCESS method=LoginTests.successfulLogin()[pri:0, instance:com.appium.tests.LoginTests@43bd930a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="afterClass" is-config="true" duration-ms="2352" started-at="2023-06-01T10:09:53 IST" finished-at="2023-06-01T10:09:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="afterTest" is-config="true" duration-ms="324" started-at="2023-06-01T10:11:11 IST" finished-at="2023-06-01T10:11:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.appium.tests.LoginTests@43bd930a]" name="afterSuite" is-config="true" duration-ms="54" started-at="2023-06-01T10:11:11 IST" finished-at="2023-06-01T10:11:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.appium.tests.LoginTests -->
+    </test> <!-- Tests_on_Emulator_Pixel_3 -->
+  </suite> <!-- Test_Suite_Emulator_Pixel_3 -->
+</testng-results>

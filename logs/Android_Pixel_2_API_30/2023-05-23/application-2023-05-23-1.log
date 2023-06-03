@@ -1,0 +1,43 @@
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:18:44.947 BaseTest:99 - Log file path: logs\Android_Pixel_2_API_30
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:19:16.442 BaseTest:121 - sessionId: 7706329b-5740-4309-8bcd-1cb3a929d666
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:19:17.319 LoginTests:58 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:19:17.319 LoginTests:59 - ******************* Test started: invalidPassword*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:19:28.977 LoginTests:67 - ******************* Test ended: invalidPassword*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:19:28.981 LoginTests:68 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:19:30.337 LoginTests:58 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:19:30.338 LoginTests:59 - ******************* Test started: invalidPassword*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:19:40.951 LoginTests:67 - ******************* Test ended: invalidPassword*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:19:40.951 LoginTests:68 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:19:42.295 LoginTests:58 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:19:42.295 LoginTests:59 - ******************* Test started: invalidUserName*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:19:52.935 LoginTests:67 - ******************* Test ended: invalidUserName*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:19:52.935 LoginTests:68 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:19:53.681 LoginTests:58 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:19:53.682 LoginTests:59 - ******************* Test started: invalidUserName*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:20:04.293 LoginTests:67 - ******************* Test ended: invalidUserName*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:20:04.293 LoginTests:68 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:20:05.619 LoginTests:58 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:20:05.619 LoginTests:59 - ******************* Test started: successfulLogin*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:20:16.122 LoginTests:67 - ******************* Test ended: successfulLogin*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:20:16.122 LoginTests:68 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:20:16.847 LoginTests:58 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:20:16.847 LoginTests:59 - ******************* Test started: successfulLogin*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:20:27.368 LoginTests:67 - ******************* Test ended: successfulLogin*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:20:27.369 LoginTests:68 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:20:31.453 ProductTests:64 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:20:31.453 ProductTests:65 - ******************* Test started: validateProductOnProductDetailsPage*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:20:41.985 ProductTests:74 - ******************* Test ended: validateProductOnProductDetailsPage*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:20:41.985 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:20:45.982 ProductTests:64 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:20:45.983 ProductTests:65 - ******************* Test started: validateProductOnProductDetailsPage*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:20:56.528 ProductTests:74 - ******************* Test ended: validateProductOnProductDetailsPage*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:20:56.528 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:21:00.774 ProductTests:64 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:21:00.775 ProductTests:65 - ******************* Test started: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:21:11.220 ProductTests:74 - ******************* Test ended: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:21:11.221 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:21:15.083 ProductTests:64 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:21:15.083 ProductTests:65 - ******************* Test started: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:21:25.503 ProductTests:74 - ******************* Test ended: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:21:25.504 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_2_API_30 DEBUG] 2023-05-16 16:21:29.613 BaseTest:162 - Appium Server stopped.............
