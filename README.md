@@ -1,6 +1,6 @@
 # Automation Page Object Model Framework for Appium Using Java
 
-Automation Testing | Moblie | Appuim | Java | Eclipse || Visual Testing | Videos | Screenshots | Viewport | Logger
+Automation Testing | Moblie | Appuim | Java | Eclipse | Visual Testing | Videos | Screenshots | Viewport | Logger
 
 This is a mobile automation framework built using Java and Appium. It provides a scalable and customizable solution for testing mobile applications on Android and iOS platforms. The framework incorporates various features and tools to enhance the testing process and generate comprehensive reports.
 
