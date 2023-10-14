@@ -24,7 +24,7 @@ import io.appium.java_client.MobileBy;
 public class DeepLink {
 
 	public static void OpenAppWith(String url) {
-		AppiumDriver driver = DriverManager.getDriver();
+		AppiumDriver driver = DriverManager.getMobileDriver();
 
 		String platform = PlatformManager.getPlatform();
 		if (platform.equalsIgnoreCase(PLATFORM_ANDROID)) {

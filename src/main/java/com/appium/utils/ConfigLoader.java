@@ -33,6 +33,11 @@ public class ConfigLoader {
 	private static final String iOS_BUNDLE_ID = "iOSBundleId";
 	private static final String iOS_APP_LOCATION = "iOSAppLocation";
 
+	private static final String Browserstack_USERNAME = "browserstackUsername";
+	private static final String Browserstack_AUTOMATE_KEY = "browserstackAutomateKey";
+	private static final String Browserstack_APP_LOCATION = "browserstackAppLocation";
+	private static final String Browserstack_APP_UPLOAD = "apkUpload";
+
 	private static final String CONFIG_PROPERTIES = "config.properties";
 
 	private Properties properties;
@@ -121,6 +126,22 @@ public class ConfigLoader {
 
 	public String getFailedTestsVideo() {
 		return getPropertyValue(FAILED_TESTS_VIDEO);
+	}
+
+	public String getBrowserstackUsername() {
+		return getPropertyValue(Browserstack_USERNAME);
+	}
+
+	public String getBrowserstackAutomateKey() {
+		return getPropertyValue(Browserstack_AUTOMATE_KEY);
+	}
+
+	public String getBrowserstackApplocation() {
+		return getPropertyValue(Browserstack_APP_LOCATION);
+	}
+
+	public String getBrowserstackAppUploadOrNot() {
+		return getPropertyValue(Browserstack_APP_UPLOAD);
 	}
 
 }

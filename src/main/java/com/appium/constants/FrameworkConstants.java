@@ -66,6 +66,8 @@ public class FrameworkConstants {
 	public static final String PLATFORM_ANDROID = "Android";
 	public static final String PLATFORM_iOS = "iOS";
 
+	public static final String PLATFORM_browserStack = "browserStack";
+
 	public static final String TEST_DATA_JSON_FILE = "data/loginUsers.json";
 	public static final String TEST_DATA_JSON_INVALID_USER = "invalidUser";
 	public static final String TEST_DATA_JSON_INVALID_PASSWORD = "invalidPassword";
@@ -83,7 +85,7 @@ public class FrameworkConstants {
 	/* Expected Data - START */
 	public static final String EXPECTED_DATA_XML_FILE = "strings/strings.xml";
 	public static final String EXPECTED_DATA_KEY_ERR_INAVLID_CREDENTIALS = "err_invalid_username_or_password";
-	public static final String EXPECTED_DATA_KEY_PRODUCT_TITLE = "product_title";
+	public static final String EXPECTED_DATA_KEY_HOME_TITLE = "home_title";
 	public static final String EXPECTED_DATA_KEY_PRODUCTS_PAGE_SLB_TITLE = "products_page_slb_title";
 	public static final String EXPECTED_DATA_KEY_PRODUCTS_PAGE_SLB_DESCRIPTION = "products_details_page_slb_description";
 	public static final String EXPECTED_DATA_KEY_PRODUCTS_PAGE_SLB_PRICE = "products_page_slb_price";

@@ -1,0 +1,448 @@
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:15:04.937 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:15:04.967 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:15:04.968 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:15:22.237 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:15:24.495 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:15:24.495 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:17:51.369 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:17:51.385 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:17:51.387 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:18:17.033 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:18:18.668 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:18:18.668 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:28:18.883 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:28:18.906 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:28:18.906 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:28:35.244 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:29:14.403 BaseTest:135 - sessionId: 32521ce5dcee5c3ee9e3bd1f8261b278691872e9
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:29:14.421 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:29:14.422 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:29:46.511 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:29:46.514 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:29:46.520 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:29:46.521 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:30:18.181 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:30:18.182 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:30:18.188 HomeTests:42 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:30:18.189 HomeTests:43 - ******************* Test started: validateProductCardScrollOnHomePage*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:49:09.409 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:49:09.428 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:49:09.429 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:49:26.701 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:50:04.678 BaseTest:135 - sessionId: 68b985b8b8d608ac18d3dbb5565c37b53431e56f
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:50:04.701 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:50:04.701 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:50:16.561 BasePage:106 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:50:18.265 BasePage:129 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:50:18.789 BasePage:113 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:50:54.600 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:50:54.603 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:50:54.608 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:50:54.608 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:51:25.482 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:51:25.482 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:51:26.929 BaseTest:176 - Appium Server stopped.............
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:55:57.354 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:55:57.371 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:55:57.371 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:56:13.577 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:56:48.711 BaseTest:135 - sessionId: de96a844abc000fb8f413f694176698561702773
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:56:48.731 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:56:48.732 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:56:49.740 BasePage:106 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:56:51.284 BasePage:129 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 09:56:51.973 BasePage:113 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:56:55.119 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:56:55.120 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:56:55.121 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:56:55.122 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:57:26.987 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:57:26.989 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 09:57:28.361 BaseTest:176 - Appium Server stopped.............
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:17:01.343 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:17:01.361 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:17:01.361 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:17:19.026 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:17:56.525 BaseTest:135 - sessionId: 25ec778b106b6b1470298614d08818e3efe0105d
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:17:56.559 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:17:56.559 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:17:58.531 BasePage:108 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:18:00.096 BasePage:131 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:18:00.641 BasePage:115 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 ERROR] 2023-10-12 10:18:07.420 BasePage:265 - Failed to hide iOS keyboard: Error Domain=com.facebook.WebDriverAgent Code=1 "Did not know how to dismiss the keyboard. Try to dismiss it in the way supported by your application under test." UserInfo={NSLocalizedDescription=Did not know how to dismiss the keyboard. Try to dismiss it in the way supported by your application under test.} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUDRA', ip: '192.168.0.159', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, biometricUserOptionAccessible: false, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 12.4, bundleID: fi.rahapaja.coiniverse.qa, bundleId: fi.rahapaja.coiniverse.qa, capabilities: {64bit: false, acceptSslCert: false, acceptSslCerts: false, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, biometricUserOptionAccessible: false, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 12.4, bundleID: fi.rahapaja.coiniverse.qa, bundleId: fi.rahapaja.coiniverse.qa, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-17.0}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: 25ec778b106b6b1470298614d08..., takesScreenshot: true, udid: 00008101-000E44A92678001E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-17.0}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: 25ec778b106b6b1470298614d08..., takesScreenshot: true, udid: 00008101-000E44A92678001E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 25ec778b106b6b1470298614d08818e3efe0105d
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:18:09.189 BasePage:131 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:18:09.912 BasePage:115 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 ERROR] 2023-10-12 10:18:16.843 BasePage:265 - Failed to hide iOS keyboard: Error Domain=com.facebook.WebDriverAgent Code=1 "Did not know how to dismiss the keyboard. Try to dismiss it in the way supported by your application under test." UserInfo={NSLocalizedDescription=Did not know how to dismiss the keyboard. Try to dismiss it in the way supported by your application under test.} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUDRA', ip: '192.168.0.159', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, biometricUserOptionAccessible: false, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 12.4, bundleID: fi.rahapaja.coiniverse.qa, bundleId: fi.rahapaja.coiniverse.qa, capabilities: {64bit: false, acceptSslCert: false, acceptSslCerts: false, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, biometricUserOptionAccessible: false, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 12.4, bundleID: fi.rahapaja.coiniverse.qa, bundleId: fi.rahapaja.coiniverse.qa, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-17.0}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: 25ec778b106b6b1470298614d08..., takesScreenshot: true, udid: 00008101-000E44A92678001E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-17.0}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: 25ec778b106b6b1470298614d08..., takesScreenshot: true, udid: 00008101-000E44A92678001E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 25ec778b106b6b1470298614d08818e3efe0105d
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:18:17.924 BasePage:108 - Login button is clicked
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:18:19.528 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:18:19.529 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:18:20.907 BaseTest:176 - Appium Server stopped.............
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:19:49.285 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:19:49.301 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:19:49.302 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:20:06.023 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:20:41.979 BaseTest:135 - sessionId: d79e0636a9fe1d2470d799477115bdedd56bb305
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:20:42.001 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:20:42.001 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:20:43.114 BasePage:108 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:20:44.564 BasePage:131 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:20:45.238 BasePage:115 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 ERROR] 2023-10-12 10:20:52.241 BasePage:265 - Failed to hide iOS keyboard: Error Domain=com.facebook.WebDriverAgent Code=1 "Did not know how to dismiss the keyboard. Try to dismiss it in the way supported by your application under test." UserInfo={NSLocalizedDescription=Did not know how to dismiss the keyboard. Try to dismiss it in the way supported by your application under test.} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUDRA', ip: '192.168.0.159', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, biometricUserOptionAccessible: false, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 12.4, bundleID: fi.rahapaja.coiniverse.qa, bundleId: fi.rahapaja.coiniverse.qa, capabilities: {64bit: false, acceptSslCert: false, acceptSslCerts: false, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, biometricUserOptionAccessible: false, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 12.4, bundleID: fi.rahapaja.coiniverse.qa, bundleId: fi.rahapaja.coiniverse.qa, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-17.0}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: d79e0636a9fe1d2470d79947711..., takesScreenshot: true, udid: 00008101-000038E422E0001E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 8403, webStorageEnabled: false, webkitResponseTimeout: 20000}, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-17.0}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: d79e0636a9fe1d2470d79947711..., takesScreenshot: true, udid: 00008101-000038E422E0001E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 8403, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: d79e0636a9fe1d2470d799477115bdedd56bb305
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:20:53.004 BasePage:131 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:20:53.745 BasePage:115 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 ERROR] 2023-10-12 10:21:00.622 BasePage:265 - Failed to hide iOS keyboard: Error Domain=com.facebook.WebDriverAgent Code=1 "Did not know how to dismiss the keyboard. Try to dismiss it in the way supported by your application under test." UserInfo={NSLocalizedDescription=Did not know how to dismiss the keyboard. Try to dismiss it in the way supported by your application under test.} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUDRA', ip: '192.168.0.159', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, biometricUserOptionAccessible: false, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 12.4, bundleID: fi.rahapaja.coiniverse.qa, bundleId: fi.rahapaja.coiniverse.qa, capabilities: {64bit: false, acceptSslCert: false, acceptSslCerts: false, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, biometricUserOptionAccessible: false, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 12.4, bundleID: fi.rahapaja.coiniverse.qa, bundleId: fi.rahapaja.coiniverse.qa, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-17.0}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: d79e0636a9fe1d2470d79947711..., takesScreenshot: true, udid: 00008101-000038E422E0001E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 8403, webStorageEnabled: false, webkitResponseTimeout: 20000}, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-17.0}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: d79e0636a9fe1d2470d79947711..., takesScreenshot: true, udid: 00008101-000038E422E0001E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 8403, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: d79e0636a9fe1d2470d799477115bdedd56bb305
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:21:01.742 BasePage:108 - Login button is clicked
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:21:23.237 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:21:23.238 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:21:24.709 BaseTest:176 - Appium Server stopped.............
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:24:31.963 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:24:31.982 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:24:31.983 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:24:50.795 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:25:25.827 BaseTest:135 - sessionId: d4771c4af6efe7d1273e814083a9d25df1368781
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:25:25.845 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:25:25.846 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:25:26.928 BasePage:108 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:25:28.491 BasePage:131 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:25:29.062 BasePage:115 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 ERROR] 2023-10-12 10:25:35.814 BasePage:265 - Failed to hide iOS keyboard: Error Domain=com.facebook.WebDriverAgent Code=1 "Did not know how to dismiss the keyboard. Try to dismiss it in the way supported by your application under test." UserInfo={NSLocalizedDescription=Did not know how to dismiss the keyboard. Try to dismiss it in the way supported by your application under test.} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUDRA', ip: '192.168.0.159', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, biometricUserOptionAccessible: false, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 12.4, bundleID: fi.rahapaja.coiniverse.qa, bundleId: fi.rahapaja.coiniverse.qa, capabilities: {64bit: false, acceptSslCert: false, acceptSslCerts: false, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, biometricUserOptionAccessible: false, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 12.4, bundleID: fi.rahapaja.coiniverse.qa, bundleId: fi.rahapaja.coiniverse.qa, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-17.0}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: d4771c4af6efe7d1273e814083a..., takesScreenshot: true, udid: 00008101-00164DE91A00001E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaHideKeyboard: true, wdaStartupRetries: 3, wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-17.0}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: d4771c4af6efe7d1273e814083a..., takesScreenshot: true, udid: 00008101-00164DE91A00001E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaHideKeyboard: true, wdaStartupRetries: 3, wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: d4771c4af6efe7d1273e814083a9d25df1368781
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:25:36.547 BasePage:131 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:25:37.404 BasePage:115 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 ERROR] 2023-10-12 10:25:44.611 BasePage:265 - Failed to hide iOS keyboard: Error Domain=com.facebook.WebDriverAgent Code=1 "Did not know how to dismiss the keyboard. Try to dismiss it in the way supported by your application under test." UserInfo={NSLocalizedDescription=Did not know how to dismiss the keyboard. Try to dismiss it in the way supported by your application under test.} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUDRA', ip: '192.168.0.159', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, biometricUserOptionAccessible: false, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 12.4, bundleID: fi.rahapaja.coiniverse.qa, bundleId: fi.rahapaja.coiniverse.qa, capabilities: {64bit: false, acceptSslCert: false, acceptSslCerts: false, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, biometricUserOptionAccessible: false, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 12.4, bundleID: fi.rahapaja.coiniverse.qa, bundleId: fi.rahapaja.coiniverse.qa, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-17.0}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: d4771c4af6efe7d1273e814083a..., takesScreenshot: true, udid: 00008101-00164DE91A00001E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaHideKeyboard: true, wdaStartupRetries: 3, wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-17.0}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: d4771c4af6efe7d1273e814083a..., takesScreenshot: true, udid: 00008101-00164DE91A00001E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaHideKeyboard: true, wdaStartupRetries: 3, wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: d4771c4af6efe7d1273e814083a9d25df1368781
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:25:45.667 BasePage:108 - Login button is clicked
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:26:07.212 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:26:07.212 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:26:08.517 BaseTest:176 - Appium Server stopped.............
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:28:12.567 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:28:12.588 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:28:12.589 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:28:29.970 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:29:07.481 BaseTest:135 - sessionId: 6488db496f7dbb3a0618c49955f41f7ee1b53d77
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:29:07.498 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:29:07.499 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:29:08.238 BasePage:108 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:29:09.828 BasePage:131 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:29:10.364 BasePage:115 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:29:13.334 BasePage:131 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:29:14.002 BasePage:115 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:29:17.269 BasePage:108 - Login button is clicked
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:29:38.771 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:29:38.772 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:29:40.082 BaseTest:176 - Appium Server stopped.............
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:37:17.229 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:37:17.246 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:37:17.246 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:37:35.892 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:38:11.661 BaseTest:135 - sessionId: 27d04b3aca107dd08eb4be238f9b54f0a1b57268
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:38:11.714 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:38:11.715 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:38:12.839 BasePage:108 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:38:14.292 BasePage:131 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:38:15.991 BasePage:115 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:39:05.959 BasePage:131 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:39:06.636 BasePage:115 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:50:11.982 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:50:12.002 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:50:12.002 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:50:31.368 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:51:08.641 BaseTest:135 - sessionId: d3600f03505e455eaa166780c9f22b83d1c1f371
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:51:08.657 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:51:08.658 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:51:09.686 BasePage:108 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:51:11.492 BasePage:131 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:51:12.038 BasePage:115 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:51:14.912 BasePage:131 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:51:15.636 BasePage:115 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:51:18.946 BasePage:108 - Login button is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:51:58.688 BasePage:108 - Login button is clicked
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:53:39.215 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:53:39.234 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:53:39.235 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:53:56.936 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:54:33.305 BaseTest:135 - sessionId: e5378bc663956fc11ddc865078baeb4ec7d2f302
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:54:33.325 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 10:54:33.326 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:54:34.034 BasePage:108 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:54:35.613 BasePage:131 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:54:36.230 BasePage:115 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:54:39.262 BasePage:131 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 10:54:40.193 BasePage:115 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:00:04.915 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:00:04.949 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:00:04.951 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:00:23.165 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:00:58.247 BaseTest:135 - sessionId: 76cef5827775ba5452824aa5a03b25b4c197f76e
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:00:58.350 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:00:58.354 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:00:59.749 BasePage:108 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:01:01.528 BasePage:131 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:01:02.443 BasePage:115 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:01:06.502 BasePage:131 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:01:07.366 BasePage:115 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:01:48.475 BasePage:108 - Login button is clicked
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:13:08.265 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:13:08.284 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:13:08.285 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:13:28.947 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:14:03.856 BaseTest:135 - sessionId: 07c1a12618b21ad86959a7c8f3c5961c44a44c4a
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:14:03.883 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:14:03.884 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:14:04.951 BasePage:108 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:14:06.606 BasePage:131 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:14:07.172 BasePage:115 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:14:10.166 BasePage:131 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:14:10.941 BasePage:115 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:14:17.247 BasePage:108 - Login button is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:14:39.669 BasePage:108 - Login button is clicked
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:14:40.823 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:14:40.823 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:14:42.289 BaseTest:176 - Appium Server stopped.............
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:16:30.425 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:16:30.440 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:16:30.441 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:16:50.244 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:17:25.426 BaseTest:135 - sessionId: 58e565190886a8a956900c8abe5ba04a0a7707aa
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:17:25.448 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:17:25.448 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:17:26.444 BasePage:108 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:17:27.967 BasePage:131 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:17:28.523 BasePage:115 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:17:31.648 BasePage:131 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:17:32.363 BasePage:115 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:17:58.400 BasePage:108 - Login button is clicked
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:17:59.889 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:17:59.889 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:18:01.366 BaseTest:176 - Appium Server stopped.............
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:19:55.530 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:19:55.547 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:19:55.548 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:20:11.828 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:20:45.743 BaseTest:135 - sessionId: d267cf7f4b2a0da776734d7851d7ada203aaa668
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:20:45.756 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:20:45.756 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:20:47.673 BasePage:108 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:20:49.264 BasePage:131 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:20:49.808 BasePage:115 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:20:52.783 BasePage:131 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:20:53.566 BasePage:115 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 ERROR] 2023-10-12 11:21:01.740 BasePage:266 - Failed to hide iOS keyboard: Error Domain=com.facebook.WebDriverAgent Code=1 "Did not know how to dismiss the keyboard. Try to dismiss it in the way supported by your application under test." UserInfo={NSLocalizedDescription=Did not know how to dismiss the keyboard. Try to dismiss it in the way supported by your application under test.} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUDRA', ip: '192.168.0.159', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, biometricUserOptionAccessible: false, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 12.4, bundleID: fi.rahapaja.coiniverse.qa, bundleId: fi.rahapaja.coiniverse.qa, capabilities: {64bit: false, acceptSslCert: false, acceptSslCerts: false, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, biometricUserOptionAccessible: false, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 12.4, bundleID: fi.rahapaja.coiniverse.qa, bundleId: fi.rahapaja.coiniverse.qa, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-17.0}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: d267cf7f4b2a0da776734d7851d..., takesScreenshot: true, udid: 00008101-000038E422E0001E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaHideKeyboard: true, wdaStartupRetries: 3, wda_port: 8403, webStorageEnabled: false, webkitResponseTimeout: 20000}, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-17.0}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: d267cf7f4b2a0da776734d7851d..., takesScreenshot: true, udid: 00008101-000038E422E0001E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaHideKeyboard: true, wdaStartupRetries: 3, wda_port: 8403, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: d267cf7f4b2a0da776734d7851d7ada203aaa668
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:21:22.742 BasePage:108 - Login button is clicked
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:21:24.223 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:21:24.223 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:21:25.647 BaseTest:176 - Appium Server stopped.............
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:29:18.227 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:29:18.245 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:29:18.245 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:29:34.094 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:30:07.464 BaseTest:135 - sessionId: a6b8a341fc66d1159f3f7617baeff860e822560d
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:30:07.490 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:30:07.490 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:30:08.182 BasePage:109 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:30:09.776 BasePage:132 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:30:10.298 BasePage:116 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:30:13.202 BasePage:132 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:30:14.059 BasePage:116 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 ERROR] 2023-10-12 11:30:16.730 BasePage:268 - Failed to hide iOS keyboard: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUDRA', ip: '192.168.0.159', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, biometricUserOptionAccessible: false, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 12.4, bundleID: fi.rahapaja.coiniverse.qa, bundleId: fi.rahapaja.coiniverse.qa, capabilities: {64bit: false, acceptSslCert: false, acceptSslCerts: false, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, biometricUserOptionAccessible: false, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 12.4, bundleID: fi.rahapaja.coiniverse.qa, bundleId: fi.rahapaja.coiniverse.qa, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-17.0}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: a6b8a341fc66d1159f3f7617bae..., takesScreenshot: true, udid: 00008101-000A4D222600001E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaHideKeyboard: true, wdaStartupRetries: 3, wda_port: 8401, webStorageEnabled: false, webkitResponseTimeout: 20000}, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-17.0}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: a6b8a341fc66d1159f3f7617bae..., takesScreenshot: true, udid: 00008101-000A4D222600001E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaHideKeyboard: true, wdaStartupRetries: 3, wda_port: 8401, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: a6b8a341fc66d1159f3f7617baeff860e822560d
+*** Element info: {Using=id, value=doneButton}
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:30:37.781 BasePage:109 - Login button is clicked
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:30:39.246 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:30:39.247 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:30:40.525 BaseTest:176 - Appium Server stopped.............
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:32:19.574 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:32:19.596 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:32:19.597 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:32:37.756 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:33:14.560 BaseTest:135 - sessionId: e574cd3455265369d910bd0b8c25d9d7e2f705e5
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:33:14.578 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:33:14.579 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:33:15.547 BasePage:109 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:33:17.066 BasePage:132 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:33:17.611 BasePage:116 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:33:20.509 BasePage:132 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:33:21.224 BasePage:116 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:33:44.637 BasePage:109 - Login button is clicked
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:33:46.277 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:33:46.277 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:33:47.611 BaseTest:176 - Appium Server stopped.............
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:39:11.722 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:39:11.741 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:39:11.742 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:39:27.843 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:39:59.387 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:39:59.405 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:39:59.406 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:40:17.439 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:40:54.776 BaseTest:135 - sessionId: b55fddb0cc75f25397f3ad09c35177e963fc2841
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:40:54.811 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:40:54.812 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:40:55.924 BasePage:111 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:40:57.472 BasePage:134 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:40:58.056 BasePage:118 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:41:00.961 BasePage:134 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:41:01.751 BasePage:118 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:41:04.892 BasePage:266 - iOS keyboard hidden
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:42:11.267 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:42:11.290 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:42:11.291 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:42:31.258 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:43:07.337 BaseTest:135 - sessionId: 8e4e4641d9f42e6516fede40115fcfa68646ca44
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:43:07.369 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:43:07.369 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:43:08.355 BasePage:111 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:43:09.892 BasePage:134 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:43:10.369 BasePage:118 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:43:13.048 BasePage:134 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:43:13.710 BasePage:118 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:43:16.725 BasePage:266 - iOS keyboard hidden
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:44:08.890 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:44:08.891 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:44:08.892 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:44:08.892 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:44:41.781 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:44:41.782 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:44:43.101 BaseTest:176 - Appium Server stopped.............
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:51:41.669 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:51:41.689 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:51:41.690 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:52:04.625 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:52:39.619 BaseTest:135 - sessionId: e6cb76de032a0f10b453325fefc26816ae499597
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:52:39.651 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:52:39.652 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:52:40.601 BasePage:111 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:52:42.275 BasePage:134 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:52:42.824 BasePage:118 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:52:46.007 BasePage:134 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:52:46.755 BasePage:118 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:52:50.145 BasePage:269 - iOS keyboard hidden
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:53:43.348 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:53:43.348 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:53:43.349 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:53:43.349 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:54:15.733 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:54:15.733 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:54:17.279 BaseTest:176 - Appium Server stopped.............
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:56:46.487 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:56:46.508 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:56:46.509 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:57:03.702 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:57:39.337 BaseTest:135 - sessionId: 0a131fe58993d0568f3f79cc8292fc7ba820f187
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:57:39.370 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:57:39.371 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:57:40.454 BasePage:111 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:57:41.904 BasePage:134 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:57:42.438 BasePage:118 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:57:45.446 BasePage:134 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:57:46.121 BasePage:118 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 11:59:08.251 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:59:08.272 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:59:08.272 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 11:59:26.484 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:00:00.539 BaseTest:135 - sessionId: bb8d733e836e8b5eec1575861f801d8b75fe5210
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:00:00.557 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:00:00.557 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:00:01.603 BasePage:111 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:00:03.185 BasePage:134 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:00:03.719 BasePage:118 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:00:06.839 BasePage:134 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:00:07.601 BasePage:118 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:01:17.416 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:01:17.462 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:01:17.465 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:01:36.599 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:03:33.958 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:03:33.981 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:03:33.981 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:03:57.569 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:04:33.611 BaseTest:135 - sessionId: 9a5e1ffaae3c33642371138d79d8e0689f096f30
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:04:33.636 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:04:33.636 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:04:34.612 BasePage:111 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:04:36.247 BasePage:134 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:04:36.750 BasePage:118 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:04:39.828 BasePage:134 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:04:40.547 BasePage:118 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:27:58.249 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:27:58.268 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:27:58.268 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:28:14.658 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:28:48.783 BaseTest:135 - sessionId: 67a4d7e27557582834bfad03143e3fc91b4215da
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:28:48.804 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:28:48.804 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:28:49.811 BasePage:111 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:28:51.344 BasePage:134 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:28:51.878 BasePage:118 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:28:54.965 BasePage:134 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:28:55.682 BasePage:118 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:28:58.872 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:28:58.872 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:29:00.213 BaseTest:176 - Appium Server stopped.............
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:38:44.918 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:38:44.935 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:38:44.936 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:49:36.846 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:49:36.865 CapabilityUtils:130 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:49:36.866 CapabilityUtils:136 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:57:49.795 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:57:49.812 CapabilityUtils:130 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:57:49.812 CapabilityUtils:136 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:58:08.352 CapabilityUtils:141 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:58:44.473 BaseTest:135 - sessionId: 09d0eca82253c4c5f5d48a4e4895347f024fd8de
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:58:44.488 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:58:44.488 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:58:45.137 BasePage:111 - Login with email is clicked
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:58:46.750 BasePage:134 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:58:47.407 BasePage:118 - Clearing: Username Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:58:50.280 BasePage:134 - Filling tT246246! in Password Textbox
+[logsrowserStack_iPhone 12 INFO ] 2023-10-12 12:58:50.976 BasePage:118 - Clearing: Password Textbox
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:58:54.204 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:58:54.205 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-12 12:58:55.918 BaseTest:176 - Appium Server stopped.............

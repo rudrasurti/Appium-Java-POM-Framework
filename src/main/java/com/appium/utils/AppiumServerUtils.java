@@ -6,7 +6,6 @@
 /***************************************************/
 
 package com.appium.utils;
-
 import java.io.File;
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -35,13 +34,15 @@ public class AppiumServerUtils {
 		return AppiumDriverLocalService.buildDefaultService();
 	}
 
-	public static AppiumDriverLocalService getAppiumService() {
+	public static AppiumDriverLocalService getAppiumService(int port) {
 		String os = OSInfoUtils.getOSInfo().toLowerCase();
 
 		if (os.contains(PLATFORM_OS_WIN)) {
 			return AppiumDriverLocalService.buildService(new AppiumServiceBuilder()
 					.usingDriverExecutable(new File(PLATFORM_OS_WIN_NODE_INSTALLATION_PATH))
-					.withAppiumJS(new File(PLATFORM_OS_WIN_APPIUM_INSTALLATION_PATH)).usingPort(4723)
+					.withAppiumJS(new File(PLATFORM_OS_WIN_APPIUM_INSTALLATION_PATH)).usingPort(port)
+					.withArgument(() -> "--base-path", "/wd/hub")
+
 					.withArgument(GeneralServerFlag.SESSION_OVERRIDE)
 					.withLogFile(new File(APPIUM_SERVER_LOGS)));
 			
@@ -61,7 +62,7 @@ public class AppiumServerUtils {
 
 			return AppiumDriverLocalService.buildService(new AppiumServiceBuilder()
 					.usingDriverExecutable(new File(PLATFORM_OS_MAC_NODE_INSTALLATION_PATH))
-					.withAppiumJS(new File(PLATFORM_OS_MAC_APPIUM_INSTALLATION_PATH)).usingPort(4723)
+					.withAppiumJS(new File(PLATFORM_OS_MAC_APPIUM_INSTALLATION_PATH)).usingPort(port)
 					.withArgument(GeneralServerFlag.SESSION_OVERRIDE).withEnvironment(environment)
 					.withLogFile(new File(APPIUM_SERVER_LOGS)));
 		} else if (os.contains(PLATFORM_OS_NUX)) {

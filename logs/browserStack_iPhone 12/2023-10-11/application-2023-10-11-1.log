@@ -1,0 +1,177 @@
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 20:26:38.029 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 20:26:38.044 CapabilityUtils:129 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 20:26:38.044 CapabilityUtils:133 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\SwagLabsMobileApp.app
+[logsrowserStack_iPhone 12 ERROR] 2023-10-11 20:26:39.517 CapabilityUtils:141 - Failed to upload app to Browserstack
+java.io.FileNotFoundException: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\SwagLabsMobileApp.app (Access is denied)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:219) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at org.apache.http.entity.mime.content.FileBody.writeTo(FileBody.java:116) ~[httpmime-4.5.3.jar:4.5.3]
+	at org.apache.http.entity.mime.AbstractMultipartForm.doWriteTo(AbstractMultipartForm.java:134) ~[httpmime-4.5.3.jar:4.5.3]
+	at org.apache.http.entity.mime.AbstractMultipartForm.writeTo(AbstractMultipartForm.java:157) ~[httpmime-4.5.3.jar:4.5.3]
+	at org.apache.http.entity.mime.MultipartFormEntity.writeTo(MultipartFormEntity.java:113) ~[httpmime-4.5.3.jar:4.5.3]
+	at org.apache.http.HttpEntity$writeTo$4.call(Unknown Source) ~[?:?]
+	at io.restassured.internal.multipart.RestAssuredMultiPartEntity.writeTo(RestAssuredMultiPartEntity.groovy:110) ~[rest-assured-3.3.0.jar:?]
+	at org.apache.http.entity.HttpEntityWrapper.writeTo(HttpEntityWrapper.java:96) ~[httpcore-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.client.EntityEnclosingRequestWrapper$EntityWrapper.writeTo(EntityEnclosingRequestWrapper.java:110) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.entity.EntitySerializer.serialize(EntitySerializer.java:118) ~[httpcore-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.AbstractHttpClientConnection.sendRequestEntity(AbstractHttpClientConnection.java:274) ~[httpcore-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.sendRequestEntity(ManagedClientConnectionImpl.java:214) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.protocol.HttpRequestExecutor.doSendRequest(HttpRequestExecutor.java:238) ~[httpcore-4.4.13.jar:4.4.13]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123) ~[httpcore-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:679) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:481) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.client.HttpClient$execute$0.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-2.4.15.jar:2.4.15]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-2.4.15.jar:2.4.15]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:136) ~[groovy-2.4.15.jar:2.4.15]
+	at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2146) ~[rest-assured-3.3.0.jar:?]
+	at io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:349) ~[rest-assured-3.3.0.jar:?]
+	at io.restassured.internal.http.HTTPBuilder$post$2.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-2.4.15.jar:2.4.15]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-2.4.15.jar:2.4.15]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:136) ~[groovy-2.4.15.jar:2.4.15]
+	at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1274) ~[rest-assured-3.3.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98) ~[groovy-2.4.15.jar:2.4.15]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325) ~[groovy-2.4.15.jar:2.4.15]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225) ~[groovy-2.4.15.jar:2.4.15]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034) ~[groovy-2.4.15.jar:2.4.15]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822) ~[groovy-2.4.15.jar:2.4.15]
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy) ~[rest-assured-3.3.0.jar:?]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47) ~[groovy-2.4.15.jar:2.4.15]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-2.4.15.jar:2.4.15]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-2.4.15.jar:2.4.15]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:152) ~[groovy-2.4.15.jar:2.4.15]
+	at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30) ~[rest-assured-3.3.0.jar:?]
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-2.4.15.jar:2.4.15]
+	at io.restassured.filter.Filter$filter.call(Unknown Source) ~[?:?]
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72) ~[rest-assured-3.3.0.jar:?]
+	at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56) ~[rest-assured-3.3.0.jar:?]
+	at io.restassured.filter.Filter$filter.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-2.4.15.jar:2.4.15]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-2.4.15.jar:2.4.15]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:144) ~[groovy-2.4.15.jar:2.4.15]
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72) ~[rest-assured-3.3.0.jar:?]
+	at io.restassured.filter.FilterContext$next.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-2.4.15.jar:2.4.15]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-2.4.15.jar:2.4.15]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:136) ~[groovy-2.4.15.jar:2.4.15]
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1749) ~[rest-assured-3.3.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98) ~[groovy-2.4.15.jar:2.4.15]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325) ~[groovy-2.4.15.jar:2.4.15]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225) ~[groovy-2.4.15.jar:2.4.15]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034) ~[groovy-2.4.15.jar:2.4.15]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822) ~[groovy-2.4.15.jar:2.4.15]
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy) ~[rest-assured-3.3.0.jar:?]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47) ~[groovy-2.4.15.jar:2.4.15]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57) ~[groovy-2.4.15.jar:2.4.15]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51) ~[groovy-2.4.15.jar:2.4.15]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:157) ~[groovy-2.4.15.jar:2.4.15]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185) ~[groovy-2.4.15.jar:2.4.15]
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1755) ~[rest-assured-3.3.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98) ~[groovy-2.4.15.jar:2.4.15]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325) ~[groovy-2.4.15.jar:2.4.15]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225) ~[groovy-2.4.15.jar:2.4.15]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034) ~[groovy-2.4.15.jar:2.4.15]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822) ~[groovy-2.4.15.jar:2.4.15]
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy) ~[rest-assured-3.3.0.jar:?]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47) ~[groovy-2.4.15.jar:2.4.15]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57) ~[groovy-2.4.15.jar:2.4.15]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51) ~[groovy-2.4.15.jar:2.4.15]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:157) ~[groovy-2.4.15.jar:2.4.15]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185) ~[groovy-2.4.15.jar:2.4.15]
+	at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:175) ~[rest-assured-3.3.0.jar:?]
+	at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy) ~[rest-assured-3.3.0.jar:?]
+	at com.appium.utils.CapabilityUtils.uploadApp(CapabilityUtils.java:135) [classes/:?]
+	at com.appium.utils.CapabilityUtils.setCapabilityFor_browserStack(CapabilityUtils.java:159) [classes/:?]
+	at com.appium.base.BaseTest.beforeTest(BaseTest.java:128) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:589) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-7.4.0.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 20:26:39.550 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 20:26:39.550 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 20:30:33.257 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 20:30:33.276 CapabilityUtils:129 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 20:30:33.276 CapabilityUtils:133 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 20:30:58.580 CapabilityUtils:138 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 20:31:00.771 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 20:31:00.772 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 20:34:05.447 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 20:34:05.465 CapabilityUtils:129 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 20:34:05.465 CapabilityUtils:133 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 20:34:22.060 CapabilityUtils:138 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 20:34:23.845 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 20:34:23.846 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 21:19:14.869 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 21:19:14.890 CapabilityUtils:129 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 21:19:14.891 CapabilityUtils:133 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 21:19:32.209 CapabilityUtils:138 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 21:19:34.255 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 21:19:34.255 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 21:20:21.591 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 21:20:21.614 CapabilityUtils:129 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 21:20:21.615 CapabilityUtils:133 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 21:20:38.779 CapabilityUtils:138 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 21:24:18.213 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 21:24:18.228 CapabilityUtils:129 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 21:24:18.229 CapabilityUtils:133 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 21:24:38.423 CapabilityUtils:138 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 21:24:40.348 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 21:24:40.349 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 21:25:54.450 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 21:25:54.476 CapabilityUtils:129 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 21:25:54.476 CapabilityUtils:133 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 21:26:15.024 CapabilityUtils:138 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 22:21:02.841 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 22:21:02.868 CapabilityUtils:128 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 22:21:02.869 CapabilityUtils:134 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 22:21:22.996 CapabilityUtils:139 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 22:21:24.915 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 22:21:24.915 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 22:23:33.178 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 22:24:19.562 CapabilityUtils:128 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 22:24:19.563 CapabilityUtils:134 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 22:24:41.268 CapabilityUtils:139 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 22:31:56.877 BaseTest:106 - Log file path: logs\browserStack_iPhone 12
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 22:31:56.896 CapabilityUtils:131 - Upload app file on Browserstack
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 22:31:56.896 CapabilityUtils:137 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\Coiniverse QA.ipa
+[logsrowserStack_iPhone 12 INFO ] 2023-10-11 22:32:19.381 CapabilityUtils:142 - Received Response new Browserstack URL: bs://2b081c75fa43f7146f101ec6764218b0e05097a2
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 22:32:21.020 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_iPhone 12 DEBUG] 2023-10-11 22:32:21.020 LoginTests:54 - ******************* Test started: successfulLogin*******************

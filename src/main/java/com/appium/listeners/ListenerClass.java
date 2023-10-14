@@ -7,6 +7,7 @@
 
 package com.appium.listeners;
 
+
 import java.util.Arrays;
 
 import org.testng.ISuite;
@@ -22,11 +23,11 @@ import static com.appium.constants.FrameworkConstants.ICON_BUG;
 import com.appium.annotations.FrameworkAnnotation;
 import com.appium.reports.ExtentLogger;
 import com.appium.reports.ExtentReport;
-import com.appium.utils.EmailSendUtils;
-import com.appium.utils.ZipUtils;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
+import com.appium.utils.EmailSendUtils;
+import com.appium.utils.ZipUtils;
 
 public class ListenerClass implements ITestListener, ISuiteListener {
 
@@ -78,12 +79,14 @@ public class ListenerClass implements ITestListener, ISuiteListener {
 		count_failedTCs = count_failedTCs + 1;
 		ExtentLogger.fail(ICON_BUG + "  " + "<b><i>" + result.getThrowable().toString() + "</i></b>");
 		String exceptionMessage = Arrays.toString(result.getThrowable().getStackTrace());
-	
+
+		result.getThrowable().printStackTrace();
+
 		String message = "<details><summary><b><font color=red> Exception occured, click to see details: "
 				+ ICON_SMILEY_FAIL + " </font></b>" + "</summary>" + exceptionMessage.replaceAll(",", "<br>")
 				+ "</details> \n";
 		ExtentLogger.fail(message);
-		
+
 		String logText = "<b>" + result.getMethod().getMethodName() + " is failed.</b>" + "  " + ICON_SMILEY_FAIL;
 		Markup markup_message = MarkupHelper.createLabel(logText, ExtentColor.RED);
 		ExtentLogger.fail(markup_message, true);
@@ -91,6 +94,9 @@ public class ListenerClass implements ITestListener, ISuiteListener {
 	}
 
 	public void onTestSkipped(ITestResult result) {
+		if (result.getThrowable() != null) {
+			result.getThrowable().printStackTrace();
+		}
 
 		count_skippedTCs = count_skippedTCs + 1;
 

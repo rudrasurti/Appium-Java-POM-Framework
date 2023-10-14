@@ -1,0 +1,26 @@
+[logsrowserStack_Google Pixel 6 Pro DEBUG] 2023-10-13 17:32:42.891 BaseTest:106 - Log file path: logs\browserStack_Google Pixel 6 Pro
+[logsrowserStack_Google Pixel 6 Pro INFO ] 2023-10-13 17:32:42.904 CapabilityUtils:130 - Upload app file on Browserstack
+[logsrowserStack_Google Pixel 6 Pro INFO ] 2023-10-13 17:32:42.905 CapabilityUtils:136 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\app-qa.apk
+[logsrowserStack_Google Pixel 6 Pro INFO ] 2023-10-13 17:33:13.440 CapabilityUtils:141 - Received Response new Browserstack URL: bs://dea702ab8f9a72e3ec36697107d351ae40bb84e3
+[logsrowserStack_Google Pixel 6 Pro DEBUG] 2023-10-13 17:33:54.225 BaseTest:135 - sessionId: 4d272add70d7c9ae695d2127a25bd0a3a6c1191b
+[logsrowserStack_Google Pixel 6 Pro DEBUG] 2023-10-13 17:33:54.281 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 6 Pro DEBUG] 2023-10-13 17:33:54.281 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_Google Pixel 6 Pro INFO ] 2023-10-13 17:34:01.219 BasePage:111 - Login with email is clicked
+[logsrowserStack_Google Pixel 6 Pro INFO ] 2023-10-13 17:34:02.483 BasePage:134 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_Google Pixel 6 Pro INFO ] 2023-10-13 17:34:02.788 BasePage:118 - Clearing: Username Textbox
+[logsrowserStack_Google Pixel 6 Pro INFO ] 2023-10-13 17:34:04.721 BasePage:134 - Filling tT246246! in Password Textbox
+[logsrowserStack_Google Pixel 6 Pro INFO ] 2023-10-13 17:34:05.086 BasePage:118 - Clearing: Password Textbox
+[logsrowserStack_Google Pixel 6 Pro INFO ] 2023-10-13 17:34:06.913 BasePage:111 - Login button is clicked
+[logsrowserStack_Google Pixel 6 Pro DEBUG] 2023-10-13 17:34:07.313 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_Google Pixel 6 Pro DEBUG] 2023-10-13 17:34:07.314 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 6 Pro DEBUG] 2023-10-13 17:34:07.332 HomeTests:42 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 6 Pro DEBUG] 2023-10-13 17:34:07.333 HomeTests:43 - ******************* Test started: validateProductCardScrollOnHomePage*******************
+[logsrowserStack_Google Pixel 6 Pro INFO ] 2023-10-13 17:34:10.122 BasePage:111 - Popup Close Icon is clicked
+[logsrowserStack_Google Pixel 6 Pro INFO ] 2023-10-13 17:34:21.098 BasePage:231 - scrolling the element to the right Sucessfully
+[logsrowserStack_Google Pixel 6 Pro DEBUG] 2023-10-13 17:34:23.066 HomeTests:52 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
+[logsrowserStack_Google Pixel 6 Pro DEBUG] 2023-10-13 17:34:23.066 HomeTests:53 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 6 Pro DEBUG] 2023-10-13 17:34:23.067 HomeTests:42 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 6 Pro DEBUG] 2023-10-13 17:34:23.068 HomeTests:43 - ******************* Test started: validateProductCardScrollOnHomePage*******************
+[logsrowserStack_Google Pixel 6 Pro DEBUG] 2023-10-13 17:34:57.369 HomeTests:52 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
+[logsrowserStack_Google Pixel 6 Pro DEBUG] 2023-10-13 17:34:57.370 HomeTests:53 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 6 Pro DEBUG] 2023-10-13 17:34:58.656 BaseTest:176 - Appium Server stopped.............

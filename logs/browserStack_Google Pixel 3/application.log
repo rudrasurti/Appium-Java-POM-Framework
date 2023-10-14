@@ -1,0 +1,22 @@
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-13 17:28:33.152 BaseTest:106 - Log file path: logs\browserStack_Google Pixel 3
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-13 17:28:33.175 CapabilityUtils:130 - Upload app file on Browserstack
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-13 17:28:33.176 CapabilityUtils:136 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\app-qa.apk
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-13 17:29:16.525 CapabilityUtils:141 - Received Response new Browserstack URL: bs://dea702ab8f9a72e3ec36697107d351ae40bb84e3
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-13 17:29:50.395 BaseTest:135 - sessionId: 3376d5037e78c04f356feef8750ca272cefaecb0
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-13 17:29:50.419 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-13 17:29:50.419 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-13 17:29:58.297 BasePage:111 - Login with email is clicked
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-13 17:30:02.281 BasePage:134 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-13 17:30:04.292 BasePage:118 - Clearing: Username Textbox
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-13 17:30:10.341 BasePage:134 - Filling tT246246! in Password Textbox
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-13 17:30:12.450 BasePage:118 - Clearing: Password Textbox
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-13 17:30:19.363 BasePage:111 - Login button is clicked
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-13 17:30:21.418 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-13 17:30:21.418 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-13 17:30:21.422 HomeTests:42 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-13 17:30:21.423 HomeTests:43 - ******************* Test started: validateProductCardScrollOnHomePage*******************
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-13 17:30:25.319 BasePage:111 - Popup Close Icon is clicked
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-13 17:30:44.516 BasePage:231 - scrolling the element to the right Sucessfully
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-13 17:30:45.307 HomeTests:52 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-13 17:30:45.309 HomeTests:53 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-13 17:30:46.595 BaseTest:176 - Appium Server stopped.............

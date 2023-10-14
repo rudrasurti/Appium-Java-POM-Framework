@@ -1,0 +1,61 @@
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:25:24.207 BaseTest:106 - Log file path: logs\browserStack_Google Pixel 3
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:25:25.809 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:25:25.810 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:26:05.655 BaseTest:106 - Log file path: logs\browserStack_Google Pixel 3
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:26:07.753 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:26:07.755 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:29:39.256 BaseTest:106 - Log file path: logs\browserStack_Google Pixel 3
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:29:40.909 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:29:40.909 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:35:40.225 BaseTest:106 - Log file path: logs\browserStack_Google Pixel 3
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:35:41.898 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:35:41.899 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:37:33.933 BaseTest:106 - Log file path: logs\browserStack_Google Pixel 3
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:37:35.794 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:37:35.794 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:39:06.721 BaseTest:106 - Log file path: logs\browserStack_Google Pixel 3
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:39:08.327 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:39:08.327 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:40:48.579 BaseTest:106 - Log file path: logs\browserStack_Google Pixel 3
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:40:50.286 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:40:50.286 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:41:52.770 BaseTest:106 - Log file path: logs\browserStack_Google Pixel 3
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:41:54.401 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:41:54.401 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:43:01.018 BaseTest:106 - Log file path: logs\browserStack_Google Pixel 3
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:44:14.671 BaseTest:106 - Log file path: logs\browserStack_Google Pixel 3
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:44:16.343 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:44:16.344 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:44:37.988 BaseTest:106 - Log file path: logs\browserStack_Google Pixel 3
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:44:39.713 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:44:39.713 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:45:45.080 BaseTest:106 - Log file path: logs\browserStack_Google Pixel 3
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:49:18.298 BaseTest:106 - Log file path: logs\browserStack_Google Pixel 3
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-12 12:49:18.314 CapabilityUtils:130 - Upload app file on Browserstack
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-12 12:49:18.315 CapabilityUtils:136 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\app-qa.apk
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:49:53.219 BaseTest:106 - Log file path: logs\browserStack_Google Pixel 3
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-12 12:49:53.236 CapabilityUtils:130 - Upload app file on Browserstack
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-12 12:49:53.236 CapabilityUtils:136 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\app-qa.apk
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-12 12:50:21.206 CapabilityUtils:141 - Received Response new Browserstack URL: bs://dea702ab8f9a72e3ec36697107d351ae40bb84e3
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:54:35.157 BaseTest:106 - Log file path: logs\browserStack_Google Pixel 3
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-12 12:54:35.174 CapabilityUtils:130 - Upload app file on Browserstack
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-12 12:54:35.174 CapabilityUtils:136 - App URL is: C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main\src\test\resources\app\app-qa.apk
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-12 12:55:06.698 CapabilityUtils:141 - Received Response new Browserstack URL: bs://dea702ab8f9a72e3ec36697107d351ae40bb84e3
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:56:30.193 BaseTest:135 - sessionId: 082cae71293876fc62e1e3f4020ae445d498be1a
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:56:30.208 LoginTests:53 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:56:30.208 LoginTests:54 - ******************* Test started: successfulLogin*******************
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-12 12:56:38.081 BasePage:111 - Login with email is clicked
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-12 12:56:42.213 BasePage:134 - Filling testi246.testi246@gmail.com in Username Textbox
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-12 12:56:44.184 BasePage:118 - Clearing: Username Textbox
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-12 12:56:50.209 BasePage:134 - Filling tT246246! in Password Textbox
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-12 12:56:52.229 BasePage:118 - Clearing: Password Textbox
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-12 12:56:59.268 BasePage:111 - Login button is clicked
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:57:01.307 LoginTests:62 - ******************* Test ended: successfulLogin*******************
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:57:01.308 LoginTests:63 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:57:01.310 HomeTests:42 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:57:01.311 HomeTests:43 - ******************* Test started: validateProductCardScrollOnHomePage*******************
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-12 12:57:05.103 BasePage:111 - Popup Close Icon is clicked
+[logsrowserStack_Google Pixel 3 INFO ] 2023-10-12 12:57:24.783 BasePage:231 - scrolling the element to the right Sucessfully
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:57:26.573 HomeTests:52 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:57:26.573 HomeTests:53 - ---------------------------------------------------
+[logsrowserStack_Google Pixel 3 DEBUG] 2023-10-12 12:57:28.911 BaseTest:176 - Appium Server stopped.............

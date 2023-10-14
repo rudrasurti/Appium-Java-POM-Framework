@@ -1,6 +1,5 @@
 /**
- * @author Rudra Surti
- */
+ * @author  */
 
 /***************************************************/
 
@@ -10,15 +9,19 @@ import static com.appium.constants.FrameworkConstants.EXPECTED_DATA_XML_FILE;
 import static com.appium.constants.FrameworkConstants.LOGS;
 import static com.appium.constants.FrameworkConstants.PLATFORM_ANDROID;
 import static com.appium.constants.FrameworkConstants.PLATFORM_iOS;
+import static com.appium.constants.FrameworkConstants.PLATFORM_browserStack;
 import static com.appium.constants.FrameworkConstants.ROUTINGKEY;
 import static com.appium.constants.FrameworkConstants.SERVER_LOGS;
 
 import java.io.File;
+import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 
+import org.apache.commons.lang3.RandomUtils;
 import org.apache.logging.log4j.ThreadContext;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -42,23 +45,32 @@ import com.appium.utils.VideoRecordUtils;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.InteractsWithApps;
+import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException;
 
 public class BaseTest {
 
+	private static int port = RandomUtils.nextInt(10000, 50000);
 	private static AppiumDriverLocalService server;
 
-	@BeforeMethod
-	public void beforeMethod() {
-		VideoRecordUtils.startRecording();
-	}
+	 @BeforeMethod
+	    public void beforeTestMethod(ITestContext context) {
+	        String platformName = context.getCurrentXmlTest().getParameter("platformName");
+	        if (!"browserStack".equalsIgnoreCase(platformName)) {
+	            VideoRecordUtils.startRecording();
+	        }
+	    }
 
-	@AfterMethod
-	public void afterMethod(ITestResult result) {
-		VideoRecordUtils.stopRecording(result);
-	}
+	    @AfterMethod
+	    public void afterTestMethod(ITestContext context, ITestResult result) {
+	        String platformName = context.getCurrentXmlTest().getParameter("platformName");
+	        if (!"browserStack".equalsIgnoreCase(platformName)) {
+	            VideoRecordUtils.stopRecording(result);
+	        }
+	    }
+
 
 	/* Executes before any of the test method class is executed */
 	@Parameters({ "emulator", "platformName", "udid", "deviceName", "systemPort", "chromeDriverPort", "wdaLocalPort",
@@ -82,6 +94,7 @@ public class BaseTest {
 		DateTimeManager.setDateTime(TestUtils.dateTime());
 		StringsManager.setStrings(TestUtils.parseStringXML(stringsIS));
 		url = new URL(ConfigLoader.getInstance().getAppiumURL());
+		url = new URL(url.getProtocol(), "0.0.0.0", port, url.getFile());
 
 		String strFile = LOGS + File.separator + platformName + "_" + deviceName;
 		File logFile = new File(strFile);
@@ -96,16 +109,23 @@ public class BaseTest {
 			DesiredCapabilities caps = new DesiredCapabilities();
 			caps.setCapability(MobileCapabilityType.PLATFORM_NAME, platformName);
 			caps.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
+			caps.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 300000); // TODO: remove in prod
+
 			/* Configuration for Android device(s) */
 			if (platformName.equalsIgnoreCase(PLATFORM_ANDROID)) {
-				driver = CapabilityUtils.setCapabilityForAndroid(emulator, udid, deviceName, systemPort,
+				driver = CapabilityUtils.setCapabilityForAndroid(emulator, udid, deviceName, port + "",
 						chromeDriverPort, url, caps);
 			}
 			/* Configuration for iOS device(s) */
 			else if (platformName.equalsIgnoreCase(PLATFORM_iOS)) {
-				//driver = CapabilityUtils.setCapabilityFor_iOS(url, caps);
-				driver = CapabilityUtils.setCapabilityFor_iOS(udid, deviceName, wdaLocalPort,
-						webkitDebugProxyPort, url, caps);
+				// driver = CapabilityUtils.setCapabilityFor_iOS(url, caps);
+				driver = CapabilityUtils.setCapabilityFor_iOS(udid, deviceName, wdaLocalPort, webkitDebugProxyPort, url,
+						caps);
+
+			} /* Configuration for Browserstack */
+			else if (platformName.equalsIgnoreCase(PLATFORM_browserStack)) {
+
+				driver = CapabilityUtils.setCapabilityForBrowserStack(udid, deviceName, wdaLocalPort, webkitDebugProxyPort, url, caps);
 
 			} else {
 				throw new Exception("Invalid Platform: " + platformName);
@@ -124,23 +144,23 @@ public class BaseTest {
 
 	@AfterTest
 	public void afterTest() {
-		DriverManager.getDriver().quit();
+		DriverManager.getMobileDriver().quit();
 	}
 
 	public void closeApp() {
-		((InteractsWithApps) DriverManager.getDriver()).closeApp();
+		((InteractsWithApps) DriverManager.getMobileDriver()).closeApp();
 	}
 
 	public void launchApp() {
-		((InteractsWithApps) DriverManager.getDriver()).launchApp();
+		((InteractsWithApps) DriverManager.getMobileDriver()).launchApp();
 	}
 
 	@BeforeSuite
 	public void beforeSuite() throws AppiumServerHasNotBeenStartedLocallyException, Exception {
-
+		killNode();
 		ThreadContext.put(ROUTINGKEY, SERVER_LOGS);
-		server = AppiumServerUtils.getAppiumService();
-		if (!AppiumServerUtils.checkIfAppiumServerIsRunnning(4723)) {
+		server = AppiumServerUtils.getAppiumService(port);
+		if (!AppiumServerUtils.checkIfAppiumServerIsRunnning(port)) {
 			server.start();
 			/* This will not print the Appium server Logs in IDE console */
 			server.clearOutPutStreams();
@@ -154,6 +174,32 @@ public class BaseTest {
 	public void afterSuite() {
 		server.stop();
 		TestUtils.log().debug("Appium Server stopped.............");
+	}
+
+	public void killNode() {
+		String processName = "node.exe"; // Process name (e.g., "node.exe" for Windows)
+
+		try {
+			// Construct the command to kill the Node.js process using taskkill
+			String command = "taskkill /F /IM " + processName;
+
+			// Create a ProcessBuilder instance
+			ProcessBuilder processBuilder = new ProcessBuilder("cmd.exe", "/c", command);
+
+			// Start the process
+			Process process = processBuilder.start();
+
+			// Wait for the process to complete
+			int exitCode = process.waitFor();
+
+			if (exitCode == 0) {
+				System.out.println("Node.js process killed successfully.");
+			} else {
+				System.out.println("Failed to kill Node.js process.");
+			}
+		} catch (IOException | InterruptedException e) {
+			e.printStackTrace();
+		}
 	}
 
 }

@@ -1,11 +1,14 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.learning</groupId>
-	<artifactId>Appium_POM_Framework</artifactId>
+	<groupId>com.zyyah</groupId>
+	<artifactId>zyyah_Appium_POM_Framework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-		<!-- DEFAULT - If you do not pass any value with mvn test, then, this value 
+		<!-- DEFAULT - If you do not pass any value with mvn test, then, this
+		value 
 			will be used -->
 		<suiteFile>testng_simulator_iPhone13</suiteFile>
 	</properties>
@@ -28,10 +31,12 @@
 				<configuration>
 					<!-- Suite testng xml file to consider for test execution -->
 					<suiteXmlFiles>
-						<!-- <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile> -->
+						<!--
+						<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile> -->
 						<!-- <suiteXmlFile>testng.xml</suiteXmlFile> -->
 						<!--<suiteXmlFile>${suiteFile}</suiteXmlFile>-->
-						<suiteXmlFile>src/test/resources/runners/${suiteFile}.xml</suiteXmlFile>
+						<suiteXmlFile>
+							src/test/resources/runners/${suiteFile}.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
@@ -64,12 +69,10 @@
 			<version>20210307</version>
 		</dependency>
 
-		<!-- This is required for Screenshot capture in new file -->
-		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-io -->
 		<dependency>
-			<groupId>org.apache.commons</groupId>
+			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
-			<version>1.3.2</version>
+			<version>2.13.0</version>
 		</dependency>
 
 		<!-- This is required for video recording -->
@@ -80,13 +83,15 @@
 			<version>1.15</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+		<!--
+		https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
 			<version>2.14.0</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+		<!--
+		https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-api</artifactId>
@@ -110,6 +115,24 @@
 			<groupId>com.sun.mail</groupId>
 			<artifactId>javax.mail</artifactId>
 			<version>1.6.2</version>
+		</dependency>
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.0.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.13.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>3.3.0</version>
 		</dependency>
 	</dependencies>
 
