@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Test Suite: ]" guice-stage="DEVELOPMENT">
+<suite name="Failed suite [Test Suite: Emulator- Pixel 3]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.appium.listeners.ListenerClass"/>
     <listener class-name="com.appium.listeners.AnnotationTransformer"/>
     <listener class-name="com.appium.listeners.MethodInterceptor"/>
   </listeners>
   <test thread-count="5" name="Tests on Emulator: Pixel 7 Pro API 31(failed)">
-    <parameter name="emulator" value="false"/>
+    <parameter name="emulator" value="true"/>
     <parameter name="chromeDriverPort" value="11000"/>
-    <parameter name="platformName" value="browserStack"/>
+    <parameter name="platformName" value="Android"/>
     <parameter name="udid" value="emulator-5554"/>
-    <parameter name="deviceName" value="Google Pixel 6 Pro"/>
+    <parameter name="deviceName" value="Pixel_7_Pro_API_31"/>
     <parameter name="systemPort" value="10000"/>
     <classes>
-      <class name="com.appium.tests.HomeTests">
+      <class name="com.appium.tests.CoinDetailsTest">
         <methods>
-          <include name="validateProductCardScrollOnHomePage"/>
-          <include name="afterClass"/>
+          <include name="allTestCasesRelated_Wishlist"/>
+          <include name="afterMethod"/>
           <include name="beforeMethod"/>
+          <include name="allTestCasesRelated_Mycoins"/>
+          <include name="allTestCasesRelated_Templates"/>
+          <include name="allTestCasesRelated_Likes"/>
           <include name="beforeTest"/>
           <include name="beforeTestMethod"/>
-          <include name="afterMethod"/>
           <include name="afterSuite"/>
           <include name="beforeSuite"/>
           <include name="afterTest"/>
           <include name="afterTestMethod"/>
         </methods>
-      </class> <!-- com.appium.tests.HomeTests -->
+      </class> <!-- com.appium.tests.CoinDetailsTest -->
     </classes>
   </test> <!-- Tests on Emulator: Pixel 7 Pro API 31(failed) -->
-</suite> <!-- Failed suite [Test Suite: ] -->
+</suite> <!-- Failed suite [Test Suite: Emulator- Pixel 3] -->

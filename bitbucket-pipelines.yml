@@ -1,0 +1,48 @@
+image: maven:3.8.4-jdk-11
+pipelines:
+  custom:
+    run:
+      - variables:
+          - name: XML
+            default: browserstack_Android_AllScreenTestCases.xml  
+            allowed-values:
+              - browserstack_Android_AllScreenTestCases.xml
+              - browserstack_Android_HomeScreenTestCases.xml
+              - browserstack_Android_ExplorerScreenTestCases.xml
+              - browserstack_Android_MyCoinsScreenTestCases.xml
+              - browserstack_Android_ProfileScreenTestCases.xml
+          - name: Device
+            default: OnePlus 11R 
+            allowed-values:
+              - OnePlus 11R
+              - Xiaomi Redmi Note 11
+              - Huawei P30
+              - Motorola Moto G71 5G
+              - Samsung Galaxy A52
+             # - OnePlus 11R,Xiaomi Redmi Note 11,Huawei P30,Motorola Moto G71 5G,Samsung Galaxy A52
+          - name: Version
+            default: latest
+      - step: 
+          script:
+            - apt-get update -y
+            - apt-get install jq -y
+            - chmod +x download_latest_apk.sh
+            - source download_latest_apk.sh "$Version"
+            - chmod +x run_tests.sh
+            - ./run_tests.sh "$XML" "$Device" "$apk_name"
+          artifacts:
+            - target/surefire-reports/**
+
+
+ # branches:
+  #  master:
+  #    - step:
+     #     name: Deploy to BrowserStack Android
+      #    deployment: test
+     #     script:
+        #    - mvn --version
+         #   - mvn clean
+          #  - echo "Deploying to BrowserStack (Android)..."
+           # - mvn test -DplatformName=browserStack -Dsurefire.suiteXmlFiles="src/test/resources/runners/Browserstack/$XML" -DdeviceName=$Device
+         # artifacts:
+           # - target/surefire-reports/**

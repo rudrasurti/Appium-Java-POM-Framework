@@ -7,7 +7,6 @@
 
 package com.appium.listeners;
 
-
 import java.util.Arrays;
 
 import org.testng.ISuite;
@@ -36,8 +35,11 @@ public class ListenerClass implements ITestListener, ISuiteListener {
 	static int count_failedTCs;
 	static int count_totalTCs;
 
+	boolean nameChanged = false;
+
 	public void onStart(ISuite suite) {
 		ExtentReport.initReports();
+		ExtentReport.createTest("Launch");
 	}
 
 	public void onFinish(ISuite suite) {
@@ -50,7 +52,13 @@ public class ListenerClass implements ITestListener, ISuiteListener {
 
 		// System.out.println("onTestStart() ");
 		count_totalTCs = count_totalTCs + 1;
-		ExtentReport.createTest(result.getMethod().getMethodName());
+
+		if (!nameChanged && com.appium.reports.ExtentManager.getExtentTest() != null) {
+			com.appium.reports.ExtentManager.getExtentTest().getModel().setName(result.getMethod().getMethodName());
+			nameChanged = true;
+		} else {
+			ExtentReport.createTest(result.getMethod().getMethodName());
+		}
 		// ExtentReport.createTest(result.getMethod().getDescription());
 
 		ExtentReport.addAuthors(result.getMethod().getConstructorOrMethod().getMethod()
@@ -67,7 +75,6 @@ public class ListenerClass implements ITestListener, ISuiteListener {
 
 	public void onTestSuccess(ITestResult result) {
 		count_passedTCs = count_passedTCs + 1;
-
 		String logText = "<b>" + result.getMethod().getMethodName() + " is passed.</b>" + "  " + ICON_SMILEY_PASS;
 		Markup markup_message = MarkupHelper.createLabel(logText, ExtentColor.GREEN);
 		// ExtentLogger.pass(markup_message, true);
@@ -118,6 +125,7 @@ public class ListenerClass implements ITestListener, ISuiteListener {
 		 * As of now, we are not using it.
 		 * 
 		 */
+		System.out.println();
 	}
 
 	public void onFinish(ITestContext result) {

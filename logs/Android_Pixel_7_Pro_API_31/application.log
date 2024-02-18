@@ -1,341 +1,597 @@
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 14:00:40.638 BaseTest:98 - Log file path: logs\Android_Pixel_7_Pro_API_31
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 14:00:57.551 BaseTest:129 - sessionId: 766df4d5-7400-457c-9d40-afd3a96f766c
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 14:00:58.294 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 14:00:58.294 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 14:01:30.115 LoginTests:62 - ******************* Test ended: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 14:01:30.116 LoginTests:63 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 14:01:31.360 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 14:01:31.361 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 14:01:43.698 BasePage:128 - Filling testi246.testi246@gmail.com in Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 14:01:43.758 BasePage:112 - Clearing: Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 14:01:45.668 BasePage:128 - Filling tT246246! in Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 14:01:45.725 BasePage:112 - Clearing: Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 14:01:47.658 BasePage:105 - Login button is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 14:02:18.765 LoginTests:62 - ******************* Test ended: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 14:02:18.765 LoginTests:63 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 14:02:22.846 ProductTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 14:02:22.847 ProductTests:60 - ******************* Test started: validateProductOnProductDetailsPage*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 14:02:29.194 BasePage:105 - Login with email is clicked
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 14:02:30.421 BasePage:128 - Filling testi246.testi246@gmail.com in Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 14:02:30.486 BasePage:112 - Clearing: Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 14:02:32.401 BasePage:128 - Filling tT246246! in Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 14:02:32.451 BasePage:112 - Clearing: Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 14:02:34.421 BasePage:105 - Login button is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:25:25.307 BaseTest:98 - Log file path: logs\Android_Pixel_7_Pro_API_31
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:25:42.022 BaseTest:129 - sessionId: 1af483a4-40f6-4ecf-a3ac-986bdaa350ff
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:25:43.021 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:25:43.022 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:25:44.131 HomeTests:69 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:25:44.132 HomeTests:70 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:25:48.792 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:25:48.793 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:25:49.702 HomeTests:69 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:25:49.703 HomeTests:70 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:25:54.019 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:25:54.020 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:25:59.497 BasePage:106 - Login with email is clicked
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:26:00.591 BasePage:129 - Filling testi246.testi246@gmail.com in Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:26:01.577 BasePage:113 - Clearing: Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:26:03.641 BasePage:129 - Filling tT246246! in Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:26:03.730 BasePage:113 - Clearing: Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:26:05.633 BasePage:106 - Login button is clicked
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:26:32.010 BasePage:161 - Attribute: text - value for Hello Testi246 Testi246! is - Hello Testi246 Testi246!
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:26:32.215 LoginTests:62 - ******************* Test ended: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:26:32.215 LoginTests:63 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:26:36.021 BaseTest:170 - Appium Server stopped.............
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:28:14.879 BaseTest:98 - Log file path: logs\Android_Pixel_7_Pro_API_31
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:28:26.966 BaseTest:129 - sessionId: 7602570a-6d50-4df3-a1ed-d8d53e544460
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:28:27.770 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:28:27.771 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:28:28.952 HomeTests:69 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:28:28.954 HomeTests:70 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:28:34.241 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:28:34.243 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:28:35.774 HomeTests:69 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:28:35.776 HomeTests:70 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:28:41.398 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:28:41.400 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:28:47.756 BasePage:106 - Login with email is clicked
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:28:48.644 BasePage:129 - Filling testi246.testi246@gmail.com in Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:28:49.323 BasePage:113 - Clearing: Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:28:51.316 BasePage:129 - Filling tT246246! in Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:28:51.415 BasePage:113 - Clearing: Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:28:53.358 BasePage:106 - Login button is clicked
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:29:04.964 BasePage:161 - Attribute: text - value for Hello Testi246 Testi246! is - Hello Testi246 Testi246!
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:29:05.099 LoginTests:62 - ******************* Test ended: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:29:05.099 LoginTests:63 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:29:08.164 BaseTest:170 - Appium Server stopped.............
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:30:04.886 BaseTest:98 - Log file path: logs\Android_Pixel_7_Pro_API_31
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:30:15.097 BaseTest:129 - sessionId: eee8ee13-46bd-4c1d-a509-710e650857e1
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:30:15.911 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:30:15.911 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:30:16.533 HomeTests:69 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:30:16.534 HomeTests:70 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:30:18.039 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:30:18.039 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:30:18.555 HomeTests:69 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:30:18.556 HomeTests:70 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:30:19.994 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:30:19.995 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:30:22.630 BasePage:106 - Login with email is clicked
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:30:23.547 BasePage:129 - Filling testi246.testi246@gmail.com in Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:30:23.631 BasePage:113 - Clearing: Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:30:25.612 BasePage:129 - Filling tT246246! in Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:30:25.681 BasePage:113 - Clearing: Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 15:30:27.631 BasePage:106 - Login button is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:30:58.819 LoginTests:62 - ******************* Test ended: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:30:58.821 LoginTests:63 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:31:00.129 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:31:00.130 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:58:23.011 BaseTest:98 - Log file path: logs\Android_Pixel_7_Pro_API_31
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:58:35.810 BaseTest:129 - sessionId: 8e97f59c-abf5-46ed-a8a3-f02f8d22dc65
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:58:36.691 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:58:36.691 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:58:37.580 HomeTests:69 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:58:37.580 HomeTests:70 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:58:38.977 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:58:38.979 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:58:39.612 HomeTests:69 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:58:39.613 HomeTests:70 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:58:41.090 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 15:58:41.090 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:00:05.395 BaseTest:98 - Log file path: logs\Android_Pixel_7_Pro_API_31
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:00:15.831 BaseTest:129 - sessionId: f4a098b3-4fe6-4580-8361-839416ce2352
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:00:16.516 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:00:16.516 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:00:17.204 HomeTests:68 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:00:17.205 HomeTests:69 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:00:18.736 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:00:18.737 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:00:19.689 HomeTests:68 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:00:19.690 HomeTests:69 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:00:21.014 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:00:21.014 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:00:22.803 BasePage:106 - Login with email is clicked
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:00:23.725 BasePage:129 - Filling testi246.testi246@gmail.com in Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:09:27.146 BaseTest:98 - Log file path: logs\Android_Pixel_7_Pro_API_31
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:09:38.562 BaseTest:129 - sessionId: f04a4446-18a4-4093-9326-ae62c8f93fb3
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:09:39.209 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:09:39.209 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:09:45.439 BasePage:106 - Login with email is clicked
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:09:46.594 BasePage:129 - Filling testi246.testi246@gmail.com in Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:09:46.682 BasePage:113 - Clearing: Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:09:48.584 BasePage:129 - Filling tT246246! in Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:09:48.658 BasePage:113 - Clearing: Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:09:50.586 BasePage:106 - Login button is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:10:22.385 LoginTests:62 - ******************* Test ended: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:10:22.386 LoginTests:63 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:10:24.327 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:10:24.328 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:11:04.667 BaseTest:98 - Log file path: logs\Android_Pixel_7_Pro_API_31
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:11:16.737 BaseTest:129 - sessionId: 4c86d1f4-f1b4-4f5b-86a3-21cb63f844a9
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:11:17.483 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:11:17.483 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:11:23.608 BasePage:106 - Login with email is clicked
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:11:24.582 BasePage:129 - Filling testi246.testi246@gmail.com in Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:11:24.667 BasePage:113 - Clearing: Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:11:26.630 BasePage:129 - Filling tT246246! in Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:11:26.691 BasePage:113 - Clearing: Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:11:28.642 BasePage:106 - Login button is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:11:28.744 LoginTests:62 - ******************* Test ended: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:11:28.744 LoginTests:63 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:11:32.447 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:11:32.448 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:11:32.940 HomeTests:68 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:11:32.943 HomeTests:69 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:11:34.340 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:11:34.341 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:11:34.820 HomeTests:68 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:11:34.821 HomeTests:69 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:11:36.136 BaseTest:170 - Appium Server stopped.............
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:12:05.326 BaseTest:98 - Log file path: logs\Android_Pixel_7_Pro_API_31
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:12:15.023 BaseTest:129 - sessionId: 8276400c-39ac-4408-af93-0f10200d0904
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:12:15.656 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:12:15.657 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:12:21.859 BasePage:106 - Login with email is clicked
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:12:22.856 BasePage:129 - Filling testi246.testi246@gmail.com in Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:12:22.977 BasePage:113 - Clearing: Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:12:24.893 BasePage:129 - Filling tT246246! in Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:12:24.975 BasePage:113 - Clearing: Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:12:26.916 BasePage:106 - Login button is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:12:27.031 LoginTests:62 - ******************* Test ended: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:12:27.033 LoginTests:63 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:12:28.593 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:12:28.594 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:12:29.460 HomeTests:68 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:12:29.460 HomeTests:69 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:12:31.048 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:12:31.049 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:12:31.726 HomeTests:68 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:12:31.726 HomeTests:69 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:12:33.208 BaseTest:170 - Appium Server stopped.............
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:18:11.945 BaseTest:98 - Log file path: logs\Android_Pixel_7_Pro_API_31
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:18:26.610 BaseTest:129 - sessionId: 103bd4a7-a6d7-4c7a-98aa-24d0cf0a364e
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:18:27.457 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:18:27.457 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:18:34.126 BasePage:106 - Login with email is clicked
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:18:35.434 BasePage:129 - Filling testi246.testi246@gmail.com in Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:18:35.507 BasePage:113 - Clearing: Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:18:37.416 BasePage:129 - Filling tT246246! in Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:18:37.493 BasePage:113 - Clearing: Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:18:39.430 BasePage:106 - Login button is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:18:39.564 LoginTests:62 - ******************* Test ended: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:18:39.565 LoginTests:63 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:18:41.289 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:18:41.289 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:18:42.804 HomeTests:68 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:18:42.804 HomeTests:69 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:18:44.833 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:18:44.834 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:18:45.606 HomeTests:68 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:18:45.607 HomeTests:69 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:18:47.133 BaseTest:170 - Appium Server stopped.............
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:20:13.362 BaseTest:98 - Log file path: logs\Android_Pixel_7_Pro_API_31
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:20:24.416 BaseTest:129 - sessionId: 9b8ab27f-d2f9-454c-be76-2535caf7452e
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:20:25.138 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:20:25.139 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:20:32.059 BasePage:106 - Login with email is clicked
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:20:33.323 BasePage:129 - Filling testi246.testi246@gmail.com in Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:20:33.405 BasePage:113 - Clearing: Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:20:35.377 BasePage:129 - Filling tT246246! in Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:20:35.446 BasePage:113 - Clearing: Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:20:37.385 BasePage:106 - Login button is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:20:37.495 LoginTests:62 - ******************* Test ended: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:20:37.496 LoginTests:63 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:20:38.995 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:20:38.996 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:20:40.122 HomeTests:68 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:20:40.123 HomeTests:69 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:20:41.559 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:20:41.559 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:20:42.095 HomeTests:68 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:20:42.096 HomeTests:69 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:20:43.378 BaseTest:170 - Appium Server stopped.............
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:22:32.564 BaseTest:98 - Log file path: logs\Android_Pixel_7_Pro_API_31
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:22:42.155 BaseTest:129 - sessionId: 863758e7-d6f3-452e-a19e-533c74180725
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:22:42.829 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:22:42.831 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:22:49.067 BasePage:106 - Login with email is clicked
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:22:50.232 BasePage:129 - Filling testi246.testi246@gmail.com in Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:22:50.303 BasePage:113 - Clearing: Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:22:52.280 BasePage:129 - Filling tT246246! in Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:22:52.350 BasePage:113 - Clearing: Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:22:54.286 BasePage:106 - Login button is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:22:54.398 LoginTests:62 - ******************* Test ended: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:22:54.398 LoginTests:63 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:22:55.926 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:22:55.927 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:22:57.892 BasePage:106 - Popup Close Icon is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:22:59.248 HomeTests:69 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:22:59.249 HomeTests:70 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:23:00.730 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:23:00.730 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:23:01.461 BasePage:106 - Popup Close Icon is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:23:05.625 HomeTests:69 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:23:05.626 HomeTests:70 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:23:06.160 BaseTest:170 - Appium Server stopped.............
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:24:04.277 BaseTest:98 - Log file path: logs\Android_Pixel_7_Pro_API_31
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:24:14.207 BaseTest:129 - sessionId: 3265d144-0f12-42d5-962d-2d4545396b64
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:24:14.846 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:24:14.846 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:24:20.994 BasePage:106 - Login with email is clicked
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:24:22.028 BasePage:129 - Filling testi246.testi246@gmail.com in Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:24:22.126 BasePage:113 - Clearing: Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:24:24.078 BasePage:129 - Filling tT246246! in Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:24:24.254 BasePage:113 - Clearing: Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:24:26.102 BasePage:106 - Login button is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:24:26.227 LoginTests:62 - ******************* Test ended: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:24:26.227 LoginTests:63 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:24:27.917 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:24:27.919 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:24:47.872 BaseTest:98 - Log file path: logs\Android_Pixel_7_Pro_API_31
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:25:00.309 BaseTest:129 - sessionId: ec9989cf-6760-4872-a28d-6e8c86a3e635
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:25:00.999 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:25:01.001 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:25:07.056 BasePage:106 - Login with email is clicked
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:25:08.095 BasePage:129 - Filling testi246.testi246@gmail.com in Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:25:08.220 BasePage:113 - Clearing: Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:25:10.137 BasePage:129 - Filling tT246246! in Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:25:10.205 BasePage:113 - Clearing: Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:25:12.164 BasePage:106 - Login button is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:25:12.296 LoginTests:62 - ******************* Test ended: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:25:12.297 LoginTests:63 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:25:13.797 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:25:13.797 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:25:15.338 BasePage:106 - Popup Close Icon is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:25:20.719 HomeTests:69 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:25:20.721 HomeTests:70 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:25:21.204 BaseTest:170 - Appium Server stopped.............
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:33:36.487 BaseTest:98 - Log file path: logs\Android_Pixel_7_Pro_API_31
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:33:45.631 BaseTest:129 - sessionId: 8e2f553a-a410-4c6c-b92b-5514505c2c03
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:33:46.324 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:33:46.324 LoginTests:54 - ******************* Test started: invalidPassword*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:34:08.922 BasePage:129 - Filling standard_user in Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:34:08.982 BasePage:113 - Clearing: Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:34:10.917 BasePage:129 - Filling invalidpassword in Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:34:10.979 BasePage:113 - Clearing: Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 16:34:12.929 BasePage:106 - Login button is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:34:43.857 LoginTests:62 - ******************* Test ended: invalidPassword*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:34:43.858 LoginTests:63 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:34:45.130 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 16:34:45.131 LoginTests:54 - ******************* Test started: invalidPassword*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 17:19:45.006 BaseTest:106 - Log file path: logs\Android_Pixel_7_Pro_API_31
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 17:19:57.659 BaseTest:136 - sessionId: a318c45a-f4ce-4a2c-a561-0c7648859491
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 17:19:58.420 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 17:19:58.421 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 17:20:05.318 BasePage:106 - Login with email is clicked
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 17:20:06.435 BasePage:129 - Filling testi246.testi246@gmail.com in Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 17:20:06.507 BasePage:113 - Clearing: Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 17:20:08.475 BasePage:129 - Filling tT246246! in Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 17:20:08.557 BasePage:113 - Clearing: Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 17:20:10.687 BasePage:106 - Login button is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 17:20:10.796 LoginTests:62 - ******************* Test ended: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 17:20:10.796 LoginTests:63 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 17:20:12.281 HomeTests:59 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 17:20:12.282 HomeTests:60 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 17:20:14.784 BasePage:106 - Popup Close Icon is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 21:54:16.052 BaseTest:106 - Log file path: logs\Android_Pixel_7_Pro_API_31
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 21:55:24.183 BaseTest:135 - sessionId: aee554a8-7786-49ce-875d-4894ca85df5e
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 21:55:25.771 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 21:55:25.773 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 21:55:40.052 BasePage:106 - Login with email is clicked
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 21:55:43.616 BasePage:129 - Filling testi246.testi246@gmail.com in Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 21:55:43.804 BasePage:113 - Clearing: Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 21:55:46.752 BasePage:129 - Filling tT246246! in Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 21:55:46.855 BasePage:113 - Clearing: Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 21:56:20.019 LoginTests:62 - ******************* Test ended: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 21:56:20.019 LoginTests:63 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 21:56:21.373 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 21:56:21.374 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 21:56:51.805 LoginTests:62 - ******************* Test ended: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 21:56:51.806 LoginTests:63 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 21:56:53.059 HomeTests:42 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 21:56:53.059 HomeTests:43 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 21:56:55.436 BasePage:106 - Popup Close Icon is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 21:57:26.890 HomeTests:52 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 21:57:26.890 HomeTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 21:57:28.068 HomeTests:42 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 21:57:28.068 HomeTests:43 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 21:57:30.565 BasePage:106 - Popup Close Icon is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 21:58:01.313 HomeTests:52 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 21:58:01.314 HomeTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 21:58:02.629 BaseTest:176 - Appium Server stopped.............
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 22:16:19.505 BaseTest:106 - Log file path: logs\Android_Pixel_7_Pro_API_31
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 22:16:30.767 BaseTest:135 - sessionId: 098dd99e-cabc-4314-8e73-1d0364bd61ad
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 22:16:31.537 LoginTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 22:16:31.537 LoginTests:54 - ******************* Test started: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 22:16:38.262 BasePage:106 - Login with email is clicked
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 22:16:39.974 BasePage:129 - Filling testi246.testi246@gmail.com in Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 22:16:40.056 BasePage:113 - Clearing: Username Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 22:16:42.025 BasePage:129 - Filling tT246246! in Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 22:16:42.103 BasePage:113 - Clearing: Password Textbox
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 22:16:44.044 BasePage:106 - Login button is clicked
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 22:16:44.186 LoginTests:62 - ******************* Test ended: successfulLogin*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 22:16:44.187 LoginTests:63 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 22:16:45.657 HomeTests:42 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 22:16:45.657 HomeTests:43 - ******************* Test started: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 22:16:48.226 BasePage:106 - Popup Close Icon is clicked
-[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2023-10-11 22:17:01.434 BasePage:228 - scrolling the element to the right Sucessfully
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 22:17:02.038 HomeTests:52 - ******************* Test ended: validateProductCardScrollOnHomePage*******************
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 22:17:02.039 HomeTests:53 - ---------------------------------------------------
-[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2023-10-11 22:17:02.766 BaseTest:176 - Appium Server stopped.............
+[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2024-02-15 13:55:31.400 BaseTest:125 - Log file path: logs\Android_Pixel_7_Pro_API_31
+[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2024-02-15 13:55:31.420 BaseTest:132 - Setting PLATFORM_NAME to: Android
+[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2024-02-15 13:55:31.421 BaseTest:136 - Setting DEVICE_NAME to: Pixel_7_Pro_API_31
+[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2024-02-15 13:55:46.288 BaseTest:159 - sessionId: 109050b3-d2d7-48b7-8356-608ce36bc325
+[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2024-02-15 13:55:47.074 LoginTests:73 - ---------------------------------------------------
+[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2024-02-15 13:55:47.075 LoginTests:74 - ******************* Test started: T101 *******************
+[logsAndroid_Pixel_7_Pro_API_31 ERROR] 2024-02-15 13:56:17.601 BasePage:326 - Attempt 1: Failed to click on: <Login with email>. Exception: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.TextView[@resource-id='login_screen_text_31']}) (tried for 30 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.TextView[@resource-id='login_screen_text_31']}) (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272) ~[selenium-support-3.141.59.jar:?]
+	at com.appium.base.BasePage.waitForVisibility(BasePage.java:86) ~[classes/:?]
+	at com.appium.base.BasePage.click(BasePage.java:290) ~[classes/:?]
+	at com.appium.base.BasePage.click(BasePage.java:280) ~[classes/:?]
+	at com.appium.pages.LoginPage.pressLoginWithEmail(LoginPage.java:71) ~[classes/:?]
+	at com.appium.tests.LoginTests.successfulLogin(LoginTests.java:81) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-7.4.0.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@resource-id='login_screen_text_31']})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	... 33 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@3e0fbeb5 (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272) ~[selenium-support-3.141.59.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	... 33 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@resource-id='login_screen_text_31']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUDRA', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	... 33 more
+[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2024-02-15 13:56:57.126 BaseTest:125 - Log file path: logs\Android_Pixel_7_Pro_API_31
+[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2024-02-15 13:56:57.155 BaseTest:132 - Setting PLATFORM_NAME to: Android
+[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2024-02-15 13:56:57.156 BaseTest:136 - Setting DEVICE_NAME to: Pixel_7_Pro_API_31
+[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2024-02-15 13:57:04.616 BaseTest:159 - sessionId: 456cb21d-73d0-4906-aa6e-89fcc2cc4105
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:57:13.978 BasePage:294 - Attempt 1: Clicking on <My Coins>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:57:14.258 BasePage:302 - Attempt 1: Clicked on <My Coins> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:57:16.483 BasePage:1273 - Element :My Coins Card is not displayed. Scrolling down to find the element: My Coins Card.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:57:22.762 BasePage:1273 - Element :My Coins Card is not displayed. Scrolling down to find the element: My Coins Card.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:57:27.422 BasePage:1273 - Element :My Coins Card is not displayed. Scrolling down to find the element: My Coins Card.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:57:32.080 BasePage:1199 - Element is below the center of the screen. Scrolling down...
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:57:33.971 BasePage:1199 - Element is below the center of the screen. Scrolling down...
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:57:36.107 BasePage:1199 - Element is below the center of the screen. Scrolling down...
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:57:38.294 BasePage:1199 - Element is below the center of the screen. Scrolling down...
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:57:40.511 BasePage:1218 - Scrolling complete. Element is now centered on the screen.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:57:40.512 BasePage:1262 - Element - My Coins Card :  is now displayed. No need to scroll further.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:57:40.825 BasePage:294 - Attempt 1: Clicking on <My Coins>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:57:42.862 BasePage:302 - Attempt 1: Clicked on <My Coins> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:57:57.856 BasePage:294 - Attempt 1: Clicking on <Filter>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:57:58.205 BasePage:302 - Attempt 1: Clicked on <Filter> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:07.856 BasePage:294 - Attempt 1: Clicking on <Filter - Coin type>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:08.272 BasePage:302 - Attempt 1: Clicked on <Filter - Coin type> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:08.447 BasePage:294 - Attempt 1: Clicking on <Coin type - Commemorative>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:08.674 BasePage:302 - Attempt 1: Clicked on <Coin type - Commemorative> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:09.665 BasePage:294 - Attempt 1: Clicking on <Show results>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:09.858 BasePage:302 - Attempt 1: Clicked on <Show results> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:10.067 BasePage:294 - Attempt 1: Clicking on <Show All>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:13.008 BasePage:302 - Attempt 1: Clicked on <Show All> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:13.251 BasePage:294 - Attempt 1: Clicking on <Clear Fliter>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:14.293 BasePage:302 - Attempt 1: Clicked on <Clear Fliter> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:14.505 BasePage:220 - Navigated back
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:21.936 BasePage:294 - Attempt 1: Clicking on <My Coins>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:22.093 BasePage:302 - Attempt 1: Clicked on <My Coins> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:24.039 BasePage:1273 - Element :My Coins Card is not displayed. Scrolling down to find the element: My Coins Card.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:28.404 BasePage:1199 - Element is below the center of the screen. Scrolling down...
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:30.358 BasePage:1199 - Element is below the center of the screen. Scrolling down...
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:32.562 BasePage:1199 - Element is below the center of the screen. Scrolling down...
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:34.644 BasePage:1199 - Element is below the center of the screen. Scrolling down...
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:36.804 BasePage:1199 - Element is below the center of the screen. Scrolling down...
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:39.012 BasePage:1199 - Element is below the center of the screen. Scrolling down...
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:41.193 BasePage:1199 - Element is below the center of the screen. Scrolling down...
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:43.301 BasePage:1218 - Scrolling complete. Element is now centered on the screen.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:43.301 BasePage:1262 - Element - My Coins Card :  is now displayed. No need to scroll further.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:43.575 BasePage:294 - Attempt 1: Clicking on <My Coins>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:58:45.492 BasePage:302 - Attempt 1: Clicked on <My Coins> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:59:01.663 BasePage:294 - Attempt 1: Clicking on <Filter>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:59:01.861 BasePage:302 - Attempt 1: Clicked on <Filter> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:59:16.217 BasePage:294 - Attempt 1: Clicking on <Filter - Coin type>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 13:59:16.410 BasePage:302 - Attempt 1: Clicked on <Filter - Coin type> successfully
+[logsAndroid_Pixel_7_Pro_API_31 ERROR] 2024-02-15 13:59:47.283 BasePage:326 - Attempt 1: Failed to click on: <Coin type - Regular>. Exception: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']z}) (tried for 30 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']z}) (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272) ~[selenium-support-3.141.59.jar:?]
+	at com.appium.base.BasePage.waitForVisibility(BasePage.java:86) ~[classes/:?]
+	at com.appium.base.BasePage.click(BasePage.java:290) ~[classes/:?]
+	at com.appium.base.BasePage.click(BasePage.java:280) ~[classes/:?]
+	at com.appium.pages.AllCoinsPage.check_FilterWithCoinTypeWithRegular(AllCoinsPage.java:162) ~[classes/:?]
+	at com.appium.pages.CoinsDetailsPage.check_Filter_CoinTypeWithRegular(CoinsDetailsPage.java:236) ~[classes/:?]
+	at com.appium.tests.CoinDetailsTest.allTestCasesRelated_Mycoins(CoinDetailsTest.java:49) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-7.4.0.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']z})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	... 34 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@68b734a8 (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272) ~[selenium-support-3.141.59.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	... 34 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']z})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUDRA', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	... 34 more
+[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2024-02-15 14:18:22.718 BaseTest:125 - Log file path: logs\Android_Pixel_7_Pro_API_31
+[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2024-02-15 14:18:22.749 BaseTest:132 - Setting PLATFORM_NAME to: Android
+[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2024-02-15 14:18:22.750 BaseTest:136 - Setting DEVICE_NAME to: Pixel_7_Pro_API_31
+[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2024-02-15 14:18:33.927 BaseTest:159 - sessionId: 55de28ed-753d-4533-a71a-eb8a847e5f02
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:01.938 BasePage:294 - Attempt 1: Clicking on <My Coins>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:04.116 BasePage:302 - Attempt 1: Clicked on <My Coins> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:06.324 BasePage:1273 - Element :My Coins Card is not displayed. Scrolling down to find the element: My Coins Card.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:12.851 BasePage:1273 - Element :My Coins Card is not displayed. Scrolling down to find the element: My Coins Card.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:17.305 BasePage:1218 - Scrolling complete. Element is now centered on the screen.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:17.306 BasePage:1262 - Element - My Coins Card :  is now displayed. No need to scroll further.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:19.415 BasePage:294 - Attempt 1: Clicking on <My Coins Card>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:21.442 BasePage:302 - Attempt 1: Clicked on <My Coins Card> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:24.453 BasePage:294 - Attempt 1: Clicking on <Filter>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:26.915 BasePage:302 - Attempt 1: Clicked on <Filter> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:28.192 BasePage:294 - Attempt 1: Clicking on <Filter - Coin type>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:29.025 BasePage:302 - Attempt 1: Clicked on <Filter - Coin type> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:29.247 BasePage:294 - Attempt 1: Clicking on <Coin type - Commemorative>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:30.161 BasePage:302 - Attempt 1: Clicked on <Coin type - Commemorative> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:30.457 BasePage:294 - Attempt 1: Clicking on <Show results>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:30.640 BasePage:302 - Attempt 1: Clicked on <Show results> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:30.827 BasePage:294 - Attempt 1: Clicking on <Show All>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:33.827 BasePage:302 - Attempt 1: Clicked on <Show All> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:34.004 BasePage:294 - Attempt 1: Clicking on <Clear Fliter>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:35.143 BasePage:302 - Attempt 1: Clicked on <Clear Fliter> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:35.373 BasePage:220 - Navigated back
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:42.209 BasePage:294 - Attempt 1: Clicking on <My Coins>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:44.201 BasePage:302 - Attempt 1: Clicked on <My Coins> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:46.464 BasePage:1273 - Element :My Coins Card is not displayed. Scrolling down to find the element: My Coins Card.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:53.122 BasePage:1273 - Element :My Coins Card is not displayed. Scrolling down to find the element: My Coins Card.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:57.720 BasePage:1218 - Scrolling complete. Element is now centered on the screen.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:57.720 BasePage:1262 - Element - My Coins Card :  is now displayed. No need to scroll further.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:19:59.818 BasePage:294 - Attempt 1: Clicking on <My Coins Card>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:01.723 BasePage:302 - Attempt 1: Clicked on <My Coins Card> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:01.908 BasePage:294 - Attempt 1: Clicking on <Filter>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:02.091 BasePage:302 - Attempt 1: Clicked on <Filter> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:03.439 BasePage:294 - Attempt 1: Clicking on <Filter - Coin type>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:03.638 BasePage:302 - Attempt 1: Clicked on <Filter - Coin type> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:04.522 BasePage:294 - Attempt 1: Clicking on <Coin type - Commemorative>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:05.524 BasePage:302 - Attempt 1: Clicked on <Coin type - Commemorative> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:05.787 BasePage:294 - Attempt 1: Clicking on <Show results>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:05.990 BasePage:302 - Attempt 1: Clicked on <Show results> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:06.143 BasePage:294 - Attempt 1: Clicking on <Show All>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:09.570 BasePage:317 - Attempt 1: StaleElementReferenceException occurred. Retrying click on: <Show All>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:09.589 BasePage:294 - Attempt 2: Clicking on <Show All>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:09.641 BasePage:302 - Attempt 2: Clicked on <Show All> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:09.837 BasePage:294 - Attempt 1: Clicking on <Clear Fliter>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:10.940 BasePage:302 - Attempt 1: Clicked on <Clear Fliter> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:11.171 BasePage:220 - Navigated back
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:19.771 BasePage:294 - Attempt 1: Clicking on <My Coins>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:19.908 BasePage:302 - Attempt 1: Clicked on <My Coins> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:21.936 BasePage:1218 - Scrolling complete. Element is now centered on the screen.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:21.937 BasePage:1262 - Element - My Coins Card :  is now displayed. No need to scroll further.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:24.050 BasePage:294 - Attempt 1: Clicking on <My Coins Card>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:24.206 BasePage:302 - Attempt 1: Clicked on <My Coins Card> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:26.345 BasePage:294 - Attempt 1: Clicking on <Filter>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:26.546 BasePage:302 - Attempt 1: Clicked on <Filter> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:27.991 BasePage:294 - Attempt 1: Clicking on <Filter - Coin type>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:20:29.233 BasePage:302 - Attempt 1: Clicked on <Filter - Coin type> successfully
+[logsAndroid_Pixel_7_Pro_API_31 ERROR] 2024-02-15 14:20:59.522 BasePage:326 - Attempt 1: Failed to click on: <Coin type - Regular>. Exception: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']z}) (tried for 30 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']z}) (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272) ~[selenium-support-3.141.59.jar:?]
+	at com.appium.base.BasePage.waitForVisibility(BasePage.java:86) ~[classes/:?]
+	at com.appium.base.BasePage.click(BasePage.java:290) ~[classes/:?]
+	at com.appium.base.BasePage.click(BasePage.java:280) ~[classes/:?]
+	at com.appium.pages.AllCoinsPage.check_FilterWithCoinTypeWithRegular(Unknown Source) ~[classes/:?]
+	at com.appium.pages.CoinsDetailsPage.check_Filter_CoinTypeWithRegular(CoinsDetailsPage.java:236) ~[classes/:?]
+	at com.appium.tests.CoinDetailsTest.allTestCasesRelated_Mycoins(CoinDetailsTest.java:50) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-7.4.0.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']z})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	... 34 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@7a9ceddf (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272) ~[selenium-support-3.141.59.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	... 34 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']z})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUDRA', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	... 34 more
+[logsAndroid_Pixel_7_Pro_API_31 ERROR] 2024-02-15 14:21:29.826 BasePage:326 - Attempt 2: Failed to click on: <Coin type - Regular>. Exception: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']z}) (tried for 30 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']z}) (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272) ~[selenium-support-3.141.59.jar:?]
+	at com.appium.base.BasePage.waitForVisibility(BasePage.java:86) ~[classes/:?]
+	at com.appium.base.BasePage.click(BasePage.java:290) ~[classes/:?]
+	at com.appium.base.BasePage.click(BasePage.java:280) ~[classes/:?]
+	at com.appium.pages.AllCoinsPage.check_FilterWithCoinTypeWithRegular(Unknown Source) ~[classes/:?]
+	at com.appium.pages.CoinsDetailsPage.check_Filter_CoinTypeWithRegular(CoinsDetailsPage.java:236) ~[classes/:?]
+	at com.appium.tests.CoinDetailsTest.allTestCasesRelated_Mycoins(CoinDetailsTest.java:50) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-7.4.0.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']z})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	... 34 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5c48b72c (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272) ~[selenium-support-3.141.59.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	... 34 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']z})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUDRA', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	... 34 more
+[logsAndroid_Pixel_7_Pro_API_31 ERROR] 2024-02-15 14:21:29.828 BasePage:337 - Failed to click on: <Coin type - Regular>. Exception: Appium Exception Details:
+Error: Timeout waiting for element. Details: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']z}) (tried for 30 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']z}) (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272) ~[selenium-support-3.141.59.jar:?]
+	at com.appium.base.BasePage.waitForVisibility(BasePage.java:86) ~[classes/:?]
+	at com.appium.base.BasePage.click(BasePage.java:290) ~[classes/:?]
+	at com.appium.base.BasePage.click(BasePage.java:280) ~[classes/:?]
+	at com.appium.pages.AllCoinsPage.check_FilterWithCoinTypeWithRegular(Unknown Source) ~[classes/:?]
+	at com.appium.pages.CoinsDetailsPage.check_Filter_CoinTypeWithRegular(CoinsDetailsPage.java:236) ~[classes/:?]
+	at com.appium.tests.CoinDetailsTest.allTestCasesRelated_Mycoins(CoinDetailsTest.java:50) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-7.4.0.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']z})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	... 34 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5c48b72c (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272) ~[selenium-support-3.141.59.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	... 34 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']z})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUDRA', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59) ~[java-client-7.5.1.jar:?]
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>) ~[java-client-7.5.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	... 34 more
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:21:36.026 BasePage:294 - Attempt 1: Clicking on <My Coins>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:21:36.279 BasePage:302 - Attempt 1: Clicked on <My Coins> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:21:38.500 BasePage:1218 - Scrolling complete. Element is now centered on the screen.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:21:38.500 BasePage:1262 - Element - My Coins Card :  is now displayed. No need to scroll further.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:21:42.674 BasePage:294 - Attempt 1: Clicking on <My Coins Card>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:21:44.204 BasePage:302 - Attempt 1: Clicked on <My Coins Card> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:21:45.422 BasePage:294 - Attempt 1: Clicking on <Filter>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:21:45.685 BasePage:302 - Attempt 1: Clicked on <Filter> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:21:47.073 BasePage:294 - Attempt 1: Clicking on <Filter - Coin type>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:21:47.941 BasePage:302 - Attempt 1: Clicked on <Filter - Coin type> successfully
+[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2024-02-15 14:24:30.170 BaseTest:125 - Log file path: logs\Android_Pixel_7_Pro_API_31
+[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2024-02-15 14:24:30.193 BaseTest:132 - Setting PLATFORM_NAME to: Android
+[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2024-02-15 14:24:30.194 BaseTest:136 - Setting DEVICE_NAME to: Pixel_7_Pro_API_31
+[logsAndroid_Pixel_7_Pro_API_31 DEBUG] 2024-02-15 14:24:37.857 BaseTest:159 - sessionId: b64fbc42-f79f-4b7d-9250-82229326bc27
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:24:46.274 BasePage:294 - Attempt 1: Clicking on <My Coins>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:24:46.741 BasePage:302 - Attempt 1: Clicked on <My Coins> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:24:53.774 BasePage:1273 - Element :My Coins Card is not displayed. Scrolling down to find the element: My Coins Card.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:24:58.422 BasePage:1273 - Element :My Coins Card is not displayed. Scrolling down to find the element: My Coins Card.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:25:02.601 BasePage:1218 - Scrolling complete. Element is now centered on the screen.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:25:02.602 BasePage:1262 - Element - My Coins Card :  is now displayed. No need to scroll further.
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:25:04.683 BasePage:294 - Attempt 1: Clicking on <My Coins Card>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:25:06.689 BasePage:302 - Attempt 1: Clicked on <My Coins Card> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:25:09.082 BasePage:294 - Attempt 1: Clicking on <Filter>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:25:09.326 BasePage:302 - Attempt 1: Clicked on <Filter> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:25:10.751 BasePage:294 - Attempt 1: Clicking on <Filter - Coin type>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:25:11.594 BasePage:302 - Attempt 1: Clicked on <Filter - Coin type> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:25:23.078 BasePage:294 - Attempt 1: Clicking on <Coin type - Regular>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:25:24.037 BasePage:302 - Attempt 1: Clicked on <Coin type - Regular> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:25:24.218 BasePage:294 - Attempt 1: Clicking on <Show results>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:25:24.457 BasePage:302 - Attempt 1: Clicked on <Show results> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:25:24.634 BasePage:294 - Attempt 1: Clicking on <Show All>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:25:27.344 BasePage:302 - Attempt 1: Clicked on <Show All> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:25:27.581 BasePage:294 - Attempt 1: Clicking on <Clear Fliter>
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:25:28.609 BasePage:302 - Attempt 1: Clicked on <Clear Fliter> successfully
+[logsAndroid_Pixel_7_Pro_API_31 INFO ] 2024-02-15 14:25:28.839 BasePage:220 - Navigated back

@@ -1,1 +1,10 @@
-/target/
+target/
+logs/
+ServerLogs/
+Videos/
+ExtentReports/
+ExtentReports.zip
+test-output/
+.vscode
+.settings
+ExtentReports

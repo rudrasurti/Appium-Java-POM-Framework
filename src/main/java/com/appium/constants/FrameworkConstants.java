@@ -7,6 +7,7 @@
 
 package com.appium.constants;
 
+import java.io.File;
 import java.util.Date;
 
 import com.appium.utils.ConfigLoader;
@@ -43,7 +44,8 @@ public class FrameworkConstants {
 	public static final String LOGS = "logs";
 
 	public static final String EXTENT_REPORT_NAME = "AutomationReport.html";
-	public static final String EXTENT_REPORT_FOLDER_PATH = PROJECT_LOCATION + "/ExtentReports/";
+	public static final String EXTENT_REPORT_FOLDER_PATH = PROJECT_LOCATION + File.separator + "ExtentReports"
+			+ File.separator;
 	private static String extentReportFilePath = "";
 
 	/** Zip file of Extent Reports */
@@ -54,7 +56,7 @@ public class FrameworkConstants {
 	public static final String TEXT = "text";
 	public static final String LABEL = "label";
 
-	public static final long EXPLICIT_WAIT = 10;
+	public static final long EXPLICIT_WAIT = 30;
 	public static final long WAIT = 5;
 
 	public static final String APPIUM_SERVER_LOGS = "ServerLogs/server.log";
@@ -65,7 +67,6 @@ public class FrameworkConstants {
 
 	public static final String PLATFORM_ANDROID = "Android";
 	public static final String PLATFORM_iOS = "iOS";
-
 	public static final String PLATFORM_browserStack = "browserStack";
 
 	public static final String TEST_DATA_JSON_FILE = "data/loginUsers.json";
@@ -113,7 +114,9 @@ public class FrameworkConstants {
 	/* Platform specific - START */
 	/* WINDOWS */
 	public static final String PLATFORM_OS_WIN = "win";
-	public static final String PLATFORM_OS_WIN_NODE_INSTALLATION_PATH = "C:\\Program Files\\nodejs\\node.exe";// Cmd -> where node
+	public static final String PLATFORM_OS_WIN_NODE_INSTALLATION_PATH = "C:\\Program Files\\nodejs\\node.exe";// Cmd ->
+																												// where
+																												// node
 	// public static final String PLATFORM_OS_WIN_APPIUM_INSTALLATION_PATH =
 	// "C:\\Users\\rajatverma01\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js";
 	public static final String PLATFORM_OS_WIN_APPIUM_INSTALLATION_PATH = "C:\\Users\\" + UsernameUtils.getUserName()
@@ -121,10 +124,20 @@ public class FrameworkConstants {
 
 	/* MAC */
 	public static final String PLATFORM_OS_MAC = "mac";
-	public static final String PLATFORM_OS_MAC_NODE_INSTALLATION_PATH = "/opt/homebrew/bin/node";// Terminal -> where node
-	public static final String PLATFORM_OS_MAC_APPIUM_INSTALLATION_PATH = "/opt/homebrew/lib/node_modules/appium/build/lib/main.js";// Terminal -> where appium
-	public static final String PLATFORM_OS_MAC_VAR_PATH_VALUE = "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin:/Users/"+UsernameUtils.getUserName()+"/Library/Android/sdk/tools:/Users/"+UsernameUtils.getUserName()+"/Library/Android/sdk/platform-tools:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin";	// Terminal -> echo $PATH
-	public static final String PLATFORM_OS_MAC_VAR_ANDROID_HOME_VALUE = "/Users/"+UsernameUtils.getUserName()+"/Library/Android/sdk";
+	public static final String PLATFORM_OS_MAC_NODE_INSTALLATION_PATH = "/opt/homebrew/bin/node";// Terminal -> where
+																									// node
+	public static final String PLATFORM_OS_MAC_APPIUM_INSTALLATION_PATH = "/opt/homebrew/lib/node_modules/appium/build/lib/main.js";// Terminal
+																																	// ->
+																																	// where
+																																	// appium
+	public static final String PLATFORM_OS_MAC_VAR_PATH_VALUE = "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin:/Users/"
+			+ UsernameUtils.getUserName() + "/Library/Android/sdk/tools:/Users/" + UsernameUtils.getUserName()
+			+ "/Library/Android/sdk/platform-tools:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin"; // Terminal
+																																								// ->
+																																								// echo
+																																								// $PATH
+	public static final String PLATFORM_OS_MAC_VAR_ANDROID_HOME_VALUE = "/Users/" + UsernameUtils.getUserName()
+			+ "/Library/Android/sdk";
 
 	public static final String PATH = "PATH";
 	public static final String ANDROID_HOME = "ANDROID_HOME";

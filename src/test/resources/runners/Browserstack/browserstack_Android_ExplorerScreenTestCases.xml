@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite: ">
+
+	<!-- systemPort and chromeDriverPort must be unique for Parallel execution -->
+	<listeners>
+		<listener class-name="com.appium.listeners.ListenerClass"></listener>
+		<listener
+			class-name="com.appium.listeners.AnnotationTransformer"></listener>
+		<listener class-name="com.appium.listeners.MethodInterceptor"></listener>
+	</listeners>
+
+	<test name="Tests on  Browser Stack: Google Pixel 3">
+		<parameter name="emulator" value="false"></parameter>
+
+		<parameter name="platformName" value="browserStack"></parameter>
+		<!-- <parameter name="platformVersion" value="11.0"></parameter> -->
+		<parameter name="udid" value="emulator-5554"></parameter>
+		<!-- Please give proper value as deviceName value is used as avd (to start 
+			Emulator automatically) -->
+		<parameter name="deviceName" value="Huawei P30"></parameter>
+		<parameter name="systemPort" value="10000" />
+		<parameter name="chromeDriverPort" value="11000" />
+		<classes>
+			<class name="com.appium.tests.LoginTests" />
+			<class name="com.appium.tests.ExploreTest" />
+		</classes>
+	</test>
+</suite> 

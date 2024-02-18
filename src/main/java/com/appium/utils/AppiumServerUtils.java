@@ -42,7 +42,7 @@ public class AppiumServerUtils {
 					.usingDriverExecutable(new File(PLATFORM_OS_WIN_NODE_INSTALLATION_PATH))
 					.withAppiumJS(new File(PLATFORM_OS_WIN_APPIUM_INSTALLATION_PATH)).usingPort(port)
 					.withArgument(() -> "--base-path", "/wd/hub")
-
+					.withArgument(() -> "--use-plugins", "images")
 					.withArgument(GeneralServerFlag.SESSION_OVERRIDE)
 					.withLogFile(new File(APPIUM_SERVER_LOGS)));
 			

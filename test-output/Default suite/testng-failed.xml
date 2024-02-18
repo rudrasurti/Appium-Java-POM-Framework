@@ -3,20 +3,22 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.appium.tests.HomeTests">
+      <class name="com.appium.tests.CoinDetailsTest">
         <methods>
+          <include name="allTestCasesRelated_Wishlist"/>
+          <include name="afterMethod"/>
           <include name="beforeMethod"/>
-          <include name="validateProductCardScrollOnHomePage"/>
-          <include name="afterClass"/>
-          <include name="beforeMethod"/>
+          <include name="allTestCasesRelated_Mycoins"/>
+          <include name="allTestCasesRelated_Templates"/>
+          <include name="allTestCasesRelated_Likes"/>
           <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="afterMethod"/>
+          <include name="beforeTestMethod"/>
           <include name="afterSuite"/>
           <include name="beforeSuite"/>
           <include name="afterTest"/>
+          <include name="afterTestMethod"/>
         </methods>
-      </class> <!-- com.appium.tests.HomeTests -->
+      </class> <!-- com.appium.tests.CoinDetailsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

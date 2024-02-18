@@ -22,7 +22,10 @@ import org.json.JSONObject;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import com.appium.reports.ExtentLogger;
+import com.appium.utils.TestUtils;
 
 import com.appium.annotations.FrameworkAnnotation;
 import com.appium.base.BaseTest;
@@ -43,97 +46,49 @@ public class LoginTests extends BaseTest {
 
 	@AfterClass
 	public void afterClass() {
-		//closeApp();
-		//launchApp();
+		// closeApp();
+		// launchApp();
 	}
 
 	@BeforeMethod
 	public void beforeMethod(Method method) {
 
-		TestUtils.log().debug("---------------------------------------------------");
-		TestUtils.log().debug("******************* Test started: " + method.getName() + "*******************");
+		// TestUtils.log().debug("---------------------------------------------------");
+		// TestUtils.log().debug("******************* Test started: " + method.getName()
+		// + "*******************");
 
 		loginPage = new LoginPage();
-		// productsPage = new ProductsPage();
 	}
 
 	@AfterMethod
 	public void afterMethod(Method method) {
-		TestUtils.log().debug("******************* Test ended: " + method.getName() + "*******************");
-		TestUtils.log().debug("---------------------------------------------------");
-		// closeApp();
-		// launchApp();
-
+		// TestUtils.log().debug("******************* Test ended: " + method.getName() +
+		// "*******************");
+		// TestUtils.log().debug("---------------------------------------------------");
 	}
 
-	@FrameworkAnnotation(author = { AuthorType.GAUTAM, AuthorType.GAUTAM }, category = { CategoryType.SMOKE,
-			CategoryType.SANITY, CategoryType.REGRESSION })
-	//@Test(groups = { "SANITY", "SMOKE", "REGRESSION" })
-	public void invalidUserName() {
-
-		JSONObject jsonObject_InvalidUser = 
-				new JSONUtils()
-					.getJSONObject(TEST_DATA_JSON_FILE)
-					.getJSONObject(TEST_DATA_JSON_INVALID_USER);
-		
-		String username = jsonObject_InvalidUser.getString(TEST_DATA_JSON_USERNAME).toString();
-		String password = jsonObject_InvalidUser.getString(TEST_DATA_JSON_PASSWORD).toString();
-		
-		loginPage.
-			enterUsername(username).
-			enterPassword(password).
-			pressLoginBtn();
-
-		String actualErrTxt = loginPage.getErrorTxt();
-		String expectedErrTxt = StringsManager.getStrings()
-				.get(EXPECTED_DATA_KEY_ERR_INAVLID_CREDENTIALS);
-		VerificationUtils.validate(actualErrTxt, expectedErrTxt, "Error Message for Invalid Credentials");
-	}
-
-	@FrameworkAnnotation(author = { AuthorType.NISHANT, AuthorType.PANKAJ }, category = { CategoryType.SANITY,
-			CategoryType.BVT, CategoryType.REGRESSION })
-	//@Test(groups = { "SANITY", "BVT", "REGRESSION" })
-	public void invalidPassword() {
-
-		JSONObject jsonObject_InvalidUser = 
-				new JSONUtils()
-					.getJSONObject(TEST_DATA_JSON_FILE)
-					.getJSONObject(TEST_DATA_JSON_INVALID_PASSWORD);
-		
-		String username = jsonObject_InvalidUser.getString(TEST_DATA_JSON_USERNAME).toString();
-		String password = jsonObject_InvalidUser.getString(TEST_DATA_JSON_PASSWORD).toString();
-
-		loginPage.
-			enterUsername(username).
-			enterPassword(password).
-			pressLoginBtn();
-
-		String actualErrTxt = loginPage.getErrorTxt();
-		String expectedErrTxt = StringsManager.getStrings()
-				.get(EXPECTED_DATA_KEY_ERR_INAVLID_CREDENTIALS);
-
-		VerificationUtils.validate(actualErrTxt, expectedErrTxt, "Error Message for Invalid Credentials");
-	}
-
-	@FrameworkAnnotation(author = { AuthorType.RAJAT, AuthorType.PANKAJ }, category = { CategoryType.SANITY,
-			CategoryType.BVT, CategoryType.REGRESSION })
-	@Test(groups = { "SANITY", "BVT", "REGRESSION" })
+	@FrameworkAnnotation(author = { AuthorType.AMAR, AuthorType.PANKAJ }, category = { CategoryType.SANITY,CategoryType.BVT, CategoryType.REGRESSION })
+	@Test(groups = { "SANITY", "BVT", "REGRESSION" }, priority = 0)
 	public void successfulLogin() {
+		TestUtils.log().debug("---------------------------------------------------");
+		TestUtils.log().debug("******************* Test started: T101 *******************");
 
-		JSONObject jsonObject_InvalidUser = 
-				new JSONUtils()
-					.getJSONObject(TEST_DATA_JSON_FILE)
-					.getJSONObject(TEST_DATA_JSON_VALID_USER);
-		
+		JSONObject jsonObject_InvalidUser = new JSONUtils().getJSONObject(TEST_DATA_JSON_FILE).getJSONObject(TEST_DATA_JSON_VALID_USER);
+
 		String username = jsonObject_InvalidUser.getString(TEST_DATA_JSON_USERNAME).toString();
 		String password = jsonObject_InvalidUser.getString(TEST_DATA_JSON_PASSWORD).toString();
 
-		home = loginPage.pressLoginWithEmail().enterUsername(username).enterPassword(password).pressLoginBtn();
+		loginPage.pressLoginWithEmail().enterUsername(username).enterPassword(password).pressLoginBtn();
 
-	//	String actualProductTitle = home.getTitle();
-		//String expectedProductTitle = StringsManager.getStrings().get(EXPECTED_DATA_KEY_HOME_TITLE);
+		TestUtils.log().debug("---------------------------------------------------");
+		TestUtils.log().debug("******************* Test started: T1255 *******************");
+		
+		loginPage.click_On_WelcoemScreen_CloseIcon();
 
-	//	VerificationUtils.validate(actualProductTitle, expectedProductTitle, "Product Title");
+		// String actualProductTitle = home.getTitle();
+		// String expectedProductTitle = StringsManager.getStrings().get(EXPECTED_DATA_KEY_HOME_TITLE);
+
+		// VerificationUtils.validate(actualProductTitle, expectedProductTitle, "Product Title");
 	}
 
 }

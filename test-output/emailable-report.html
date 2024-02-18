@@ -8,20 +8,27 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Test Suite: </th></tr>
-<tr><td><a href="#t0">Tests on Emulator: Pixel 7 Pro API 31</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num attn">1</td><td class="num">135,680</td><td></td><td></td></tr>
+<tr><th colspan="8">Test Suite: Emulator- Pixel 3</th></tr>
+<tr><td><a href="#t0">Tests on Emulator: Pixel 7 Pro API 31</a></td><td class="num">1</td><td class="num attn">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">555,655</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Test Suite: </th></tr></tbody><tbody id="t0"><tr><th colspan="4">Tests on Emulator: Pixel 7 Pro API 31 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.appium.tests.HomeTests</td><td><a href="#m0">validateProductCardScrollOnHomePage</a></td><td rowspan="1">1697198663072</td><td rowspan="1">32926</td></tr><tr><th colspan="4">Tests on Emulator: Pixel 7 Pro API 31 &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">com.appium.tests.HomeTests</td><td><a href="#m1">validateProductCardScrollOnHomePage</a></td><td rowspan="1">1697198647334</td><td rowspan="1">13979</td></tr><tr><th colspan="4">Tests on Emulator: Pixel 7 Pro API 31 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.appium.tests.LoginTests</td><td><a href="#m2">successfulLogin</a></td><td rowspan="1">1697198634512</td><td rowspan="1">12783</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Test Suite: Emulator- Pixel 3</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Tests on Emulator: Pixel 7 Pro API 31 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.appium.tests.CoinDetailsTest</td><td><a href="#m0">allTestCasesRelated_Wishlist</a></td><td rowspan="1">1707733904618</td><td rowspan="1">535533</td></tr><tr><th colspan="4">Tests on Emulator: Pixel 7 Pro API 31 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.appium.tests.CoinDetailsTest</td><td><a href="#m1">allTestCasesRelated_Likes</a></td><td rowspan="1">1707734447960</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">allTestCasesRelated_Templates</a></td><td rowspan="1">1707734448564</td><td rowspan="1">0</td></tr><tr><th colspan="4">Tests on Emulator: Pixel 7 Pro API 31 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.appium.tests.CoinDetailsTest</td><td><a href="#m3">allTestCasesRelated_Mycoins</a></td><td rowspan="1">1707733902718</td><td rowspan="1">27</td></tr></tbody>
 </table>
-<h2>Tests on Emulator: Pixel 7 Pro API 31</h2><h3 id="m0">com.appium.tests.HomeTests#validateProductCardScrollOnHomePage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: (//android.view.ViewGroup/android.widget.ImageView)[last()]}) (tried for 10 second(s) with 500 milliseconds interval)
+<h2>Tests on Emulator: Pixel 7 Pro API 31</h2><h3 id="m0">com.appium.tests.CoinDetailsTest#allTestCasesRelated_Wishlist</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Failed to click on: &lt;By Location &gt; A-Z&gt;. Exception: Appium Exception Details:
+Error: Timeout waiting for element. Details: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.view.ViewGroup[@resource-id=&apos;button_country_list_card_1_browse_screen_country_list_card_2_1_2&apos;]}) (tried for 30 second(s) with 500 milliseconds interval)
+	at com.appium.base.BasePage.click(BasePage.java:340)
+	at com.appium.base.BasePage.click(BasePage.java:280)
+	at com.appium.pages.ExplorePage.click_byLocationATOZ_AndCountry(ExplorePage.java:176)
+	at com.appium.pages.ExplorePage.AddAndRemoveCoinsFromCollection(ExplorePage.java:256)
+	at com.appium.pages.CoinsDetailsPage.AddCoinToContryWithCollectionName(CoinsDetailsPage.java:206)
+	at com.appium.tests.CoinDetailsTest.allTestCasesRelated_Wishlist(CoinDetailsTest.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.view.ViewGroup[@resource-id=&apos;button_country_list_card_1_browse_screen_country_list_card_2_1_2&apos;]}) (tried for 30 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.appium.base.BasePage.waitForVisibility(BasePage.java:63)
-	at com.appium.base.BasePage.click(BasePage.java:110)
-	at com.appium.pages.HomePage.pressCloseIcon(HomePage.java:84)
-	at com.appium.tests.HomeTests.validateProductCardScrollOnHomePage(HomeTests.java:63)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-Caused by: org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.xpath: (//android.view.ViewGroup/android.widget.ImageView)[last()]})
+	at com.appium.base.BasePage.waitForVisibility(BasePage.java:86)
+	at com.appium.base.BasePage.click(BasePage.java:290)
+	... 33 more
+Caused by: org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.xpath: //android.view.ViewGroup[@resource-id=&apos;button_country_list_card_1_browse_screen_country_list_card_2_1_2&apos;]})
 	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
 	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
 	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(&lt;generated&gt;)
@@ -30,17 +37,17 @@ Caused by: org.openqa.selenium.NoSuchElementException: Can&apos;t locate an elem
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 32 more
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4c02899 (tried for 30 second(s) with 500 milliseconds interval)
+	... 35 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@3946075 (tried for 30 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
 	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
 	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
-	... 39 more
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: (//android.view.ViewGroup/android.widget.ImageView)[last()]})
+	... 42 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.view.ViewGroup[@resource-id=&apos;button_country_list_card_1_browse_screen_country_list_card_2_1_2&apos;]})
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;RUDRA&apos;, ip: &apos;192.168.0.159&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;
+System info: host: &apos;RUDRA&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;
 Driver info: driver.version: AndroidDriver
 	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
@@ -56,13 +63,14 @@ Driver info: driver.version: AndroidDriver
 	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
 	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 41 more
+	... 44 more
 ... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.appium.tests.HomeTests#validateProductCardScrollOnHomePage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: error did not expect [0] but found [0]
-	at com.appium.pages.HomePage.swipeProductscards(HomePage.java:97)
-	at com.appium.tests.HomeTests.validateProductCardScrollOnHomePage(HomeTests.java:63)
+<h3 id="m1">com.appium.tests.CoinDetailsTest#allTestCasesRelated_Likes</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method CoinDetailsTest.allTestCasesRelated_Likes()[pri:2, instance:com.appium.tests.CoinDetailsTest@402c4085] depends on not successfully finished methods
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.appium.tests.LoginTests#successfulLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.appium.tests.CoinDetailsTest#allTestCasesRelated_Templates</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method CoinDetailsTest.allTestCasesRelated_Templates()[pri:2, instance:com.appium.tests.CoinDetailsTest@402c4085] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.appium.tests.CoinDetailsTest#allTestCasesRelated_Mycoins</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

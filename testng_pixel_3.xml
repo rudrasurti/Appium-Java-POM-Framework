@@ -12,7 +12,7 @@
 
 	<test name="Tests on Emulator: Pixel 7 Pro API 31">
 		<parameter name="emulator" value="true"></parameter>
-		
+
 		<parameter name="platformName" value="Android"></parameter>
 		<!-- <parameter name="platformVersion" value="11.0"></parameter> -->
 		<parameter name="udid" value="emulator-5554"></parameter>
@@ -22,8 +22,15 @@
 		<parameter name="systemPort" value="10000" />
 		<parameter name="chromeDriverPort" value="11000" />
 		<classes>
-            <class name="com.appium.tests.LoginTests"/>
-            <class name="com.appium.tests.HomeTests"/>
-        </classes>
+
+			<!-- class name="com.appium.tests.LoginTests" /-->
+			<!-- class name="com.appium.tests.HomeTests" / -->
+			<!--  class name="com.appium.tests.ExploreTest" / -->
+			<!--   class name="com.appium.tests.ProfileTest" /-->
+			<!-- class name="com.appium.tests.MyCoinsTests" /-->
+			<class name="com.appium.tests.CoinDetailsTest" />
+
+			<!-- class name="com.appium.tests.ShopTests" / -->
+		</classes>
 	</test>
 </suite> 

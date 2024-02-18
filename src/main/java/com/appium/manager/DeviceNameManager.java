@@ -21,7 +21,7 @@ public final class DeviceNameManager {
 	public static void setDeviceName(String deviceName2) {
 		deviceName.set(deviceName2);
 	}
-
+	
 	public static void unload() {
 		deviceName.remove();
 	}

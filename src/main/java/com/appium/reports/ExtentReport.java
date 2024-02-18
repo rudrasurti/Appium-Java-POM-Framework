@@ -23,6 +23,7 @@ import com.appium.enums.AuthorType;
 import com.appium.enums.CategoryType;
 import com.appium.manager.DeviceNameManager;
 import com.appium.manager.PlatformManager;
+import com.appium.utils.VideoRecordUtils;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
@@ -61,11 +62,10 @@ public final class ExtentReport {
 			spark.config().setDocumentTitle(Project_Name + " - ALL");
 			spark.config().setReportName(Project_Name + " - ALL");
 
-			extent.setSystemInfo("Organization", "Nagarro");
-			extent.setSystemInfo("Employee",
-					"<b> Rudra Surti </b>" + " " + ICON_SOCIAL_LINKEDIN + " " + ICON_SOCIAL_GITHUB);
+			extent.setSystemInfo("Organization", "HikeQA");
+			extent.setSystemInfo("Employee","<b> Rudra Surti </b>" + " " + ICON_SOCIAL_LINKEDIN + " " + ICON_SOCIAL_GITHUB);
 			extent.setSystemInfo("Domain", "Engineering (IT - Software)" + "  " + ICON_LAPTOP);
-			extent.setSystemInfo("Skill", "Test Automation Engineer");
+			extent.setSystemInfo("Skill", "Automation Engineer");
 		}
 	}
 
@@ -76,10 +76,12 @@ public final class ExtentReport {
 		}
 
 		ExtentManager.unload();
-		try {
-			Desktop.getDesktop().browse(new File(FrameworkConstants.getExtentReportFilePath()).toURI());
-		} catch (IOException e) {
-			e.printStackTrace();
+		if (!"browserStack".equalsIgnoreCase(System.getProperty("platformName"))) {
+			try {
+				Desktop.getDesktop().browse(new File(FrameworkConstants.getExtentReportFilePath()).toURI());
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 

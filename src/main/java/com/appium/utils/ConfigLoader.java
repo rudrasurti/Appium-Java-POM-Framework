@@ -9,6 +9,8 @@ package com.appium.utils;
 
 import java.util.Properties;
 
+import org.apache.commons.lang3.StringUtils;
+
 import static com.appium.constants.FrameworkConstants.RESOURCES_MAIN_PATH;
 
 /*Singleton Design pattern*/
@@ -20,8 +22,12 @@ public class ConfigLoader {
 	private static final String PASSED_STEPS_SCREENSHOT = "passed_steps_screenshot";
 	private static final String FAILED_STEPS_SCREENSHOT = "failed_steps_screenshot";
 	private static final String RETRY_FAILED_TESTS = "retry_failed_tests";
+	private static final String WARN_STEPS_SCREENSHOT = "warn_steps_screenshot";
+
+	
 
 	private static final String FAILED_TESTS_VIDEO = "failed_tests_video";
+	private static final String RECORD_ALL_VIDEO = "record_all_video";
 
 	private static final String APPIUM_URL = "appiumURL";
 	private static final String ANDROID_AUTOMATION_NAME = "androidAutomationName";
@@ -85,6 +91,9 @@ public class ConfigLoader {
 	}
 
 	public String getAndroidApplocation() {
+		if (StringUtils.isNotBlank(System.getProperty("androidAppLocation"))) {
+			return System.getProperty("androidAppLocation");
+		}
 		return getPropertyValue(ANDROID_APP_LOCATION);
 	}
 
@@ -103,6 +112,11 @@ public class ConfigLoader {
 	public String getFailedStepsScreenshot() {
 		return getPropertyValue(FAILED_STEPS_SCREENSHOT);
 	}
+	
+	public String getWarnStepsScreenshot() {
+	    return getPropertyValue(WARN_STEPS_SCREENSHOT);
+	}
+
 
 	public String getPassedStepsScreenshot() {
 		return getPropertyValue(PASSED_STEPS_SCREENSHOT);
@@ -127,6 +141,10 @@ public class ConfigLoader {
 	public String getFailedTestsVideo() {
 		return getPropertyValue(FAILED_TESTS_VIDEO);
 	}
+	
+	public String getRecordAllVideo() {
+		return getPropertyValue(RECORD_ALL_VIDEO);
+	}
 
 	public String getBrowserstackUsername() {
 		return getPropertyValue(Browserstack_USERNAME);
@@ -144,4 +162,5 @@ public class ConfigLoader {
 		return getPropertyValue(Browserstack_APP_UPLOAD);
 	}
 
+	
 }

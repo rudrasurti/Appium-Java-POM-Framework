@@ -1,19 +1,1089 @@
-2023-10-13 12:02:41:716 [Appium] Welcome to Appium v2.0.1
-2023-10-13 12:02:41:719 [Appium] Non-default server args:
-2023-10-13 12:02:41:721 [Appium] { basePath: '/wd/hub', port: 37732, sessionOverride: true }
-2023-10-13 12:02:41:722 [Appium] Attempting to load driver uiautomator2...
-2023-10-13 12:02:41:725 [Appium] Requiring driver at C:\Users\rudra\.appium\node_modules\appium-uiautomator2-driver
-2023-10-13 12:02:42:344 [Appium] Appium REST http interface listener started on http://0.0.0.0:37732/wd/hub
-2023-10-13 12:02:42:349 [Appium] You can provide the following URLS in your client code to connect to this server:
-2023-10-13 12:02:42:349 [Appium] 	http://192.168.56.1:37732/wd/hub
-2023-10-13 12:02:42:349 [Appium] 	http://192.168.0.159:37732/wd/hub
-2023-10-13 12:02:42:350 [Appium] 	http://127.0.0.1:37732/wd/hub (only accessible from the same host)
-2023-10-13 12:02:42:350 [Appium] Available drivers:
-2023-10-13 12:02:42:350 [Appium]   - uiautomator2@2.29.3 (automationName 'UiAutomator2')
-2023-10-13 12:02:42:351 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
-2023-10-13 12:02:42:578 [HTTP] --> GET /wd/hub/status
-2023-10-13 12:02:42:578 [HTTP] {}
-2023-10-13 12:02:42:580 [AppiumDriver@98d5] Calling AppiumDriver.getStatus() with args: []
-2023-10-13 12:02:42:581 [AppiumDriver@98d5] Responding to client with driver.getStatus() result: {"build":{"version":"2.0.1"}}
-2023-10-13 12:02:42:587 [HTTP] <-- GET /wd/hub/status 200 7 ms - 39
-2023-10-13 12:02:42:587 [HTTP] 
+2024-02-15 08:54:27:754 [Appium] Attempting to load plugin images...
+2024-02-15 08:54:27:757 [Appium] Requiring plugin at C:\Users\rudra\.appium\node_modules\@appium\images-plugin
+2024-02-15 08:54:28:480 [Appium] Welcome to Appium v2.0.1
+2024-02-15 08:54:28:483 [Appium] Non-default server args:
+2024-02-15 08:54:28:486 [Appium] { basePath: '/wd/hub', port: 49175, sessionOverride: true, usePlugins: [ 'images' ] }
+2024-02-15 08:54:28:486 [Appium] Attempting to load driver uiautomator2...
+2024-02-15 08:54:28:488 [Appium] Requiring driver at C:\Users\rudra\.appium\node_modules\appium-uiautomator2-driver
+2024-02-15 08:54:29:562 [Appium] Appium REST http interface listener started on http://0.0.0.0:49175/wd/hub
+2024-02-15 08:54:29:569 [Appium] You can provide the following URLS in your client code to connect to this server:
+2024-02-15 08:54:29:570 [Appium] 	http://192.168.56.1:49175/wd/hub
+2024-02-15 08:54:29:570 [Appium] 	http://192.168.1.3:49175/wd/hub
+2024-02-15 08:54:29:570 [Appium] 	http://127.0.0.1:49175/wd/hub (only accessible from the same host)
+2024-02-15 08:54:29:570 [Appium] 	http://172.20.208.1:49175/wd/hub
+2024-02-15 08:54:29:571 [Appium] Available drivers:
+2024-02-15 08:54:29:571 [Appium]   - uiautomator2@2.29.3 (automationName 'UiAutomator2')
+2024-02-15 08:54:29:571 [Appium] Available plugins:
+2024-02-15 08:54:29:571 [Appium]   - images@3.0.1 (ACTIVE)
+2024-02-15 08:54:29:689 [HTTP] --> GET /wd/hub/status
+2024-02-15 08:54:29:689 [HTTP] {}
+2024-02-15 08:54:29:691 [AppiumDriver@38ad] Calling AppiumDriver.getStatus() with args: []
+2024-02-15 08:54:29:693 [AppiumDriver@38ad] Plugins which can handle cmd 'getStatus': images
+2024-02-15 08:54:29:693 [AppiumDriver@38ad] Plugin images is now handling cmd 'getStatus'
+2024-02-15 08:54:29:693 [AppiumDriver@38ad] Executing default handling behavior for command 'getStatus'
+2024-02-15 08:54:29:695 [AppiumDriver@38ad] Responding to client with driver.getStatus() result: {"build":{"version":"2.0.1"}}
+2024-02-15 08:54:29:710 [HTTP] <-- GET /wd/hub/status 200 12 ms - 39
+2024-02-15 08:54:29:710 [HTTP] 
+2024-02-15 08:54:30:680 [HTTP] Request idempotency key: 9fa9b614-9ba6-46b5-8343-53f90b81c138
+2024-02-15 08:54:30:703 [HTTP] --> POST /wd/hub/session
+2024-02-15 08:54:30:703 [HTTP] {"desiredCapabilities":{"app":"C:\\Users\\rudra\\Downloads\\Appium-Java-POM-Framework-main/src/test/resources//app/app-qaVersion 2.1.5 (605).apk","appPackage":"fi.rahapaja.coiniverse.qa","noReset":true,"deviceName":"Pixel_7_Pro_API_31","avd":"Pixel_7_Pro_API_31","appActivity":"com.mintage.MainActivity","newCommandTimeout":300000,"automationName":"UiAutomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","autoAcceptAlerts":true},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\rudra\\Downloads\\Appium-Java-POM-Framework-main/src/test/resources//app/app-qaVersion 2.1.5 (605).apk","appium:appActivity":"com.mintage.MainActivity","appium:appPackage":"fi.rahapaja.coiniverse.qa","appium:autoAcceptAlerts":true,"appium:autoGrantPermissions":true,"appium:automationName":"UiAutomator2","appium:avd":"Pixel_7_Pro_API_31","appium:deviceName":"Pixel_7_Pro_API_31","appium:newCommandTimeout":300000,"appium:noReset":true,"platformName":"android","appium:udid":"emulator-5554"}]}}
+2024-02-15 08:54:30:704 [AppiumDriver@38ad] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\rudra\\Downloads\\Appium-Java-POM-Framework-main/src/test/resources//app/app-qaVersion 2.1.5 (605).apk","appPackage":"fi.rahapaja.coiniverse.qa","noReset":true,"deviceName":"Pixel_7_Pro_API_31","avd":"Pixel_7_Pro_API_31","appActivity":"com.mintage.MainActivity","newCommandTimeout":300000,"automationName":"UiAutomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","autoAcceptAlerts":true},null,{"firstMatch":[{"appium:app":"C:\\Users\\rudra\\Downloads\\Appium-Java-POM-Framework-main/src/test/resources//app/app-qaVersion 2.1.5 (605).apk","appium:appActivity":"com.mintage.MainActivity","appium:appPackage":"fi.rahapaja.coiniverse.qa","appium:autoAcceptAlerts":true,"appium:autoGrantPermissions":true,"appium:automationName":"UiAutomator2","appium:avd":"Pixel_7_Pro_API_31","appium:deviceName":"Pixel_7_Pro_API_31","appium:newCommandTimeout":300000,"appium:noReset":true,"platformName":"android","appium:udid":"emulator-5554"}]}]
+2024-02-15 08:54:30:704 [AppiumDriver@38ad] Plugins which can handle cmd 'createSession': images
+2024-02-15 08:54:30:705 [AppiumDriver@38ad] Plugin images is now handling cmd 'createSession'
+2024-02-15 08:54:30:705 [AppiumDriver@38ad] Executing default handling behavior for command 'createSession'
+2024-02-15 08:54:30:705 [AppiumDriver@38ad] Event 'newSessionRequested' logged at 1707987270705 (14:24:30 GMT+0530 (India Standard Time))
+2024-02-15 08:54:30:711 [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'android'
+2024-02-15 08:54:30:711 [Appium] The 'uiautomator2' driver was installed and matched caps.
+2024-02-15 08:54:30:712 [Appium] Will require it at C:\Users\rudra\.appium\node_modules\appium-uiautomator2-driver
+2024-02-15 08:54:30:712 [Appium] Requiring driver at C:\Users\rudra\.appium\node_modules\appium-uiautomator2-driver
+2024-02-15 08:54:30:712 [AppiumDriver@38ad] Appium v2.0.1 creating new AndroidUiautomator2Driver (v2.29.3) session
+2024-02-15 08:54:30:712 [AppiumDriver@38ad] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+2024-02-15 08:54:30:712 [AppiumDriver@38ad] Appium's BaseDriver version is 9.3.16
+2024-02-15 08:54:30:712 [AppiumDriver@38ad] AndroidUiautomator2Driver's BaseDriver version is 9.3.16
+2024-02-15 08:54:30:713 [AppiumDriver@38ad] There are no active sessions for cleanup
+2024-02-15 08:54:30:716 [AndroidUiautomator2Driver@7f46] Creating session with W3C capabilities: {
+2024-02-15 08:54:30:716 [AndroidUiautomator2Driver@7f46]   "alwaysMatch": {
+2024-02-15 08:54:30:716 [AndroidUiautomator2Driver@7f46]     "platformName": "android",
+2024-02-15 08:54:30:716 [AndroidUiautomator2Driver@7f46]     "appium:app": "C:\\Users\\rudra\\Downloads\\Appium-Java-POM-Framework-main/src/test/resources//app/app-qaVersion 2.1.5 (605).apk",
+2024-02-15 08:54:30:716 [AndroidUiautomator2Driver@7f46]     "appium:appActivity": "com.mintage.MainActivity",
+2024-02-15 08:54:30:717 [AndroidUiautomator2Driver@7f46]     "appium:appPackage": "fi.rahapaja.coiniverse.qa",
+2024-02-15 08:54:30:717 [AndroidUiautomator2Driver@7f46]     "appium:autoAcceptAlerts": true,
+2024-02-15 08:54:30:717 [AndroidUiautomator2Driver@7f46]     "appium:autoGrantPermissions": true,
+2024-02-15 08:54:30:717 [AndroidUiautomator2Driver@7f46]     "appium:automationName": "UiAutomator2",
+2024-02-15 08:54:30:717 [AndroidUiautomator2Driver@7f46]     "appium:avd": "Pixel_7_Pro_API_31",
+2024-02-15 08:54:30:717 [AndroidUiautomator2Driver@7f46]     "appium:deviceName": "Pixel_7_Pro_API_31",
+2024-02-15 08:54:30:718 [AndroidUiautomator2Driver@7f46]     "appium:newCommandTimeout": 300000,
+2024-02-15 08:54:30:718 [AndroidUiautomator2Driver@7f46]     "appium:noReset": true,
+2024-02-15 08:54:30:718 [AndroidUiautomator2Driver@7f46]     "appium:udid": "emulator-5554"
+2024-02-15 08:54:30:718 [AndroidUiautomator2Driver@7f46]   },
+2024-02-15 08:54:30:718 [AndroidUiautomator2Driver@7f46]   "firstMatch": [
+2024-02-15 08:54:30:718 [AndroidUiautomator2Driver@7f46]     {}
+2024-02-15 08:54:30:718 [AndroidUiautomator2Driver@7f46]   ]
+2024-02-15 08:54:30:718 [AndroidUiautomator2Driver@7f46] }
+2024-02-15 08:54:30:728 [AndroidUiautomator2Driver@7f46] The following capabilities were provided, but are not recognized by Appium:
+2024-02-15 08:54:30:728 [AndroidUiautomator2Driver@7f46]   autoAcceptAlerts
+2024-02-15 08:54:30:728 [AndroidUiautomator2Driver@7f46]   deviceName
+2024-02-15 08:54:30:728 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Session created with session id: b64fbc42-f79f-4b7d-9250-82229326bc27
+2024-02-15 08:54:30:732 [BaseDriver] Using local app 'C:\Users\rudra\Downloads\Appium-Java-POM-Framework-main/src/test/resources//app/app-qaVersion 2.1.5 (605).apk'
+2024-02-15 08:54:30:924 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Checking whether app is actually present
+2024-02-15 08:54:30:933 [ADB] Found 2 'build-tools' folders under 'C:\Users\rudra\AppData\Local\Android\Sdk' (newest first):
+2024-02-15 08:54:30:933 [ADB]     C:/Users/rudra/AppData/Local/Android/Sdk/build-tools/34.0.0
+2024-02-15 08:54:30:933 [ADB]     C:/Users/rudra/AppData/Local/Android/Sdk/build-tools/33.0.1
+2024-02-15 08:54:30:934 [ADB] Using 'adb.exe' from 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2024-02-15 08:54:30:934 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2024-02-15 08:54:30:959 [ADB] Trying to find 'Pixel_7_Pro_API_31' emulator
+2024-02-15 08:54:30:960 [ADB] Getting connected emulators
+2024-02-15 08:54:30:960 [ADB] Getting connected devices
+2024-02-15 08:54:30:982 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2024-02-15 08:54:30:985 [ADB] 1 emulator connected
+2024-02-15 08:54:30:985 [ADB] Overriding C:\Users\rudra\.emulator_console_auth_token with an empty string to avoid telnet authentication for emulator commands
+2024-02-15 08:54:30:990 [ADB] Executing Emulator console command: avd name
+2024-02-15 08:54:30:992 [ADB] Found emulator 'Pixel_7_Pro_API_31' on port 5554
+2024-02-15 08:54:30:992 [ADB] Setting device id to emulator-5554
+2024-02-15 08:54:30:993 [AndroidDriver] Not launching AVD because it is already running.
+2024-02-15 08:54:30:993 [AndroidDriver] Using device: emulator-5554
+2024-02-15 08:54:30:994 [ADB] Using 'adb.exe' from 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2024-02-15 08:54:30:995 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2024-02-15 08:54:31:016 [ADB] Setting device id to emulator-5554
+2024-02-15 08:54:31:016 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2024-02-15 08:54:31:050 [ADB] Current device property 'ro.build.version.sdk': 31
+2024-02-15 08:54:31:050 [ADB] Getting device platform version
+2024-02-15 08:54:31:050 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2024-02-15 08:54:31:080 [ADB] Current device property 'ro.build.version.release': 12
+2024-02-15 08:54:31:081 [ADB] Device API level: 31
+2024-02-15 08:54:31:081 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Relaxing hidden api policy
+2024-02-15 08:54:31:081 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2024-02-15 08:54:31:158 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+2024-02-15 08:54:31:179 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+2024-02-15 08:54:31:207 [AndroidDriver] Pushing settings apk to device...
+2024-02-15 08:54:31:208 [ADB] Getting package info for 'io.appium.settings'
+2024-02-15 08:54:31:208 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2024-02-15 08:54:31:268 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.1.0' >= '5.1.0')
+2024-02-15 08:54:31:269 [ADB] There is no need to install/upgrade 'C:\Users\rudra\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2024-02-15 08:54:31:269 [ADB] Getting IDs of all 'io.appium.settings' processes
+2024-02-15 08:54:31:270 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+2024-02-15 08:54:31:319 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2024-02-15 08:54:31:379 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2024-02-15 08:54:31:380 [Logcat] Starting logs capture with command: C:\\Users\\rudra\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 logcat -v threadtime
+2024-02-15 08:54:31:423 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Forwarding UiAutomator2 Server port 6790 to local port 8204
+2024-02-15 08:54:31:424 [ADB] Forwarding system: 8204 to device: 6790
+2024-02-15 08:54:31:424 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8204 tcp:6790'
+2024-02-15 08:54:31:452 [ADB] Checking app cert for C:\Users\rudra\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.2.apk
+2024-02-15 08:54:31:452 [ADB] Checking app cert for C:\Users\rudra\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2024-02-15 08:54:31:467 [ADB] Using 'apksigner.jar' from 'C:\Users\rudra\AppData\Local\Android\Sdk\build-tools\34.0.0\lib\apksigner.jar'
+2024-02-15 08:54:31:469 [ADB] Starting apksigner: C:\\Java\\jdk-11\\bin\\java.exe -Xmx1024M -Xss1m -jar C:\\Users\\rudra\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\rudra\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+2024-02-15 08:54:31:522 [ADB] Starting apksigner: C:\\Java\\jdk-11\\bin\\java.exe -Xmx1024M -Xss1m -jar C:\\Users\\rudra\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\rudra\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v5.12.2.apk
+2024-02-15 08:54:32:023 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2024-02-15 08:54:32:024 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2024-02-15 08:54:32:024 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2024-02-15 08:54:32:024 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2024-02-15 08:54:32:024 [ADB] 
+2024-02-15 08:54:32:025 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2024-02-15 08:54:32:025 [ADB] 'C:\Users\rudra\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2024-02-15 08:54:32:025 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2024-02-15 08:54:32:025 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm path io.appium.uiautomator2.server.test'
+2024-02-15 08:54:32:104 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2024-02-15 08:54:32:563 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2024-02-15 08:54:32:563 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2024-02-15 08:54:32:563 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2024-02-15 08:54:32:563 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2024-02-15 08:54:32:563 [ADB] 
+2024-02-15 08:54:32:563 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v5.12.2.apk'
+2024-02-15 08:54:32:563 [ADB] 'C:\Users\rudra\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.2.apk' is signed with the default certificate
+2024-02-15 08:54:32:563 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2024-02-15 08:54:32:563 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2024-02-15 08:54:32:775 [ADB] The installed 'io.appium.uiautomator2.server' package is older than 'C:\Users\rudra\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.2.apk' (95 < 129 or '4.27.0' < '5.12.2')'
+2024-02-15 08:54:32:775 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Server packages status: [{"wasSigned":true,"installState":"olderVersionInstalled","appPath":"C:\\Users\\rudra\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v5.12.2.apk","appId":"io.appium.uiautomator2.server"},{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"C:\\Users\\rudra\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+2024-02-15 08:54:32:776 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Server packages are going to be (re)installed
+2024-02-15 08:54:32:776 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 version'
+2024-02-15 08:54:32:794 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 features'
+2024-02-15 08:54:32:811 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 help'
+2024-02-15 08:54:32:815 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 help'
+2024-02-15 08:54:32:829 [ADB] The application at 'C:\Users\rudra\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.2.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+2024-02-15 08:54:32:830 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 install -r --no-incremental C:\Users\rudra\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.2.apk'
+2024-02-15 08:54:32:835 [ADB] The application at 'C:\Users\rudra\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+2024-02-15 08:54:32:835 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 install -r --no-incremental C:\Users\rudra\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2024-02-15 08:54:33:014 [ADB] The installation of 'appium-uiautomator2-server-debug-androidTest.apk' took 178ms
+2024-02-15 08:54:33:014 [ADB] Install command stdout: Performing Streamed Install
+2024-02-15 08:54:33:014 [ADB] Success
+2024-02-15 08:54:33:778 [ADB] The installation of 'appium-uiautomator2-server-v5.12.2.apk' took 948ms
+2024-02-15 08:54:33:778 [ADB] Install command stdout: Performing Streamed Install
+2024-02-15 08:54:33:779 [ADB] Success
+2024-02-15 08:54:33:782 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 30000ms for services to be available
+2024-02-15 08:54:33:783 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list instrumentation'
+2024-02-15 08:54:33:883 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2024-02-15 08:54:33:886 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2024-02-15 08:54:33:886 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2024-02-15 08:54:33:887 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2024-02-15 08:54:33:984 [ADB] Getting install status for fi.rahapaja.coiniverse.qa
+2024-02-15 08:54:33:984 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm path fi.rahapaja.coiniverse.qa'
+2024-02-15 08:54:34:058 [ADB] 'fi.rahapaja.coiniverse.qa' is installed
+2024-02-15 08:54:34:058 [AndroidUiautomator2Driver@7f46 (b64fbc42)] noReset has been requested and the app is already installed. Doing nothing
+2024-02-15 08:54:34:059 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Performing shallow cleanup of automation leftovers
+2024-02-15 08:54:34:076 [AndroidUiautomator2Driver@7f46 (b64fbc42)] No obsolete sessions have been detected (socket hang up)
+2024-02-15 08:54:34:076 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2024-02-15 08:54:34:308 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Starting UIAutomator2 server 5.12.2
+2024-02-15 08:54:34:309 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Using UIAutomator2 server from 'C:\Users\rudra\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.2.apk' and test from 'C:\Users\rudra\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2024-02-15 08:54:34:309 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 30000ms for UiAutomator2 to be online...
+2024-02-15 08:54:34:309 [ADB] Creating ADB subprocess with args: ["-P","5037","-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2024-02-15 08:54:34:317 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/status' to command name 'getStatus'
+2024-02-15 08:54:34:318 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /status] to [GET http://127.0.0.1:8204/status] with no body
+2024-02-15 08:54:34:332 [AndroidUiautomator2Driver@7f46 (b64fbc42)] socket hang up
+2024-02-15 08:54:35:338 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/status' to command name 'getStatus'
+2024-02-15 08:54:35:339 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /status] to [GET http://127.0.0.1:8204/status] with no body
+2024-02-15 08:54:35:346 [AndroidUiautomator2Driver@7f46 (b64fbc42)] socket hang up
+2024-02-15 08:54:35:941 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2024-02-15 08:54:36:350 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/status' to command name 'getStatus'
+2024-02-15 08:54:36:350 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /status] to [GET http://127.0.0.1:8204/status] with no body
+2024-02-15 08:54:36:355 [AndroidUiautomator2Driver@7f46 (b64fbc42)] socket hang up
+2024-02-15 08:54:37:369 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/status' to command name 'getStatus'
+2024-02-15 08:54:37:369 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /status] to [GET http://127.0.0.1:8204/status] with no body
+2024-02-15 08:54:37:505 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2024-02-15 08:54:37:505 [AndroidUiautomator2Driver@7f46 (b64fbc42)] The initialization of the instrumentation process took 3196ms
+2024-02-15 08:54:37:505 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/session' to command name 'createSession'
+2024-02-15 08:54:37:506 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /session] to [POST http://127.0.0.1:8204/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"C:\\Users\\rudra\\Downloads\\Appium-Java-POM-Framework-main/src/test/resources//app/app-qaVersion 2.1.5 (605).apk","appActivity":"com.mintage.MainActivity","appPackage":"fi.rahapaja.coiniverse.qa","autoAcceptAlerts":true,"autoGrantPermissions":true,"automationName":"UiAutomator2","avd":"Pixel_7_Pro_API_31","deviceName":"Pixel_7_Pro_API_31","newCommandTimeout":300000,"noReset":true,"udid":"emulator-5554"},"platformName":"android","app":"C:\\Users\\rudra\\Downloads\\Appium-Java-POM-Framework-main/src/test/resources//app/app-qaVersion 2.1.5 (605).apk","appActivity":"com.mintage.MainActivity","appPackage":"fi.rahapaja.coiniverse.qa","autoAcceptAlerts":true,"autoGrantPermissions":true,"automationName":"UiAutomator2","avd":"Pixel_7_Pro_API_31","dev...
+2024-02-15 08:54:37:596 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"C:\\Users\\rudra\\Downloads\\Appium-Java-POM-Framework-main/src/test/resources//app/app-qaVersion 2.1.5 (605).apk","appActivity":"com.mintage.MainActivity","appPackage":"fi.rahapaja.coiniverse.qa","autoAcceptAlerts":true,"autoGrantPermissions":true,"automationName":"UiAutomator2","avd":"Pixel_7_Pro_API_31","deviceName":"Pixel_7_Pro_API_31","newCommandTimeout":300000,"noReset":true,"udid":"emulator-5554"},"platformName":"android","app":"C:\\Users\\rudra\\Downloads\\Appium-Java-POM-Framework-main/src/test/resources//app/app-qaVersion 2.1.5 (605).apk","appActivity":"com.mintage.MainActivity","appPackage":"fi.rahapaja.coiniverse.qa","autoAcceptAlerts":true,"autoGrantPermissions":true,"au...
+2024-02-15 08:54:37:597 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Determined the downstream protocol as 'W3C'
+2024-02-15 08:54:37:608 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/appium/device/info] with no body
+2024-02-15 08:54:37:657 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"androidId":"c4eb8e9469aef959","apiVersion":"31","bluetooth":{"state":"ON"},"brand":"google","carrierName":"T-Mobile","displayDensity":560,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone64_x86_64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":4300,"linkUpstreamBandwidthKbps":1800,"networkCapabilities":"NET_CAPABILITY_MMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_DUN,NET_CAPABILITY_FOTA,NET_CAPABILITY_IMS,NET_CAPABILITY_CBS,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"epc.tmobile.com","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":10,"subtypeName":"HSPA","type":0,"typeName":"MOBILE"},{"capabiliti...
+2024-02-15 08:54:37:657 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+2024-02-15 08:54:37:713 [AndroidDriver] Screen already unlocked, doing nothing
+2024-02-15 08:54:37:713 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Starting 'fi.rahapaja.coiniverse.qa/com.mintage.MainActivity and waiting for 'fi.rahapaja.coiniverse.qa/com.mintage.MainActivity'
+2024-02-15 08:54:37:713 [ADB] Getting IDs of all 'fi.rahapaja.coiniverse.qa' processes
+2024-02-15 08:54:37:713 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)fi\.rahapaja\.coiniverse\.qa\(\[\[:blank:\]\]\|\$\)'
+2024-02-15 08:54:37:773 [AndroidUiautomator2Driver@7f46 (b64fbc42)] 'fi.rahapaja.coiniverse.qa' is already running and noReset is enabled. Set forceAppLaunch capability to true if the app must be forcefully restarted on session startup.
+2024-02-15 08:54:37:774 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/appium/device/pixel_ratio] with no body
+2024-02-15 08:54:37:783 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":3.5}
+2024-02-15 08:54:37:784 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2024-02-15 08:54:37:784 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/appium/device/system_bars] with no body
+2024-02-15 08:54:37:795 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"statusBar":84}}
+2024-02-15 08:54:37:796 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/window/current/size' to command name 'getWindowSize'
+2024-02-15 08:54:37:796 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/window/current/size] with no body
+2024-02-15 08:54:37:807 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"height":2952,"width":1440}}
+2024-02-15 08:54:37:808 [AppiumDriver@38ad] New AndroidUiautomator2Driver session created successfully, session b64fbc42-f79f-4b7d-9250-82229326bc27 added to master session list
+2024-02-15 08:54:37:808 [AppiumDriver@38ad] Event 'newSessionStarted' logged at 1707987277808 (14:24:37 GMT+0530 (India Standard Time))
+2024-02-15 08:54:37:809 [AppiumDriver@38ad] Promoting 1 sessionless plugins to be attached to session ID b64fbc42-f79f-4b7d-9250-82229326bc27
+2024-02-15 08:54:37:809 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Cached the protocol value 'W3C' for the new session b64fbc42-f79f-4b7d-9250-82229326bc27
+2024-02-15 08:54:37:809 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"C:\\Users\\rudra\\Downloads\\Appium-Java-POM-Framework-main/src/test/resources//app/app-qaVersion 2.1.5 (605).apk","appActivity":"com.mintage.MainActivity","appPackage":"fi.rahapaja.coiniverse.qa","autoAcceptAlerts":true,"autoGrantPermissions":true,"automationName":"UiAutomator2","avd":"Pixel_7_Pro_API_31","deviceName":"Pixel_7_Pro_API_31","newCommandTimeout":300000,"noReset":true,"udid":"emulator-5554"},"platformName":"android","app":"C:\\Users\\rudra\\Downloads\\Appium-Java-POM-Framework-main/src/test/resources//app/app-qaVersion 2.1.5 (605).apk","appActivity":"com.mintage.MainActivity","appPackage":"fi.rahapaja.coiniverse.qa","autoAcceptAlerts":true,"autoGrantPermissions":true,"automationName":"UiAutomator2","avd":"Pixel_7_Pro_API_31","deviceName":"emula...
+2024-02-15 08:54:37:811 [HTTP] <-- POST /wd/hub/session 200 7108 ms - 1451
+2024-02-15 08:54:37:811 [HTTP] 
+2024-02-15 08:54:37:901 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/appium/start_recording_screen
+2024-02-15 08:54:37:901 [HTTP] {}
+2024-02-15 08:54:37:907 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.startRecordingScreen() with args: [null,"b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:54:37:907 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:54:37:907 [AppiumDriver@38ad] Plugins which can handle cmd 'startRecordingScreen': images
+2024-02-15 08:54:37:907 [AppiumDriver@38ad] Plugin images is now handling cmd 'startRecordingScreen'
+2024-02-15 08:54:37:907 [AppiumDriver@38ad] Executing default handling behavior for command 'startRecordingScreen'
+2024-02-15 08:54:37:908 [ADB] Getting IDs of all 'screenrecord' processes
+2024-02-15 08:54:37:908 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2024-02-15 08:54:38:012 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Screen recording has not been previously started by Appium. There is nothing to stop
+2024-02-15 08:54:38:012 [ADB] Getting IDs of all 'screenrecord' processes
+2024-02-15 08:54:38:012 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2024-02-15 08:54:38:068 [ADB] Building screenrecord process with the command line: adb -P 5037 -s emulator-5554 shell screenrecord --time-limit 180 /sdcard/f801e06e.mp4
+2024-02-15 08:54:38:085 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell "[ -e '/sdcard/f801e06e.mp4' ] && echo __PASS__"'
+2024-02-15 08:54:38:443 [ADB] Running 'C:\Users\rudra\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell "[ -e '/sdcard/f801e06e.mp4' ] && echo __PASS__"'
+2024-02-15 08:54:38:480 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.startRecordingScreen() result: ""
+2024-02-15 08:54:38:481 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/appium/start_recording_screen 200 580 ms - 12
+2024-02-15 08:54:38:481 [HTTP] 
+2024-02-15 08:54:45:601 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context
+2024-02-15 08:54:45:601 [HTTP] {}
+2024-02-15 08:54:45:605 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getCurrentContext() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:54:45:606 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:54:45:606 [AppiumDriver@38ad] Plugins which can handle cmd 'getCurrentContext': images
+2024-02-15 08:54:45:606 [AppiumDriver@38ad] Plugin images is now handling cmd 'getCurrentContext'
+2024-02-15 08:54:45:606 [AppiumDriver@38ad] Executing default handling behavior for command 'getCurrentContext'
+2024-02-15 08:54:45:607 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2024-02-15 08:54:45:608 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context 200 7 ms - 22
+2024-02-15 08:54:45:608 [HTTP] 
+2024-02-15 08:54:45:627 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element
+2024-02-15 08:54:45:627 [HTTP] {"using":"xpath","value":"(//android.view.ViewGroup[contains(@resource-id, 'auth_stack_view_2')])[3]"}
+2024-02-15 08:54:45:628 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElement() with args: ["xpath","(//android.view.ViewGroup[contains(@resource-id, 'auth_stack_view_2')])[3]","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:54:45:628 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:54:45:629 [AppiumDriver@38ad] Plugins which can handle cmd 'findElement': images
+2024-02-15 08:54:45:629 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElement'
+2024-02-15 08:54:45:629 [AppiumDriver@38ad] Executing default handling behavior for command 'findElement'
+2024-02-15 08:54:45:629 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:54:45:629 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 0 ms for condition
+2024-02-15 08:54:45:632 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:54:45:632 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"(//android.view.ViewGroup[contains(@resource-id, 'auth_stack_view_2')])[3]","context":"","multiple":false}
+2024-02-15 08:54:46:246 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"ELEMENT":"00000000-0000-003e-ffff-ffff0000003f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000003f"}}
+2024-02-15 08:54:46:246 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000003f","ELEMENT":"00000000-0000-003e-ffff-ffff0000003f"}
+2024-02-15 08:54:46:248 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element 200 620 ms - 137
+2024-02-15 08:54:46:248 [HTTP] 
+2024-02-15 08:54:46:255 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000003f/displayed
+2024-02-15 08:54:46:255 [HTTP] {}
+2024-02-15 08:54:46:255 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-003e-ffff-ffff0000003f","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:54:46:256 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:54:46:256 [AppiumDriver@38ad] Plugins which can handle cmd 'elementDisplayed': images
+2024-02-15 08:54:46:256 [AppiumDriver@38ad] Plugin images is now handling cmd 'elementDisplayed'
+2024-02-15 08:54:46:256 [AppiumDriver@38ad] Executing default handling behavior for command 'elementDisplayed'
+2024-02-15 08:54:46:257 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element/00000000-0000-003e-ffff-ffff0000003f/attribute/displayed' to command name 'getAttribute'
+2024-02-15 08:54:46:257 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /element/00000000-0000-003e-ffff-ffff0000003f/attribute/displayed] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element/00000000-0000-003e-ffff-ffff0000003f/attribute/displayed] with no body
+2024-02-15 08:54:46:271 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":"true"}
+2024-02-15 08:54:46:272 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.elementDisplayed() result: true
+2024-02-15 08:54:46:273 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000003f/displayed 200 18 ms - 14
+2024-02-15 08:54:46:273 [HTTP] 
+2024-02-15 08:54:46:282 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context
+2024-02-15 08:54:46:283 [HTTP] {}
+2024-02-15 08:54:46:283 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getCurrentContext() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:54:46:283 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:54:46:283 [AppiumDriver@38ad] Plugins which can handle cmd 'getCurrentContext': images
+2024-02-15 08:54:46:283 [AppiumDriver@38ad] Plugin images is now handling cmd 'getCurrentContext'
+2024-02-15 08:54:46:283 [AppiumDriver@38ad] Executing default handling behavior for command 'getCurrentContext'
+2024-02-15 08:54:46:284 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2024-02-15 08:54:46:284 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context 200 2 ms - 22
+2024-02-15 08:54:46:284 [HTTP] 
+2024-02-15 08:54:46:295 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element
+2024-02-15 08:54:46:295 [HTTP] {"using":"xpath","value":"(//android.view.ViewGroup[contains(@resource-id, 'auth_stack_view_2')])[3]"}
+2024-02-15 08:54:46:296 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElement() with args: ["xpath","(//android.view.ViewGroup[contains(@resource-id, 'auth_stack_view_2')])[3]","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:54:46:296 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:54:46:296 [AppiumDriver@38ad] Plugins which can handle cmd 'findElement': images
+2024-02-15 08:54:46:296 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElement'
+2024-02-15 08:54:46:296 [AppiumDriver@38ad] Executing default handling behavior for command 'findElement'
+2024-02-15 08:54:46:296 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:54:46:297 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 0 ms for condition
+2024-02-15 08:54:46:297 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:54:46:297 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"(//android.view.ViewGroup[contains(@resource-id, 'auth_stack_view_2')])[3]","context":"","multiple":false}
+2024-02-15 08:54:46:517 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"ELEMENT":"00000000-0000-003e-ffff-ffff0000003f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000003f"}}
+2024-02-15 08:54:46:517 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000003f","ELEMENT":"00000000-0000-003e-ffff-ffff0000003f"}
+2024-02-15 08:54:46:519 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element 200 223 ms - 137
+2024-02-15 08:54:46:520 [HTTP] 
+2024-02-15 08:54:46:531 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000003f/click
+2024-02-15 08:54:46:531 [HTTP] {"id":"00000000-0000-003e-ffff-ffff0000003f"}
+2024-02-15 08:54:46:532 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.click() with args: ["00000000-0000-003e-ffff-ffff0000003f","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:54:46:532 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:54:46:532 [AppiumDriver@38ad] Plugins which can handle cmd 'click': images
+2024-02-15 08:54:46:532 [AppiumDriver@38ad] Plugin images is now handling cmd 'click'
+2024-02-15 08:54:46:532 [AppiumDriver@38ad] Executing default handling behavior for command 'click'
+2024-02-15 08:54:46:533 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element/00000000-0000-003e-ffff-ffff0000003f/click' to command name 'click'
+2024-02-15 08:54:46:534 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element/00000000-0000-003e-ffff-ffff0000003f/click] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element/00000000-0000-003e-ffff-ffff0000003f/click] with body: {"element":"00000000-0000-003e-ffff-ffff0000003f"}
+2024-02-15 08:54:46:738 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":null}
+2024-02-15 08:54:46:738 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.click() result: null
+2024-02-15 08:54:46:739 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000003f/click 200 207 ms - 14
+2024-02-15 08:54:46:739 [HTTP] 
+2024-02-15 08:54:46:768 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/timeouts
+2024-02-15 08:54:46:768 [HTTP] {"implicit":1000}
+2024-02-15 08:54:46:769 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,1000,"b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:54:46:770 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:54:46:770 [AppiumDriver@38ad] Plugins which can handle cmd 'timeouts': images
+2024-02-15 08:54:46:770 [AppiumDriver@38ad] Plugin images is now handling cmd 'timeouts'
+2024-02-15 08:54:46:770 [AppiumDriver@38ad] Executing default handling behavior for command 'timeouts'
+2024-02-15 08:54:46:770 [AndroidUiautomator2Driver@7f46 (b64fbc42)] W3C timeout argument: {"implicit":1000}}
+2024-02-15 08:54:46:771 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Set implicit wait to 1000ms
+2024-02-15 08:54:46:772 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.timeouts() result: null
+2024-02-15 08:54:46:773 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/timeouts 200 5 ms - 14
+2024-02-15 08:54:46:773 [HTTP] 
+2024-02-15 08:54:46:776 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/window/rect
+2024-02-15 08:54:46:776 [HTTP] {}
+2024-02-15 08:54:46:782 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getWindowRect() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:54:46:782 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:54:46:783 [AppiumDriver@38ad] Plugins which can handle cmd 'getWindowRect': images
+2024-02-15 08:54:46:783 [AppiumDriver@38ad] Plugin images is now handling cmd 'getWindowRect'
+2024-02-15 08:54:46:783 [AppiumDriver@38ad] Executing default handling behavior for command 'getWindowRect'
+2024-02-15 08:54:46:783 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/window/current/size' to command name 'getWindowSize'
+2024-02-15 08:54:46:783 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/window/current/size] with no body
+2024-02-15 08:54:46:796 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"height":2952,"width":1440}}
+2024-02-15 08:54:46:797 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getWindowRect() result: {"width":1440,"height":2952,"x":0,"y":0}
+2024-02-15 08:54:46:799 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/window/rect 200 22 ms - 50
+2024-02-15 08:54:46:799 [HTTP] 
+2024-02-15 08:54:46:803 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/window/rect
+2024-02-15 08:54:46:803 [HTTP] {}
+2024-02-15 08:54:46:809 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getWindowRect() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:54:46:809 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:54:46:810 [AppiumDriver@38ad] Plugins which can handle cmd 'getWindowRect': images
+2024-02-15 08:54:46:810 [AppiumDriver@38ad] Plugin images is now handling cmd 'getWindowRect'
+2024-02-15 08:54:46:810 [AppiumDriver@38ad] Executing default handling behavior for command 'getWindowRect'
+2024-02-15 08:54:46:810 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/window/current/size' to command name 'getWindowSize'
+2024-02-15 08:54:46:811 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/window/current/size] with no body
+2024-02-15 08:54:46:822 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"height":2952,"width":1440}}
+2024-02-15 08:54:46:823 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getWindowRect() result: {"width":1440,"height":2952,"x":0,"y":0}
+2024-02-15 08:54:46:824 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/window/rect 200 21 ms - 50
+2024-02-15 08:54:46:825 [HTTP] 
+2024-02-15 08:54:46:831 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/elements
+2024-02-15 08:54:46:831 [HTTP] {"using":"xpath","value":"//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']"}
+2024-02-15 08:54:46:832 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElements() with args: ["xpath","//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:54:46:832 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:54:46:832 [AppiumDriver@38ad] Plugins which can handle cmd 'findElements': images
+2024-02-15 08:54:46:832 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElements'
+2024-02-15 08:54:46:833 [AppiumDriver@38ad] Executing default handling behavior for command 'findElements'
+2024-02-15 08:54:46:833 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:54:46:833 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 1000 ms for condition
+2024-02-15 08:54:46:834 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/elements' to command name 'findElements'
+2024-02-15 08:54:46:834 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /elements] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/elements] with body: {"strategy":"xpath","selector":"//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']","context":"","multiple":true}
+2024-02-15 08:54:47:355 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":[]}
+2024-02-15 08:54:47:356 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waited for 523 ms so far
+2024-02-15 08:54:47:846 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/elements' to command name 'findElements'
+2024-02-15 08:54:47:847 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /elements] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/elements] with body: {"strategy":"xpath","selector":"//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']","context":"","multiple":true}
+2024-02-15 08:54:53:766 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":[]}
+2024-02-15 08:54:53:767 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElements() result: []
+2024-02-15 08:54:53:767 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/elements 200 6936 ms - 12
+2024-02-15 08:54:53:768 [HTTP] 
+2024-02-15 08:54:53:791 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/touch/perform
+2024-02-15 08:54:53:792 [HTTP] {"actions":[{"action":"press","options":{"x":720,"y":1476}},{"action":"wait","options":{"ms":3000}},{"action":"moveTo","options":{"x":720,"y":100}},{"action":"release","options":{}}]}
+2024-02-15 08:54:53:793 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":720,"y":1476}},{"action":"wait","options":{"ms":3000}},{"action":"moveTo","options":{"x":720,"y":100}},{"action":"release","options":{}}],"b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:54:53:793 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:54:53:793 [AppiumDriver@38ad] Plugins which can handle cmd 'performTouch': images
+2024-02-15 08:54:53:793 [AppiumDriver@38ad] Plugin images is now handling cmd 'performTouch'
+2024-02-15 08:54:53:793 [AppiumDriver@38ad] Executing default handling behavior for command 'performTouch'
+2024-02-15 08:54:53:796 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/touch/perform' to command name 'performTouch'
+2024-02-15 08:54:53:796 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /touch/perform] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/touch/perform] with body: {"startX":720,"startY":1476,"endX":720,"endY":100,"steps":84}
+2024-02-15 08:54:57:255 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":null}
+2024-02-15 08:54:57:257 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.performTouch() result: null
+2024-02-15 08:54:57:258 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/touch/perform 200 3466 ms - 14
+2024-02-15 08:54:57:258 [HTTP] 
+2024-02-15 08:54:57:271 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/elements
+2024-02-15 08:54:57:271 [HTTP] {"using":"xpath","value":"//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']"}
+2024-02-15 08:54:57:272 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElements() with args: ["xpath","//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:54:57:273 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:54:57:274 [AppiumDriver@38ad] Plugins which can handle cmd 'findElements': images
+2024-02-15 08:54:57:274 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElements'
+2024-02-15 08:54:57:274 [AppiumDriver@38ad] Executing default handling behavior for command 'findElements'
+2024-02-15 08:54:57:274 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:54:57:274 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 1000 ms for condition
+2024-02-15 08:54:57:275 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/elements' to command name 'findElements'
+2024-02-15 08:54:57:275 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /elements] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/elements] with body: {"strategy":"xpath","selector":"//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']","context":"","multiple":true}
+2024-02-15 08:54:58:089 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":[]}
+2024-02-15 08:54:58:090 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waited for 816 ms so far
+2024-02-15 08:54:58:284 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/elements' to command name 'findElements'
+2024-02-15 08:54:58:285 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /elements] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/elements] with body: {"strategy":"xpath","selector":"//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']","context":"","multiple":true}
+2024-02-15 08:54:58:414 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":[]}
+2024-02-15 08:54:58:415 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElements() result: []
+2024-02-15 08:54:58:417 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/elements 200 1145 ms - 12
+2024-02-15 08:54:58:417 [HTTP] 
+2024-02-15 08:54:58:442 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/touch/perform
+2024-02-15 08:54:58:443 [HTTP] {"actions":[{"action":"press","options":{"x":720,"y":1476}},{"action":"wait","options":{"ms":3000}},{"action":"moveTo","options":{"x":720,"y":100}},{"action":"release","options":{}}]}
+2024-02-15 08:54:58:443 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":720,"y":1476}},{"action":"wait","options":{"ms":3000}},{"action":"moveTo","options":{"x":720,"y":100}},{"action":"release","options":{}}],"b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:54:58:443 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:54:58:444 [AppiumDriver@38ad] Plugins which can handle cmd 'performTouch': images
+2024-02-15 08:54:58:444 [AppiumDriver@38ad] Plugin images is now handling cmd 'performTouch'
+2024-02-15 08:54:58:444 [AppiumDriver@38ad] Executing default handling behavior for command 'performTouch'
+2024-02-15 08:54:58:445 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/touch/perform' to command name 'performTouch'
+2024-02-15 08:54:58:445 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /touch/perform] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/touch/perform] with body: {"startX":720,"startY":1476,"endX":720,"endY":100,"steps":84}
+2024-02-15 08:55:02:032 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":null}
+2024-02-15 08:55:02:032 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.performTouch() result: null
+2024-02-15 08:55:02:033 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/touch/perform 200 3590 ms - 14
+2024-02-15 08:55:02:033 [HTTP] 
+2024-02-15 08:55:02:048 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/elements
+2024-02-15 08:55:02:049 [HTTP] {"using":"xpath","value":"//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']"}
+2024-02-15 08:55:02:049 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElements() with args: ["xpath","//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:02:050 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:02:050 [AppiumDriver@38ad] Plugins which can handle cmd 'findElements': images
+2024-02-15 08:55:02:050 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElements'
+2024-02-15 08:55:02:050 [AppiumDriver@38ad] Executing default handling behavior for command 'findElements'
+2024-02-15 08:55:02:050 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:55:02:050 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 1000 ms for condition
+2024-02-15 08:55:02:050 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/elements' to command name 'findElements'
+2024-02-15 08:55:02:050 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /elements] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/elements] with body: {"strategy":"xpath","selector":"//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']","context":"","multiple":true}
+2024-02-15 08:55:02:471 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":[{"ELEMENT":"00000000-0000-003e-ffff-ffff0000be2b","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000be2b"}]}
+2024-02-15 08:55:02:472 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000be2b","ELEMENT":"00000000-0000-003e-ffff-ffff0000be2b"}]
+2024-02-15 08:55:02:475 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/elements 200 424 ms - 139
+2024-02-15 08:55:02:475 [HTTP] 
+2024-02-15 08:55:02:479 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000be2b/displayed
+2024-02-15 08:55:02:479 [HTTP] {}
+2024-02-15 08:55:02:480 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-003e-ffff-ffff0000be2b","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:02:480 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:02:480 [AppiumDriver@38ad] Plugins which can handle cmd 'elementDisplayed': images
+2024-02-15 08:55:02:481 [AppiumDriver@38ad] Plugin images is now handling cmd 'elementDisplayed'
+2024-02-15 08:55:02:481 [AppiumDriver@38ad] Executing default handling behavior for command 'elementDisplayed'
+2024-02-15 08:55:02:481 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element/00000000-0000-003e-ffff-ffff0000be2b/attribute/displayed' to command name 'getAttribute'
+2024-02-15 08:55:02:481 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /element/00000000-0000-003e-ffff-ffff0000be2b/attribute/displayed] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element/00000000-0000-003e-ffff-ffff0000be2b/attribute/displayed] with no body
+2024-02-15 08:55:02:500 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":"true"}
+2024-02-15 08:55:02:500 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.elementDisplayed() result: true
+2024-02-15 08:55:02:502 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000be2b/displayed 200 22 ms - 14
+2024-02-15 08:55:02:502 [HTTP] 
+2024-02-15 08:55:02:504 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/window/rect
+2024-02-15 08:55:02:504 [HTTP] {}
+2024-02-15 08:55:02:504 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getWindowRect() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:02:504 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:02:505 [AppiumDriver@38ad] Plugins which can handle cmd 'getWindowRect': images
+2024-02-15 08:55:02:505 [AppiumDriver@38ad] Plugin images is now handling cmd 'getWindowRect'
+2024-02-15 08:55:02:505 [AppiumDriver@38ad] Executing default handling behavior for command 'getWindowRect'
+2024-02-15 08:55:02:505 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/window/current/size' to command name 'getWindowSize'
+2024-02-15 08:55:02:505 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/window/current/size] with no body
+2024-02-15 08:55:02:517 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"height":2952,"width":1440}}
+2024-02-15 08:55:02:517 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getWindowRect() result: {"width":1440,"height":2952,"x":0,"y":0}
+2024-02-15 08:55:02:519 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/window/rect 200 14 ms - 50
+2024-02-15 08:55:02:519 [HTTP] 
+2024-02-15 08:55:02:522 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/window/rect
+2024-02-15 08:55:02:522 [HTTP] {}
+2024-02-15 08:55:02:523 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getWindowRect() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:02:523 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:02:523 [AppiumDriver@38ad] Plugins which can handle cmd 'getWindowRect': images
+2024-02-15 08:55:02:523 [AppiumDriver@38ad] Plugin images is now handling cmd 'getWindowRect'
+2024-02-15 08:55:02:523 [AppiumDriver@38ad] Executing default handling behavior for command 'getWindowRect'
+2024-02-15 08:55:02:523 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/window/current/size' to command name 'getWindowSize'
+2024-02-15 08:55:02:523 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/window/current/size] with no body
+2024-02-15 08:55:02:534 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"height":2952,"width":1440}}
+2024-02-15 08:55:02:534 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getWindowRect() result: {"width":1440,"height":2952,"x":0,"y":0}
+2024-02-15 08:55:02:535 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/window/rect 200 13 ms - 50
+2024-02-15 08:55:02:535 [HTTP] 
+2024-02-15 08:55:02:558 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000be2b/rect
+2024-02-15 08:55:02:562 [HTTP] {}
+2024-02-15 08:55:02:564 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Would have proxied command directly, but a plugin exists which might require its value, so will let its value be collected internally and made part of plugin chain
+2024-02-15 08:55:02:565 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getElementRect() with args: ["00000000-0000-003e-ffff-ffff0000be2b","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:02:565 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:02:565 [AppiumDriver@38ad] Plugins which can handle cmd 'getElementRect': images
+2024-02-15 08:55:02:566 [AppiumDriver@38ad] Plugin images is now handling cmd 'getElementRect'
+2024-02-15 08:55:02:566 [AppiumDriver@38ad] Executing default handling behavior for command 'getElementRect'
+2024-02-15 08:55:02:573 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000be2b/rect' to command name 'getElementRect'
+2024-02-15 08:55:02:573 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000be2b/rect] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element/00000000-0000-003e-ffff-ffff0000be2b/rect] with no body
+2024-02-15 08:55:02:585 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"height":434,"width":1398,"x":21,"y":1441}}
+2024-02-15 08:55:02:585 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getElementRect() result: {"height":434,"width":1398,"x":21,"y":1441}
+2024-02-15 08:55:02:586 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000be2b/rect 200 28 ms - 53
+2024-02-15 08:55:02:586 [HTTP] 
+2024-02-15 08:55:02:588 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/window/rect
+2024-02-15 08:55:02:588 [HTTP] {}
+2024-02-15 08:55:02:589 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getWindowRect() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:02:589 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:02:589 [AppiumDriver@38ad] Plugins which can handle cmd 'getWindowRect': images
+2024-02-15 08:55:02:589 [AppiumDriver@38ad] Plugin images is now handling cmd 'getWindowRect'
+2024-02-15 08:55:02:589 [AppiumDriver@38ad] Executing default handling behavior for command 'getWindowRect'
+2024-02-15 08:55:02:590 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/window/current/size' to command name 'getWindowSize'
+2024-02-15 08:55:02:590 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/window/current/size] with no body
+2024-02-15 08:55:02:597 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"height":2952,"width":1440}}
+2024-02-15 08:55:02:598 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getWindowRect() result: {"width":1440,"height":2952,"x":0,"y":0}
+2024-02-15 08:55:02:599 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/window/rect 200 10 ms - 50
+2024-02-15 08:55:02:599 [HTTP] 
+2024-02-15 08:55:02:612 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element
+2024-02-15 08:55:02:612 [HTTP] {"using":"xpath","value":"//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']"}
+2024-02-15 08:55:02:613 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElement() with args: ["xpath","//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:02:613 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:02:613 [AppiumDriver@38ad] Plugins which can handle cmd 'findElement': images
+2024-02-15 08:55:02:613 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElement'
+2024-02-15 08:55:02:613 [AppiumDriver@38ad] Executing default handling behavior for command 'findElement'
+2024-02-15 08:55:02:613 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:55:02:614 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 1000 ms for condition
+2024-02-15 08:55:02:614 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:55:02:614 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']","context":"","multiple":false}
+2024-02-15 08:55:02:686 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"ELEMENT":"00000000-0000-003e-ffff-ffff0000be2b","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000be2b"}}
+2024-02-15 08:55:02:687 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000be2b","ELEMENT":"00000000-0000-003e-ffff-ffff0000be2b"}
+2024-02-15 08:55:02:692 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element 200 75 ms - 137
+2024-02-15 08:55:02:692 [HTTP] 
+2024-02-15 08:55:02:695 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000be2b/displayed
+2024-02-15 08:55:02:695 [HTTP] {}
+2024-02-15 08:55:02:695 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-003e-ffff-ffff0000be2b","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:02:696 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:02:696 [AppiumDriver@38ad] Plugins which can handle cmd 'elementDisplayed': images
+2024-02-15 08:55:02:696 [AppiumDriver@38ad] Plugin images is now handling cmd 'elementDisplayed'
+2024-02-15 08:55:02:696 [AppiumDriver@38ad] Executing default handling behavior for command 'elementDisplayed'
+2024-02-15 08:55:02:696 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element/00000000-0000-003e-ffff-ffff0000be2b/attribute/displayed' to command name 'getAttribute'
+2024-02-15 08:55:02:696 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /element/00000000-0000-003e-ffff-ffff0000be2b/attribute/displayed] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element/00000000-0000-003e-ffff-ffff0000be2b/attribute/displayed] with no body
+2024-02-15 08:55:04:533 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":"true"}
+2024-02-15 08:55:04:533 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.elementDisplayed() result: true
+2024-02-15 08:55:04:535 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000be2b/displayed 200 1839 ms - 14
+2024-02-15 08:55:04:535 [HTTP] 
+2024-02-15 08:55:04:542 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/timeouts
+2024-02-15 08:55:04:543 [HTTP] {"implicit":30000}
+2024-02-15 08:55:04:543 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,30000,"b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:04:543 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:04:543 [AppiumDriver@38ad] Plugins which can handle cmd 'timeouts': images
+2024-02-15 08:55:04:543 [AppiumDriver@38ad] Plugin images is now handling cmd 'timeouts'
+2024-02-15 08:55:04:543 [AppiumDriver@38ad] Executing default handling behavior for command 'timeouts'
+2024-02-15 08:55:04:543 [AndroidUiautomator2Driver@7f46 (b64fbc42)] W3C timeout argument: {"implicit":30000}}
+2024-02-15 08:55:04:543 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Set implicit wait to 30000ms
+2024-02-15 08:55:04:544 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.timeouts() result: null
+2024-02-15 08:55:04:545 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/timeouts 200 2 ms - 14
+2024-02-15 08:55:04:545 [HTTP] 
+2024-02-15 08:55:04:547 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context
+2024-02-15 08:55:04:547 [HTTP] {}
+2024-02-15 08:55:04:547 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getCurrentContext() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:04:547 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:04:547 [AppiumDriver@38ad] Plugins which can handle cmd 'getCurrentContext': images
+2024-02-15 08:55:04:547 [AppiumDriver@38ad] Plugin images is now handling cmd 'getCurrentContext'
+2024-02-15 08:55:04:547 [AppiumDriver@38ad] Executing default handling behavior for command 'getCurrentContext'
+2024-02-15 08:55:04:548 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2024-02-15 08:55:04:548 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context 200 1 ms - 22
+2024-02-15 08:55:04:548 [HTTP] 
+2024-02-15 08:55:04:559 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element
+2024-02-15 08:55:04:559 [HTTP] {"using":"xpath","value":"//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']"}
+2024-02-15 08:55:04:559 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElement() with args: ["xpath","//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:04:559 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:04:559 [AppiumDriver@38ad] Plugins which can handle cmd 'findElement': images
+2024-02-15 08:55:04:559 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElement'
+2024-02-15 08:55:04:559 [AppiumDriver@38ad] Executing default handling behavior for command 'findElement'
+2024-02-15 08:55:04:559 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:55:04:559 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 30000 ms for condition
+2024-02-15 08:55:04:560 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:55:04:560 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']","context":"","multiple":false}
+2024-02-15 08:55:04:664 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"ELEMENT":"00000000-0000-003e-ffff-ffff0000be2b","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000be2b"}}
+2024-02-15 08:55:04:664 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000be2b","ELEMENT":"00000000-0000-003e-ffff-ffff0000be2b"}
+2024-02-15 08:55:04:666 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element 200 106 ms - 137
+2024-02-15 08:55:04:666 [HTTP] 
+2024-02-15 08:55:04:668 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000be2b/displayed
+2024-02-15 08:55:04:668 [HTTP] {}
+2024-02-15 08:55:04:669 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-003e-ffff-ffff0000be2b","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:04:669 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:04:669 [AppiumDriver@38ad] Plugins which can handle cmd 'elementDisplayed': images
+2024-02-15 08:55:04:669 [AppiumDriver@38ad] Plugin images is now handling cmd 'elementDisplayed'
+2024-02-15 08:55:04:669 [AppiumDriver@38ad] Executing default handling behavior for command 'elementDisplayed'
+2024-02-15 08:55:04:669 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element/00000000-0000-003e-ffff-ffff0000be2b/attribute/displayed' to command name 'getAttribute'
+2024-02-15 08:55:04:669 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /element/00000000-0000-003e-ffff-ffff0000be2b/attribute/displayed] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element/00000000-0000-003e-ffff-ffff0000be2b/attribute/displayed] with no body
+2024-02-15 08:55:04:680 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":"true"}
+2024-02-15 08:55:04:681 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.elementDisplayed() result: true
+2024-02-15 08:55:04:681 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000be2b/displayed 200 13 ms - 14
+2024-02-15 08:55:04:681 [HTTP] 
+2024-02-15 08:55:04:686 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context
+2024-02-15 08:55:04:686 [HTTP] {}
+2024-02-15 08:55:04:686 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getCurrentContext() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:04:686 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:04:686 [AppiumDriver@38ad] Plugins which can handle cmd 'getCurrentContext': images
+2024-02-15 08:55:04:686 [AppiumDriver@38ad] Plugin images is now handling cmd 'getCurrentContext'
+2024-02-15 08:55:04:687 [AppiumDriver@38ad] Executing default handling behavior for command 'getCurrentContext'
+2024-02-15 08:55:04:687 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2024-02-15 08:55:04:688 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context 200 2 ms - 22
+2024-02-15 08:55:04:688 [HTTP] 
+2024-02-15 08:55:04:700 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element
+2024-02-15 08:55:04:700 [HTTP] {"using":"xpath","value":"//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']"}
+2024-02-15 08:55:04:700 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElement() with args: ["xpath","//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:04:700 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:04:700 [AppiumDriver@38ad] Plugins which can handle cmd 'findElement': images
+2024-02-15 08:55:04:701 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElement'
+2024-02-15 08:55:04:701 [AppiumDriver@38ad] Executing default handling behavior for command 'findElement'
+2024-02-15 08:55:04:701 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:55:04:701 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 30000 ms for condition
+2024-02-15 08:55:04:701 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:55:04:701 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"//android.view.ViewGroup[@content-desc='collection_my_profile_screen_touchable_opacity_61']","context":"","multiple":false}
+2024-02-15 08:55:04:811 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"ELEMENT":"00000000-0000-003e-ffff-ffff0000be2b","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000be2b"}}
+2024-02-15 08:55:04:812 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000be2b","ELEMENT":"00000000-0000-003e-ffff-ffff0000be2b"}
+2024-02-15 08:55:04:813 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element 200 113 ms - 137
+2024-02-15 08:55:04:813 [HTTP] 
+2024-02-15 08:55:04:828 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000be2b/click
+2024-02-15 08:55:04:828 [HTTP] {"id":"00000000-0000-003e-ffff-ffff0000be2b"}
+2024-02-15 08:55:04:829 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.click() with args: ["00000000-0000-003e-ffff-ffff0000be2b","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:04:829 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:04:829 [AppiumDriver@38ad] Plugins which can handle cmd 'click': images
+2024-02-15 08:55:04:830 [AppiumDriver@38ad] Plugin images is now handling cmd 'click'
+2024-02-15 08:55:04:830 [AppiumDriver@38ad] Executing default handling behavior for command 'click'
+2024-02-15 08:55:04:831 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element/00000000-0000-003e-ffff-ffff0000be2b/click' to command name 'click'
+2024-02-15 08:55:04:832 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element/00000000-0000-003e-ffff-ffff0000be2b/click] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element/00000000-0000-003e-ffff-ffff0000be2b/click] with body: {"element":"00000000-0000-003e-ffff-ffff0000be2b"}
+2024-02-15 08:55:06:686 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":null}
+2024-02-15 08:55:06:686 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.click() result: null
+2024-02-15 08:55:06:687 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000be2b/click 200 1860 ms - 14
+2024-02-15 08:55:06:688 [HTTP] 
+2024-02-15 08:55:06:704 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context
+2024-02-15 08:55:06:704 [HTTP] {}
+2024-02-15 08:55:06:704 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getCurrentContext() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:06:705 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:06:705 [AppiumDriver@38ad] Plugins which can handle cmd 'getCurrentContext': images
+2024-02-15 08:55:06:705 [AppiumDriver@38ad] Plugin images is now handling cmd 'getCurrentContext'
+2024-02-15 08:55:06:705 [AppiumDriver@38ad] Executing default handling behavior for command 'getCurrentContext'
+2024-02-15 08:55:06:706 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2024-02-15 08:55:06:707 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context 200 3 ms - 22
+2024-02-15 08:55:06:707 [HTTP] 
+2024-02-15 08:55:06:716 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element
+2024-02-15 08:55:06:716 [HTTP] {"using":"xpath","value":"//android.view.ViewGroup[@resource-id='button_list_tab_selector_3_navbar_collapsed_22_collection_all_coins_screen_navbar_collapsed_24']"}
+2024-02-15 08:55:06:717 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElement() with args: ["xpath","//android.view.ViewGroup[@resource-id='button_list_tab_selector_3_navbar_collapsed_22_collection_all_coins_screen_navbar_collapsed_24']","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:06:717 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:06:717 [AppiumDriver@38ad] Plugins which can handle cmd 'findElement': images
+2024-02-15 08:55:06:717 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElement'
+2024-02-15 08:55:06:717 [AppiumDriver@38ad] Executing default handling behavior for command 'findElement'
+2024-02-15 08:55:06:717 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:55:06:717 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 30000 ms for condition
+2024-02-15 08:55:06:717 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:55:06:718 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"//android.view.ViewGroup[@resource-id='button_list_tab_selector_3_navbar_collapsed_22_collection_all_coins_screen_navbar_collapsed_24']","context":"","multiple":false}
+2024-02-15 08:55:06:827 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 404: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
+2024-02-15 08:55:06:827 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2024-02-15 08:55:06:827 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waited for 110 ms so far
+2024-02-15 08:55:07:342 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:55:07:342 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"//android.view.ViewGroup[@resource-id='button_list_tab_selector_3_navbar_collapsed_22_collection_all_coins_screen_navbar_collapsed_24']","context":"","multiple":false}
+2024-02-15 08:55:09:061 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"ELEMENT":"00000000-0000-003e-ffff-ffff0000bec4","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000bec4"}}
+2024-02-15 08:55:09:061 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000bec4","ELEMENT":"00000000-0000-003e-ffff-ffff0000bec4"}
+2024-02-15 08:55:09:062 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element 200 2345 ms - 137
+2024-02-15 08:55:09:062 [HTTP] 
+2024-02-15 08:55:09:065 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000bec4/displayed
+2024-02-15 08:55:09:065 [HTTP] {}
+2024-02-15 08:55:09:065 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-003e-ffff-ffff0000bec4","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:09:065 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:09:066 [AppiumDriver@38ad] Plugins which can handle cmd 'elementDisplayed': images
+2024-02-15 08:55:09:066 [AppiumDriver@38ad] Plugin images is now handling cmd 'elementDisplayed'
+2024-02-15 08:55:09:066 [AppiumDriver@38ad] Executing default handling behavior for command 'elementDisplayed'
+2024-02-15 08:55:09:066 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element/00000000-0000-003e-ffff-ffff0000bec4/attribute/displayed' to command name 'getAttribute'
+2024-02-15 08:55:09:066 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /element/00000000-0000-003e-ffff-ffff0000bec4/attribute/displayed] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element/00000000-0000-003e-ffff-ffff0000bec4/attribute/displayed] with no body
+2024-02-15 08:55:09:080 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":"true"}
+2024-02-15 08:55:09:080 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.elementDisplayed() result: true
+2024-02-15 08:55:09:081 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000bec4/displayed 200 16 ms - 14
+2024-02-15 08:55:09:081 [HTTP] 
+2024-02-15 08:55:09:087 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context
+2024-02-15 08:55:09:087 [HTTP] {}
+2024-02-15 08:55:09:087 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getCurrentContext() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:09:087 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:09:088 [AppiumDriver@38ad] Plugins which can handle cmd 'getCurrentContext': images
+2024-02-15 08:55:09:088 [AppiumDriver@38ad] Plugin images is now handling cmd 'getCurrentContext'
+2024-02-15 08:55:09:088 [AppiumDriver@38ad] Executing default handling behavior for command 'getCurrentContext'
+2024-02-15 08:55:09:088 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2024-02-15 08:55:09:089 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context 200 2 ms - 22
+2024-02-15 08:55:09:089 [HTTP] 
+2024-02-15 08:55:09:100 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element
+2024-02-15 08:55:09:100 [HTTP] {"using":"xpath","value":"//android.view.ViewGroup[@resource-id='button_list_tab_selector_3_navbar_collapsed_22_collection_all_coins_screen_navbar_collapsed_24']"}
+2024-02-15 08:55:09:100 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElement() with args: ["xpath","//android.view.ViewGroup[@resource-id='button_list_tab_selector_3_navbar_collapsed_22_collection_all_coins_screen_navbar_collapsed_24']","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:09:100 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:09:100 [AppiumDriver@38ad] Plugins which can handle cmd 'findElement': images
+2024-02-15 08:55:09:100 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElement'
+2024-02-15 08:55:09:100 [AppiumDriver@38ad] Executing default handling behavior for command 'findElement'
+2024-02-15 08:55:09:100 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:55:09:101 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 30000 ms for condition
+2024-02-15 08:55:09:101 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:55:09:102 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"//android.view.ViewGroup[@resource-id='button_list_tab_selector_3_navbar_collapsed_22_collection_all_coins_screen_navbar_collapsed_24']","context":"","multiple":false}
+2024-02-15 08:55:09:235 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"ELEMENT":"00000000-0000-003e-ffff-ffff0000bec4","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000bec4"}}
+2024-02-15 08:55:09:235 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000bec4","ELEMENT":"00000000-0000-003e-ffff-ffff0000bec4"}
+2024-02-15 08:55:09:236 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element 200 136 ms - 137
+2024-02-15 08:55:09:236 [HTTP] 
+2024-02-15 08:55:09:242 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000bec4/click
+2024-02-15 08:55:09:242 [HTTP] {"id":"00000000-0000-003e-ffff-ffff0000bec4"}
+2024-02-15 08:55:09:242 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.click() with args: ["00000000-0000-003e-ffff-ffff0000bec4","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:09:243 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:09:243 [AppiumDriver@38ad] Plugins which can handle cmd 'click': images
+2024-02-15 08:55:09:243 [AppiumDriver@38ad] Plugin images is now handling cmd 'click'
+2024-02-15 08:55:09:243 [AppiumDriver@38ad] Executing default handling behavior for command 'click'
+2024-02-15 08:55:09:243 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element/00000000-0000-003e-ffff-ffff0000bec4/click' to command name 'click'
+2024-02-15 08:55:09:243 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element/00000000-0000-003e-ffff-ffff0000bec4/click] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element/00000000-0000-003e-ffff-ffff0000bec4/click] with body: {"element":"00000000-0000-003e-ffff-ffff0000bec4"}
+2024-02-15 08:55:09:324 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":null}
+2024-02-15 08:55:09:325 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.click() result: null
+2024-02-15 08:55:09:325 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000bec4/click 200 83 ms - 14
+2024-02-15 08:55:09:326 [HTTP] 
+2024-02-15 08:55:09:330 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context
+2024-02-15 08:55:09:330 [HTTP] {}
+2024-02-15 08:55:09:331 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getCurrentContext() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:09:331 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:09:331 [AppiumDriver@38ad] Plugins which can handle cmd 'getCurrentContext': images
+2024-02-15 08:55:09:331 [AppiumDriver@38ad] Plugin images is now handling cmd 'getCurrentContext'
+2024-02-15 08:55:09:331 [AppiumDriver@38ad] Executing default handling behavior for command 'getCurrentContext'
+2024-02-15 08:55:09:332 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2024-02-15 08:55:09:333 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context 200 3 ms - 22
+2024-02-15 08:55:09:333 [HTTP] 
+2024-02-15 08:55:09:337 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element
+2024-02-15 08:55:09:337 [HTTP] {"using":"xpath","value":"(//android.widget.ImageView[@content-desc='icon_button_3_filter_modal_23'])[3]"}
+2024-02-15 08:55:09:338 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElement() with args: ["xpath","(//android.widget.ImageView[@content-desc='icon_button_3_filter_modal_23'])[3]","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:09:338 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:09:338 [AppiumDriver@38ad] Plugins which can handle cmd 'findElement': images
+2024-02-15 08:55:09:338 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElement'
+2024-02-15 08:55:09:338 [AppiumDriver@38ad] Executing default handling behavior for command 'findElement'
+2024-02-15 08:55:09:338 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:55:09:338 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 30000 ms for condition
+2024-02-15 08:55:09:339 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:55:09:339 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"(//android.widget.ImageView[@content-desc='icon_button_3_filter_modal_23'])[3]","context":"","multiple":false}
+2024-02-15 08:55:09:464 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 404: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
+2024-02-15 08:55:09:464 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2024-02-15 08:55:09:464 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waited for 125 ms so far
+2024-02-15 08:55:09:975 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:55:09:975 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"(//android.widget.ImageView[@content-desc='icon_button_3_filter_modal_23'])[3]","context":"","multiple":false}
+2024-02-15 08:55:10:732 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"ELEMENT":"00000000-0000-003e-ffff-ffff0000c56c","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c56c"}}
+2024-02-15 08:55:10:733 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c56c","ELEMENT":"00000000-0000-003e-ffff-ffff0000c56c"}
+2024-02-15 08:55:10:734 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element 200 1397 ms - 137
+2024-02-15 08:55:10:734 [HTTP] 
+2024-02-15 08:55:10:736 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c56c/displayed
+2024-02-15 08:55:10:736 [HTTP] {}
+2024-02-15 08:55:10:736 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-003e-ffff-ffff0000c56c","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:10:737 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:10:737 [AppiumDriver@38ad] Plugins which can handle cmd 'elementDisplayed': images
+2024-02-15 08:55:10:737 [AppiumDriver@38ad] Plugin images is now handling cmd 'elementDisplayed'
+2024-02-15 08:55:10:737 [AppiumDriver@38ad] Executing default handling behavior for command 'elementDisplayed'
+2024-02-15 08:55:10:737 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element/00000000-0000-003e-ffff-ffff0000c56c/attribute/displayed' to command name 'getAttribute'
+2024-02-15 08:55:10:737 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /element/00000000-0000-003e-ffff-ffff0000c56c/attribute/displayed] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element/00000000-0000-003e-ffff-ffff0000c56c/attribute/displayed] with no body
+2024-02-15 08:55:10:749 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":"true"}
+2024-02-15 08:55:10:749 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.elementDisplayed() result: true
+2024-02-15 08:55:10:750 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c56c/displayed 200 14 ms - 14
+2024-02-15 08:55:10:750 [HTTP] 
+2024-02-15 08:55:10:754 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context
+2024-02-15 08:55:10:754 [HTTP] {}
+2024-02-15 08:55:10:755 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getCurrentContext() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:10:755 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:10:755 [AppiumDriver@38ad] Plugins which can handle cmd 'getCurrentContext': images
+2024-02-15 08:55:10:755 [AppiumDriver@38ad] Plugin images is now handling cmd 'getCurrentContext'
+2024-02-15 08:55:10:755 [AppiumDriver@38ad] Executing default handling behavior for command 'getCurrentContext'
+2024-02-15 08:55:10:755 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2024-02-15 08:55:10:756 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context 200 2 ms - 22
+2024-02-15 08:55:10:756 [HTTP] 
+2024-02-15 08:55:10:771 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element
+2024-02-15 08:55:10:772 [HTTP] {"using":"xpath","value":"(//android.widget.ImageView[@content-desc='icon_button_3_filter_modal_23'])[3]"}
+2024-02-15 08:55:10:772 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElement() with args: ["xpath","(//android.widget.ImageView[@content-desc='icon_button_3_filter_modal_23'])[3]","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:10:772 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:10:772 [AppiumDriver@38ad] Plugins which can handle cmd 'findElement': images
+2024-02-15 08:55:10:773 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElement'
+2024-02-15 08:55:10:773 [AppiumDriver@38ad] Executing default handling behavior for command 'findElement'
+2024-02-15 08:55:10:773 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:55:10:773 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 30000 ms for condition
+2024-02-15 08:55:10:774 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:55:10:774 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"(//android.widget.ImageView[@content-desc='icon_button_3_filter_modal_23'])[3]","context":"","multiple":false}
+2024-02-15 08:55:10:862 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"ELEMENT":"00000000-0000-003e-ffff-ffff0000c56c","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c56c"}}
+2024-02-15 08:55:10:863 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c56c","ELEMENT":"00000000-0000-003e-ffff-ffff0000c56c"}
+2024-02-15 08:55:10:864 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element 200 92 ms - 137
+2024-02-15 08:55:10:864 [HTTP] 
+2024-02-15 08:55:10:880 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c56c/click
+2024-02-15 08:55:10:880 [HTTP] {"id":"00000000-0000-003e-ffff-ffff0000c56c"}
+2024-02-15 08:55:10:881 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.click() with args: ["00000000-0000-003e-ffff-ffff0000c56c","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:10:881 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:10:881 [AppiumDriver@38ad] Plugins which can handle cmd 'click': images
+2024-02-15 08:55:10:881 [AppiumDriver@38ad] Plugin images is now handling cmd 'click'
+2024-02-15 08:55:10:881 [AppiumDriver@38ad] Executing default handling behavior for command 'click'
+2024-02-15 08:55:10:881 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element/00000000-0000-003e-ffff-ffff0000c56c/click' to command name 'click'
+2024-02-15 08:55:10:881 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element/00000000-0000-003e-ffff-ffff0000c56c/click] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element/00000000-0000-003e-ffff-ffff0000c56c/click] with body: {"element":"00000000-0000-003e-ffff-ffff0000c56c"}
+2024-02-15 08:55:11:592 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":null}
+2024-02-15 08:55:11:592 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.click() result: null
+2024-02-15 08:55:11:593 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c56c/click 200 713 ms - 14
+2024-02-15 08:55:11:593 [HTTP] 
+2024-02-15 08:55:22:886 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context
+2024-02-15 08:55:22:887 [HTTP] {}
+2024-02-15 08:55:22:887 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getCurrentContext() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:22:887 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:22:887 [AppiumDriver@38ad] Plugins which can handle cmd 'getCurrentContext': images
+2024-02-15 08:55:22:887 [AppiumDriver@38ad] Plugin images is now handling cmd 'getCurrentContext'
+2024-02-15 08:55:22:887 [AppiumDriver@38ad] Executing default handling behavior for command 'getCurrentContext'
+2024-02-15 08:55:22:887 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2024-02-15 08:55:22:888 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context 200 1 ms - 22
+2024-02-15 08:55:22:888 [HTTP] 
+2024-02-15 08:55:22:899 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element
+2024-02-15 08:55:22:899 [HTTP] {"using":"xpath","value":"//android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']"}
+2024-02-15 08:55:22:899 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElement() with args: ["xpath","//android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:22:899 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:22:899 [AppiumDriver@38ad] Plugins which can handle cmd 'findElement': images
+2024-02-15 08:55:22:899 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElement'
+2024-02-15 08:55:22:899 [AppiumDriver@38ad] Executing default handling behavior for command 'findElement'
+2024-02-15 08:55:22:900 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:55:22:900 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 30000 ms for condition
+2024-02-15 08:55:22:900 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:55:22:900 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"//android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']","context":"","multiple":false}
+2024-02-15 08:55:23:051 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"ELEMENT":"00000000-0000-003e-ffff-ffff0000c57f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c57f"}}
+2024-02-15 08:55:23:051 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c57f","ELEMENT":"00000000-0000-003e-ffff-ffff0000c57f"}
+2024-02-15 08:55:23:052 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element 200 153 ms - 137
+2024-02-15 08:55:23:052 [HTTP] 
+2024-02-15 08:55:23:055 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c57f/displayed
+2024-02-15 08:55:23:055 [HTTP] {}
+2024-02-15 08:55:23:056 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-003e-ffff-ffff0000c57f","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:23:056 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:23:056 [AppiumDriver@38ad] Plugins which can handle cmd 'elementDisplayed': images
+2024-02-15 08:55:23:056 [AppiumDriver@38ad] Plugin images is now handling cmd 'elementDisplayed'
+2024-02-15 08:55:23:056 [AppiumDriver@38ad] Executing default handling behavior for command 'elementDisplayed'
+2024-02-15 08:55:23:057 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element/00000000-0000-003e-ffff-ffff0000c57f/attribute/displayed' to command name 'getAttribute'
+2024-02-15 08:55:23:057 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /element/00000000-0000-003e-ffff-ffff0000c57f/attribute/displayed] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element/00000000-0000-003e-ffff-ffff0000c57f/attribute/displayed] with no body
+2024-02-15 08:55:23:076 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":"true"}
+2024-02-15 08:55:23:076 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.elementDisplayed() result: true
+2024-02-15 08:55:23:079 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c57f/displayed 200 22 ms - 14
+2024-02-15 08:55:23:079 [HTTP] 
+2024-02-15 08:55:23:082 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context
+2024-02-15 08:55:23:082 [HTTP] {}
+2024-02-15 08:55:23:083 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getCurrentContext() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:23:083 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:23:083 [AppiumDriver@38ad] Plugins which can handle cmd 'getCurrentContext': images
+2024-02-15 08:55:23:083 [AppiumDriver@38ad] Plugin images is now handling cmd 'getCurrentContext'
+2024-02-15 08:55:23:083 [AppiumDriver@38ad] Executing default handling behavior for command 'getCurrentContext'
+2024-02-15 08:55:23:083 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2024-02-15 08:55:23:085 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context 200 2 ms - 22
+2024-02-15 08:55:23:085 [HTTP] 
+2024-02-15 08:55:23:103 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element
+2024-02-15 08:55:23:103 [HTTP] {"using":"xpath","value":"//android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']"}
+2024-02-15 08:55:23:103 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElement() with args: ["xpath","//android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:23:103 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:23:104 [AppiumDriver@38ad] Plugins which can handle cmd 'findElement': images
+2024-02-15 08:55:23:104 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElement'
+2024-02-15 08:55:23:104 [AppiumDriver@38ad] Executing default handling behavior for command 'findElement'
+2024-02-15 08:55:23:104 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:55:23:104 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 30000 ms for condition
+2024-02-15 08:55:23:104 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:55:23:104 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"//android.view.ViewGroup[@resource-id='button_icon_button_filter_modal_3_default']","context":"","multiple":false}
+2024-02-15 08:55:23:235 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"ELEMENT":"00000000-0000-003e-ffff-ffff0000c57f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c57f"}}
+2024-02-15 08:55:23:235 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c57f","ELEMENT":"00000000-0000-003e-ffff-ffff0000c57f"}
+2024-02-15 08:55:23:236 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element 200 133 ms - 137
+2024-02-15 08:55:23:236 [HTTP] 
+2024-02-15 08:55:23:254 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c57f/click
+2024-02-15 08:55:23:254 [HTTP] {"id":"00000000-0000-003e-ffff-ffff0000c57f"}
+2024-02-15 08:55:23:255 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.click() with args: ["00000000-0000-003e-ffff-ffff0000c57f","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:23:255 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:23:255 [AppiumDriver@38ad] Plugins which can handle cmd 'click': images
+2024-02-15 08:55:23:255 [AppiumDriver@38ad] Plugin images is now handling cmd 'click'
+2024-02-15 08:55:23:255 [AppiumDriver@38ad] Executing default handling behavior for command 'click'
+2024-02-15 08:55:23:255 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element/00000000-0000-003e-ffff-ffff0000c57f/click' to command name 'click'
+2024-02-15 08:55:23:255 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element/00000000-0000-003e-ffff-ffff0000c57f/click] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element/00000000-0000-003e-ffff-ffff0000c57f/click] with body: {"element":"00000000-0000-003e-ffff-ffff0000c57f"}
+2024-02-15 08:55:24:035 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":null}
+2024-02-15 08:55:24:035 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.click() result: null
+2024-02-15 08:55:24:036 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c57f/click 200 782 ms - 14
+2024-02-15 08:55:24:036 [HTTP] 
+2024-02-15 08:55:24:039 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context
+2024-02-15 08:55:24:039 [HTTP] {}
+2024-02-15 08:55:24:039 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getCurrentContext() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:24:040 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:24:040 [AppiumDriver@38ad] Plugins which can handle cmd 'getCurrentContext': images
+2024-02-15 08:55:24:040 [AppiumDriver@38ad] Plugin images is now handling cmd 'getCurrentContext'
+2024-02-15 08:55:24:040 [AppiumDriver@38ad] Executing default handling behavior for command 'getCurrentContext'
+2024-02-15 08:55:24:040 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2024-02-15 08:55:24:041 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context 200 1 ms - 22
+2024-02-15 08:55:24:041 [HTTP] 
+2024-02-15 08:55:24:049 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element
+2024-02-15 08:55:24:049 [HTTP] {"using":"xpath","value":"//android.view.ViewGroup[@resource-id='button_spinner_button_9_filter_modal_42']"}
+2024-02-15 08:55:24:049 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElement() with args: ["xpath","//android.view.ViewGroup[@resource-id='button_spinner_button_9_filter_modal_42']","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:24:049 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:24:050 [AppiumDriver@38ad] Plugins which can handle cmd 'findElement': images
+2024-02-15 08:55:24:050 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElement'
+2024-02-15 08:55:24:050 [AppiumDriver@38ad] Executing default handling behavior for command 'findElement'
+2024-02-15 08:55:24:050 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:55:24:050 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 30000 ms for condition
+2024-02-15 08:55:24:050 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:55:24:050 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"//android.view.ViewGroup[@resource-id='button_spinner_button_9_filter_modal_42']","context":"","multiple":false}
+2024-02-15 08:55:24:195 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"ELEMENT":"00000000-0000-003e-ffff-ffff0000c571","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c571"}}
+2024-02-15 08:55:24:195 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c571","ELEMENT":"00000000-0000-003e-ffff-ffff0000c571"}
+2024-02-15 08:55:24:196 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element 200 146 ms - 137
+2024-02-15 08:55:24:196 [HTTP] 
+2024-02-15 08:55:24:198 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c571/displayed
+2024-02-15 08:55:24:198 [HTTP] {}
+2024-02-15 08:55:24:198 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-003e-ffff-ffff0000c571","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:24:198 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:24:198 [AppiumDriver@38ad] Plugins which can handle cmd 'elementDisplayed': images
+2024-02-15 08:55:24:198 [AppiumDriver@38ad] Plugin images is now handling cmd 'elementDisplayed'
+2024-02-15 08:55:24:199 [AppiumDriver@38ad] Executing default handling behavior for command 'elementDisplayed'
+2024-02-15 08:55:24:199 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element/00000000-0000-003e-ffff-ffff0000c571/attribute/displayed' to command name 'getAttribute'
+2024-02-15 08:55:24:199 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /element/00000000-0000-003e-ffff-ffff0000c571/attribute/displayed] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element/00000000-0000-003e-ffff-ffff0000c571/attribute/displayed] with no body
+2024-02-15 08:55:24:215 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":"true"}
+2024-02-15 08:55:24:216 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.elementDisplayed() result: true
+2024-02-15 08:55:24:217 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c571/displayed 200 18 ms - 14
+2024-02-15 08:55:24:217 [HTTP] 
+2024-02-15 08:55:24:220 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context
+2024-02-15 08:55:24:220 [HTTP] {}
+2024-02-15 08:55:24:220 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getCurrentContext() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:24:221 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:24:221 [AppiumDriver@38ad] Plugins which can handle cmd 'getCurrentContext': images
+2024-02-15 08:55:24:221 [AppiumDriver@38ad] Plugin images is now handling cmd 'getCurrentContext'
+2024-02-15 08:55:24:221 [AppiumDriver@38ad] Executing default handling behavior for command 'getCurrentContext'
+2024-02-15 08:55:24:222 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2024-02-15 08:55:24:222 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context 200 2 ms - 22
+2024-02-15 08:55:24:223 [HTTP] 
+2024-02-15 08:55:24:236 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element
+2024-02-15 08:55:24:236 [HTTP] {"using":"xpath","value":"//android.view.ViewGroup[@resource-id='button_spinner_button_9_filter_modal_42']"}
+2024-02-15 08:55:24:236 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElement() with args: ["xpath","//android.view.ViewGroup[@resource-id='button_spinner_button_9_filter_modal_42']","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:24:236 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:24:236 [AppiumDriver@38ad] Plugins which can handle cmd 'findElement': images
+2024-02-15 08:55:24:236 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElement'
+2024-02-15 08:55:24:236 [AppiumDriver@38ad] Executing default handling behavior for command 'findElement'
+2024-02-15 08:55:24:236 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:55:24:236 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 30000 ms for condition
+2024-02-15 08:55:24:237 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:55:24:237 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"//android.view.ViewGroup[@resource-id='button_spinner_button_9_filter_modal_42']","context":"","multiple":false}
+2024-02-15 08:55:24:397 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"ELEMENT":"00000000-0000-003e-ffff-ffff0000c571","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c571"}}
+2024-02-15 08:55:24:397 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c571","ELEMENT":"00000000-0000-003e-ffff-ffff0000c571"}
+2024-02-15 08:55:24:398 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element 200 162 ms - 137
+2024-02-15 08:55:24:398 [HTTP] 
+2024-02-15 08:55:24:407 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c571/click
+2024-02-15 08:55:24:407 [HTTP] {"id":"00000000-0000-003e-ffff-ffff0000c571"}
+2024-02-15 08:55:24:407 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.click() with args: ["00000000-0000-003e-ffff-ffff0000c571","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:24:407 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:24:407 [AppiumDriver@38ad] Plugins which can handle cmd 'click': images
+2024-02-15 08:55:24:407 [AppiumDriver@38ad] Plugin images is now handling cmd 'click'
+2024-02-15 08:55:24:407 [AppiumDriver@38ad] Executing default handling behavior for command 'click'
+2024-02-15 08:55:24:408 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element/00000000-0000-003e-ffff-ffff0000c571/click' to command name 'click'
+2024-02-15 08:55:24:408 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element/00000000-0000-003e-ffff-ffff0000c571/click] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element/00000000-0000-003e-ffff-ffff0000c571/click] with body: {"element":"00000000-0000-003e-ffff-ffff0000c571"}
+2024-02-15 08:55:24:455 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":null}
+2024-02-15 08:55:24:455 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.click() result: null
+2024-02-15 08:55:24:456 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c571/click 200 48 ms - 14
+2024-02-15 08:55:24:456 [HTTP] 
+2024-02-15 08:55:24:460 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context
+2024-02-15 08:55:24:461 [HTTP] {}
+2024-02-15 08:55:24:461 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getCurrentContext() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:24:461 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:24:461 [AppiumDriver@38ad] Plugins which can handle cmd 'getCurrentContext': images
+2024-02-15 08:55:24:461 [AppiumDriver@38ad] Plugin images is now handling cmd 'getCurrentContext'
+2024-02-15 08:55:24:461 [AppiumDriver@38ad] Executing default handling behavior for command 'getCurrentContext'
+2024-02-15 08:55:24:462 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2024-02-15 08:55:24:463 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context 200 2 ms - 22
+2024-02-15 08:55:24:463 [HTTP] 
+2024-02-15 08:55:24:470 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element
+2024-02-15 08:55:24:470 [HTTP] {"using":"xpath","value":"//android.widget.ImageView[@resource-id='collection_all_coins_screen_image_18']"}
+2024-02-15 08:55:24:471 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.ImageView[@resource-id='collection_all_coins_screen_image_18']","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:24:471 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:24:471 [AppiumDriver@38ad] Plugins which can handle cmd 'findElement': images
+2024-02-15 08:55:24:471 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElement'
+2024-02-15 08:55:24:471 [AppiumDriver@38ad] Executing default handling behavior for command 'findElement'
+2024-02-15 08:55:24:472 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:55:24:472 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 30000 ms for condition
+2024-02-15 08:55:24:472 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:55:24:472 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"//android.widget.ImageView[@resource-id='collection_all_coins_screen_image_18']","context":"","multiple":false}
+2024-02-15 08:55:24:614 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"ELEMENT":"00000000-0000-003e-ffff-ffff0000c42f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c42f"}}
+2024-02-15 08:55:24:614 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c42f","ELEMENT":"00000000-0000-003e-ffff-ffff0000c42f"}
+2024-02-15 08:55:24:615 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element 200 145 ms - 137
+2024-02-15 08:55:24:615 [HTTP] 
+2024-02-15 08:55:24:618 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c42f/displayed
+2024-02-15 08:55:24:618 [HTTP] {}
+2024-02-15 08:55:24:618 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-003e-ffff-ffff0000c42f","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:24:619 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:24:619 [AppiumDriver@38ad] Plugins which can handle cmd 'elementDisplayed': images
+2024-02-15 08:55:24:619 [AppiumDriver@38ad] Plugin images is now handling cmd 'elementDisplayed'
+2024-02-15 08:55:24:619 [AppiumDriver@38ad] Executing default handling behavior for command 'elementDisplayed'
+2024-02-15 08:55:24:619 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element/00000000-0000-003e-ffff-ffff0000c42f/attribute/displayed' to command name 'getAttribute'
+2024-02-15 08:55:24:619 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /element/00000000-0000-003e-ffff-ffff0000c42f/attribute/displayed] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element/00000000-0000-003e-ffff-ffff0000c42f/attribute/displayed] with no body
+2024-02-15 08:55:24:632 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":"true"}
+2024-02-15 08:55:24:632 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.elementDisplayed() result: true
+2024-02-15 08:55:24:633 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c42f/displayed 200 15 ms - 14
+2024-02-15 08:55:24:633 [HTTP] 
+2024-02-15 08:55:24:636 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context
+2024-02-15 08:55:24:636 [HTTP] {}
+2024-02-15 08:55:24:637 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getCurrentContext() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:24:637 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:24:638 [AppiumDriver@38ad] Plugins which can handle cmd 'getCurrentContext': images
+2024-02-15 08:55:24:638 [AppiumDriver@38ad] Plugin images is now handling cmd 'getCurrentContext'
+2024-02-15 08:55:24:638 [AppiumDriver@38ad] Executing default handling behavior for command 'getCurrentContext'
+2024-02-15 08:55:24:638 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2024-02-15 08:55:24:639 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context 200 2 ms - 22
+2024-02-15 08:55:24:639 [HTTP] 
+2024-02-15 08:55:24:656 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element
+2024-02-15 08:55:24:656 [HTTP] {"using":"xpath","value":"//android.widget.ImageView[@resource-id='collection_all_coins_screen_image_18']"}
+2024-02-15 08:55:24:656 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.ImageView[@resource-id='collection_all_coins_screen_image_18']","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:24:657 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:24:657 [AppiumDriver@38ad] Plugins which can handle cmd 'findElement': images
+2024-02-15 08:55:24:657 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElement'
+2024-02-15 08:55:24:657 [AppiumDriver@38ad] Executing default handling behavior for command 'findElement'
+2024-02-15 08:55:24:657 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:55:24:657 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 30000 ms for condition
+2024-02-15 08:55:24:657 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:55:24:657 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"//android.widget.ImageView[@resource-id='collection_all_coins_screen_image_18']","context":"","multiple":false}
+2024-02-15 08:55:26:638 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 404: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
+2024-02-15 08:55:26:639 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2024-02-15 08:55:26:639 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waited for 1982 ms so far
+2024-02-15 08:55:27:148 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:55:27:148 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"//android.widget.ImageView[@resource-id='collection_all_coins_screen_image_18']","context":"","multiple":false}
+2024-02-15 08:55:27:255 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"ELEMENT":"00000000-0000-003e-ffff-ffff0000c5eb","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c5eb"}}
+2024-02-15 08:55:27:256 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c5eb","ELEMENT":"00000000-0000-003e-ffff-ffff0000c5eb"}
+2024-02-15 08:55:27:256 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element 200 2600 ms - 137
+2024-02-15 08:55:27:256 [HTTP] 
+2024-02-15 08:55:27:274 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c5eb/click
+2024-02-15 08:55:27:274 [HTTP] {"id":"00000000-0000-003e-ffff-ffff0000c5eb"}
+2024-02-15 08:55:27:274 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.click() with args: ["00000000-0000-003e-ffff-ffff0000c5eb","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:27:274 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:27:275 [AppiumDriver@38ad] Plugins which can handle cmd 'click': images
+2024-02-15 08:55:27:275 [AppiumDriver@38ad] Plugin images is now handling cmd 'click'
+2024-02-15 08:55:27:276 [AppiumDriver@38ad] Executing default handling behavior for command 'click'
+2024-02-15 08:55:27:276 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element/00000000-0000-003e-ffff-ffff0000c5eb/click' to command name 'click'
+2024-02-15 08:55:27:276 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element/00000000-0000-003e-ffff-ffff0000c5eb/click] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element/00000000-0000-003e-ffff-ffff0000c5eb/click] with body: {"element":"00000000-0000-003e-ffff-ffff0000c5eb"}
+2024-02-15 08:55:27:338 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":null}
+2024-02-15 08:55:27:341 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.click() result: null
+2024-02-15 08:55:27:342 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c5eb/click 200 68 ms - 14
+2024-02-15 08:55:27:342 [HTTP] 
+2024-02-15 08:55:27:348 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context
+2024-02-15 08:55:27:348 [HTTP] {}
+2024-02-15 08:55:27:349 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getCurrentContext() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:27:349 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:27:349 [AppiumDriver@38ad] Plugins which can handle cmd 'getCurrentContext': images
+2024-02-15 08:55:27:349 [AppiumDriver@38ad] Plugin images is now handling cmd 'getCurrentContext'
+2024-02-15 08:55:27:349 [AppiumDriver@38ad] Executing default handling behavior for command 'getCurrentContext'
+2024-02-15 08:55:27:350 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2024-02-15 08:55:27:351 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context 200 2 ms - 22
+2024-02-15 08:55:27:351 [HTTP] 
+2024-02-15 08:55:27:368 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element
+2024-02-15 08:55:27:368 [HTTP] {"using":"xpath","value":"//android.view.ViewGroup[@resource-id='button_icon_button_navbar_collapsed_10_collection_all_coins_screen_navbar_collapsed_24']"}
+2024-02-15 08:55:27:368 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElement() with args: ["xpath","//android.view.ViewGroup[@resource-id='button_icon_button_navbar_collapsed_10_collection_all_coins_screen_navbar_collapsed_24']","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:27:368 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:27:369 [AppiumDriver@38ad] Plugins which can handle cmd 'findElement': images
+2024-02-15 08:55:27:369 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElement'
+2024-02-15 08:55:27:369 [AppiumDriver@38ad] Executing default handling behavior for command 'findElement'
+2024-02-15 08:55:27:369 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:55:27:369 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 30000 ms for condition
+2024-02-15 08:55:27:369 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:55:27:370 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"//android.view.ViewGroup[@resource-id='button_icon_button_navbar_collapsed_10_collection_all_coins_screen_navbar_collapsed_24']","context":"","multiple":false}
+2024-02-15 08:55:27:557 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"ELEMENT":"00000000-0000-003e-ffff-ffff0000c587","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c587"}}
+2024-02-15 08:55:27:557 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c587","ELEMENT":"00000000-0000-003e-ffff-ffff0000c587"}
+2024-02-15 08:55:27:558 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element 200 190 ms - 137
+2024-02-15 08:55:27:558 [HTTP] 
+2024-02-15 08:55:27:561 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c587/displayed
+2024-02-15 08:55:27:562 [HTTP] {}
+2024-02-15 08:55:27:562 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-003e-ffff-ffff0000c587","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:27:562 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:27:563 [AppiumDriver@38ad] Plugins which can handle cmd 'elementDisplayed': images
+2024-02-15 08:55:27:564 [AppiumDriver@38ad] Plugin images is now handling cmd 'elementDisplayed'
+2024-02-15 08:55:27:564 [AppiumDriver@38ad] Executing default handling behavior for command 'elementDisplayed'
+2024-02-15 08:55:27:564 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element/00000000-0000-003e-ffff-ffff0000c587/attribute/displayed' to command name 'getAttribute'
+2024-02-15 08:55:27:564 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [GET /element/00000000-0000-003e-ffff-ffff0000c587/attribute/displayed] to [GET http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element/00000000-0000-003e-ffff-ffff0000c587/attribute/displayed] with no body
+2024-02-15 08:55:27:578 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":"true"}
+2024-02-15 08:55:27:579 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.elementDisplayed() result: true
+2024-02-15 08:55:27:580 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c587/displayed 200 18 ms - 14
+2024-02-15 08:55:27:580 [HTTP] 
+2024-02-15 08:55:27:583 [HTTP] --> GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context
+2024-02-15 08:55:27:583 [HTTP] {}
+2024-02-15 08:55:27:584 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.getCurrentContext() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:27:584 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:27:584 [AppiumDriver@38ad] Plugins which can handle cmd 'getCurrentContext': images
+2024-02-15 08:55:27:584 [AppiumDriver@38ad] Plugin images is now handling cmd 'getCurrentContext'
+2024-02-15 08:55:27:584 [AppiumDriver@38ad] Executing default handling behavior for command 'getCurrentContext'
+2024-02-15 08:55:27:584 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2024-02-15 08:55:27:585 [HTTP] <-- GET /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/context 200 2 ms - 22
+2024-02-15 08:55:27:585 [HTTP] 
+2024-02-15 08:55:27:602 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element
+2024-02-15 08:55:27:602 [HTTP] {"using":"xpath","value":"//android.view.ViewGroup[@resource-id='button_icon_button_navbar_collapsed_10_collection_all_coins_screen_navbar_collapsed_24']"}
+2024-02-15 08:55:27:602 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.findElement() with args: ["xpath","//android.view.ViewGroup[@resource-id='button_icon_button_navbar_collapsed_10_collection_all_coins_screen_navbar_collapsed_24']","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:27:602 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:27:602 [AppiumDriver@38ad] Plugins which can handle cmd 'findElement': images
+2024-02-15 08:55:27:602 [AppiumDriver@38ad] Plugin images is now handling cmd 'findElement'
+2024-02-15 08:55:27:602 [AppiumDriver@38ad] Executing default handling behavior for command 'findElement'
+2024-02-15 08:55:27:603 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2024-02-15 08:55:27:603 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Waiting up to 30000 ms for condition
+2024-02-15 08:55:27:603 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element' to command name 'findElement'
+2024-02-15 08:55:27:603 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element] with body: {"strategy":"xpath","selector":"//android.view.ViewGroup[@resource-id='button_icon_button_navbar_collapsed_10_collection_all_coins_screen_navbar_collapsed_24']","context":"","multiple":false}
+2024-02-15 08:55:28:189 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":{"ELEMENT":"00000000-0000-003e-ffff-ffff0000c587","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c587"}}
+2024-02-15 08:55:28:190 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-003e-ffff-ffff0000c587","ELEMENT":"00000000-0000-003e-ffff-ffff0000c587"}
+2024-02-15 08:55:28:191 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element 200 589 ms - 137
+2024-02-15 08:55:28:191 [HTTP] 
+2024-02-15 08:55:28:200 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c587/click
+2024-02-15 08:55:28:200 [HTTP] {"id":"00000000-0000-003e-ffff-ffff0000c587"}
+2024-02-15 08:55:28:201 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.click() with args: ["00000000-0000-003e-ffff-ffff0000c587","b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:28:201 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:28:201 [AppiumDriver@38ad] Plugins which can handle cmd 'click': images
+2024-02-15 08:55:28:201 [AppiumDriver@38ad] Plugin images is now handling cmd 'click'
+2024-02-15 08:55:28:202 [AppiumDriver@38ad] Executing default handling behavior for command 'click'
+2024-02-15 08:55:28:202 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/element/00000000-0000-003e-ffff-ffff0000c587/click' to command name 'click'
+2024-02-15 08:55:28:202 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /element/00000000-0000-003e-ffff-ffff0000c587/click] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/element/00000000-0000-003e-ffff-ffff0000c587/click] with body: {"element":"00000000-0000-003e-ffff-ffff0000c587"}
+2024-02-15 08:55:28:606 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":null}
+2024-02-15 08:55:28:607 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.click() result: null
+2024-02-15 08:55:28:608 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/element/00000000-0000-003e-ffff-ffff0000c587/click 200 407 ms - 14
+2024-02-15 08:55:28:608 [HTTP] 
+2024-02-15 08:55:28:623 [HTTP] --> POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/back
+2024-02-15 08:55:28:623 [HTTP] {}
+2024-02-15 08:55:28:624 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Would have proxied command directly, but a plugin exists which might require its value, so will let its value be collected internally and made part of plugin chain
+2024-02-15 08:55:28:624 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Calling AppiumDriver.back() with args: ["b64fbc42-f79f-4b7d-9250-82229326bc27"]
+2024-02-15 08:55:28:624 [AppiumDriver@38ad] Clearing new command timeout pre-emptively since plugin(s) will handle this command
+2024-02-15 08:55:28:624 [AppiumDriver@38ad] Plugins which can handle cmd 'back': images
+2024-02-15 08:55:28:624 [AppiumDriver@38ad] Plugin images is now handling cmd 'back'
+2024-02-15 08:55:28:624 [AppiumDriver@38ad] Executing default handling behavior for command 'back'
+2024-02-15 08:55:28:625 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Matched '/wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/back' to command name 'back'
+2024-02-15 08:55:28:626 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Proxying [POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/back] to [POST http://127.0.0.1:8204/session/d89df29b-c6c0-43f8-bacf-ddab58aa01bd/back] with body: {}
+2024-02-15 08:55:28:837 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Got response with status 200: {"sessionId":"d89df29b-c6c0-43f8-bacf-ddab58aa01bd","value":null}
+2024-02-15 08:55:28:837 [AndroidUiautomator2Driver@7f46 (b64fbc42)] Responding to client with driver.back() result: null
+2024-02-15 08:55:28:837 [HTTP] <-- POST /wd/hub/session/b64fbc42-f79f-4b7d-9250-82229326bc27/back 200 214 ms - 14
+2024-02-15 08:55:28:838 [HTTP] 
+2024-02-15 08:57:39:098 [AndroidUiautomator2Driver@7f46 (b64fbc42)] The overall screen recording duration is 181s so far
+2024-02-15 08:57:39:098 [AndroidUiautomator2Driver@7f46 (b64fbc42)] There is no need to start the next recording chunk
