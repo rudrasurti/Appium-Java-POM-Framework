@@ -1,4 +1,26 @@
-# Automation Page Object Model Framework for Appium Using Java
+# Appium + Java POM Framework (Android & iOS)
+
+![Build](https://github.com/rudrasurti/Appium-Java-POM-Framework/actions/workflows/build.yml/badge.svg)
+![Java](https://img.shields.io/badge/Java-11%20%7C%2017-007396) ![Appium](https://img.shields.io/badge/Appium-java--client%207-662D91) ![TestNG](https://img.shields.io/badge/TestNG-7-FF7F00)
+
+A mobile test automation framework for Android and iOS apps, built with Appium, Java, TestNG and the Page Object Model.
+
+## At a glance
+
+| Area | What it does |
+|---|---|
+| Platforms | Android and iOS from one framework, driver chosen by config |
+| Design | Page Object Model: screens, locators and actions kept apart from tests |
+| Reports | ExtentReports with screenshots, plus logs with Log4j 2 |
+| Evidence | Screenshots and screen recordings on failure |
+| Security | Log4j updated from 2.14.0 to 2.24.3 (fixes Log4Shell, CVE-2021-44228) |
+| CI | GitHub Actions compiles the framework and tests on Java 11 and 17 on every push |
+
+Running the tests needs an Appium server and a device or emulator; CI checks that everything compiles.
+
+---
+
+## Original notes
 
 Automation Testing | Moblie | Appuim | Java | Eclipse | Visual Testing | Videos | Screenshots | Viewport | Logger
 
@@ -51,3 +73,8 @@ For detailed instructions and examples, please refer to the documentation provid
 ## Contributors
 
 - Rudra Surti
+
+
+---
+
+**Rudra Surti** · Senior SDET · [Website](https://rudrasurti.github.io) · [LinkedIn](https://www.linkedin.com/in/rudra-surti/)

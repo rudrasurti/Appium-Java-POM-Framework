@@ -1,10 +1,9 @@
 target/
-logs/
-ServerLogs/
-Videos/
-ExtentReports/
-ExtentReports.zip
 test-output/
-.vscode
-.settings
-ExtentReports
+ExtentReports/
+*.zip
+.DS_Store
+.classpath
+.project
+.settings/
+*.log
