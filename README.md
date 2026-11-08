@@ -14,9 +14,10 @@ A mobile test automation framework for Android and iOS apps, built with Appium, 
 | Reports | ExtentReports with screenshots, plus logs with Log4j 2 |
 | Evidence | Screenshots and screen recordings on failure |
 | Security | Log4j updated from 2.14.0 to 2.24.3 (fixes Log4Shell, CVE-2021-44228) |
-| CI | GitHub Actions compiles the framework and tests on Java 11 and 17 on every push |
+| CI | GitHub Actions compiles the framework on Java 11 and 17 on every push |
+| Fixed | Added missing `click(element)` and `getElementText(element)` helpers so the page objects compile |
 
-Running the tests needs an Appium server and a device or emulator; CI checks that everything compiles.
+Running the tests needs an Appium server and a device or emulator; CI checks that the framework compiles. Known gap: `ProductTests.java` still refers to older test data keys and methods and needs updating before the test classes compile.
 
 ---
 
