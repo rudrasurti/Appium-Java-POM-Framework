@@ -276,6 +276,16 @@ public class BasePage {
 
 
 	// All action methods
+	/** Click without a name, used by pages that do not pass one. */
+	public void click(MobileElement mobileElement) {
+		click(mobileElement, "element");
+	}
+
+	/** Read an element's text without a name, used by pages that do not pass one. */
+	public String getElementText(MobileElement mobileElement) {
+		return getText(mobileElement, "element");
+	}
+
 	public void click(MobileElement mobileElement, String elementName) {
 		click(mobileElement, elementName, 2);
 	}
